@@ -1,0 +1,215 @@
+[
+  {
+    "slug": "heatstroke",
+    "venue": "Personal Project",
+    "year": "2019",
+    "title_kr": "RNN·LSTM 기반 대전 지역 열사병 예측",
+    "title_en": "Heat Stroke Prediction in Daejeon with RNN/LSTM",
+    "tags": ["Deep Learning", "RNN", "LSTM", "Time Series"],
+    "hero_img": "/assets/img/heatstroke_prediction.jpg",
+    "sections": [
+      {
+        "heading_kr": "프로젝트 개요",
+        "heading_en": "Overview",
+        "body": {
+          "kr": [
+            "대전 지역의 기상·환경 데이터를 입력으로 하여 열사병 발생을 예측하는 시계열 모델 학습",
+            "RNN과 LSTM 두 구조를 비교하여 장기 의존성 처리 성능을 평가"
+          ],
+          "en": [
+            "Trained a time-series model that predicts heat stroke incidence from weather and environmental data in the Daejeon region",
+            "Compared RNN vs LSTM to evaluate long-range dependency handling"
+          ]
+        }
+      },
+      {
+        "heading_kr": "방법",
+        "heading_en": "Approach",
+        "body": {
+          "kr": [
+            "RNN: 히든 노드가 순환 구조를 이루는 인공 신경망으로 시간 순서를 반영할 수 있는 모델",
+            "RNN의 한계(Vanishing Gradient): 먼 거리에 있는 입력의 영향력이 반복 연산으로 소실",
+            "LSTM: Cell state를 추가하여 Vanishing Gradient 문제를 완화한 구조 채택"
+          ],
+          "en": [
+            "RNN: a neural network whose hidden nodes form a recurrent connection, enabling temporal modeling",
+            "Limitation (Vanishing Gradient): the influence of distant inputs decays through repeated multiplications",
+            "Adopted LSTM, which adds a Cell state to mitigate the vanishing gradient problem"
+          ]
+        }
+      },
+      {
+        "heading_kr": "결과",
+        "heading_en": "Results",
+        "body": {
+          "kr": ["학습된 LSTM 모델이 RNN 대비 장기 시계열 패턴에서 더 안정적인 예측 성능을 보임"],
+          "en": ["The trained LSTM achieved more stable long-horizon predictions than the RNN baseline"]
+        },
+        "image": {
+          "src": "/assets/img/heatstroke_prediction.jpg",
+          "alt": "Heatstroke prediction result",
+          "caption_kr": "RNN·LSTM 기반 열사병 예측 결과 비교",
+          "caption_en": "RNN vs LSTM heat stroke prediction comparison"
+        }
+      }
+    ]
+  },
+
+  {
+    "slug": "unet-finger-vein",
+    "venue": "Personal Project",
+    "year": "2019",
+    "title_kr": "U-Net 기반 손가락 정맥 영상 화질 개선",
+    "title_en": "Finger Vein Image Enhancement using U-Net",
+    "tags": ["Deep Learning", "U-Net", "Segmentation", "Biomedical"],
+    "hero_img": "/assets/img/unetBA.jpg",
+    "sections": [
+      {
+        "heading_kr": "프로젝트 개요",
+        "heading_en": "Overview",
+        "body": {
+          "kr": [
+            "흐릿한 손가락 정맥 영상의 화질을 향상시키기 위한 U-Net 기반 영상 개선 모델 학습"
+          ],
+          "en": [
+            "Trained a U-Net-based image enhancement model that improves the quality of blurred finger-vein images"
+          ]
+        }
+      },
+      {
+        "heading_kr": "방법",
+        "heading_en": "Approach",
+        "body": {
+          "kr": [
+            "End-to-End 방식의 FCN(Fully-Convolutional Network) 기반 U-Net 구조 적용",
+            "Down-sampling 경로로 고차원 영상을 압축하고, Up-sampling 경로로 원본 해상도로 복원하는 대칭 구조",
+            "적은 양의 학습 데이터에서도 data augmentation을 활용해 안정적으로 학습"
+          ],
+          "en": [
+            "Adopted U-Net, an end-to-end FCN-based architecture",
+            "Symmetric encoder–decoder design: a down-sampling path compresses the input, an up-sampling path restores it to original resolution",
+            "Robust training under limited data thanks to data augmentation"
+          ]
+        }
+      },
+      {
+        "heading_kr": "결과",
+        "heading_en": "Results",
+        "body": {
+          "kr": ["Before / After 비교에서 정맥 패턴의 선명도가 시각적으로 크게 개선됨"],
+          "en": ["Before/after comparisons show a substantial visual improvement in vein pattern clarity"]
+        },
+        "image": {
+          "src": "/assets/img/unetBA.jpg",
+          "alt": "U-Net before and after",
+          "caption_kr": "U-Net 적용 전 (좌) / 적용 후 (우)",
+          "caption_en": "Before (left) vs After (right) U-Net enhancement"
+        }
+      }
+    ]
+  },
+
+  {
+    "slug": "golf-pose",
+    "venue": "Personal Project",
+    "year": "2020",
+    "title_kr": "Pose Estimation 기반 골프 클럽 헤드 스윙 속도 계산",
+    "title_en": "Golf Club Head Swing Speed via Pose Estimation",
+    "tags": ["Computer Vision", "Pose Estimation", "Sports Analytics"],
+    "hero_img": "/assets/img/golfresult.jpg",
+    "sections": [
+      {
+        "heading_kr": "프로젝트 개요",
+        "heading_en": "Overview",
+        "body": {
+          "kr": [
+            "골프 스윙 영상에서 Pose Estimation으로 손목·클럽 위치를 추적하여 헤드 속도를 추정"
+          ],
+          "en": [
+            "Estimated golf club head speed by tracking wrist and club keypoints from a swing video using pose estimation"
+          ]
+        }
+      },
+      {
+        "heading_kr": "방법",
+        "heading_en": "Approach",
+        "body": {
+          "kr": [
+            "프레임별 키포인트 좌표 추출 및 시간 간격 기반 속도(픽셀/초) 계산",
+            "실측 거리 기준으로 픽셀 좌표를 실제 스케일로 캘리브레이션"
+          ],
+          "en": [
+            "Extracted per-frame keypoint coordinates and derived speed (pixels/sec) from frame-time intervals",
+            "Calibrated pixel coordinates to real-world scale using a known reference distance"
+          ]
+        }
+      },
+      {
+        "heading_kr": "결과",
+        "heading_en": "Results",
+        "body": {
+          "kr": ["스윙 영상에서 클럽 헤드 궤적과 속도 곡선을 자동으로 산출"],
+          "en": ["Automatically produced the club head trajectory and speed curve from a swing video"]
+        },
+        "image": {
+          "src": "/assets/img/golfresult.jpg",
+          "alt": "Golf swing speed result",
+          "caption_kr": "Pose estimation 기반 스윙 속도 측정 결과",
+          "caption_en": "Pose-estimation-based swing speed measurement"
+        }
+      }
+    ]
+  },
+
+  {
+    "slug": "baseball-pose",
+    "venue": "Personal Project",
+    "year": "2020",
+    "title_kr": "Pose Estimation 기반 야구 3-pose 분류",
+    "title_en": "Baseball 3-Pose Classification using Pose Estimation",
+    "tags": ["Computer Vision", "Pose Estimation", "Classification"],
+    "hero_img": "/assets/img/baseballresult.jpg",
+    "sections": [
+      {
+        "heading_kr": "프로젝트 개요",
+        "heading_en": "Overview",
+        "body": {
+          "kr": [
+            "야구 영상에서 투구·타격·수비 등 핵심 자세를 Pose Estimation 기반으로 분류"
+          ],
+          "en": [
+            "Classified key baseball poses (pitching, batting, fielding) from video using pose estimation features"
+          ]
+        }
+      },
+      {
+        "heading_kr": "방법",
+        "heading_en": "Approach",
+        "body": {
+          "kr": [
+            "프레임별 관절 좌표를 추출하여 자세 특징 벡터 구성",
+            "추출된 특징 벡터를 입력으로 하는 분류기로 자세 라벨 예측"
+          ],
+          "en": [
+            "Constructed pose feature vectors from per-frame joint coordinates",
+            "Predicted pose labels with a classifier trained on those feature vectors"
+          ]
+        }
+      },
+      {
+        "heading_kr": "결과",
+        "heading_en": "Results",
+        "body": {
+          "kr": ["3-class 야구 자세를 시각적으로 안정적으로 구분"],
+          "en": ["Robustly distinguished the three target baseball pose classes"]
+        },
+        "image": {
+          "src": "/assets/img/baseballresult.jpg",
+          "alt": "Baseball pose classification result",
+          "caption_kr": "야구 3-pose 분류 결과 시각화",
+          "caption_en": "Visualization of baseball 3-pose classification"
+        }
+      }
+    ]
+  }
+]

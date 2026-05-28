@@ -1,0 +1,77 @@
+/* ============================================================
+   render.js — fetches JSON data and renders cards on the home page
+   Used by: index.html
+   ============================================================ */
+(function () {
+  'use strict';
+
+  function escapeHTML(s) {
+    if (s == null) return '';
+    return String(s)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#039;');
+  }
+
+  /* Bilingual span helper: returns <span class="kr-only">..</span><span class="en-only">..</span> */
+  function bi(kr, en) {
+    return (
+      '<span class="kr-only">' + escapeHTML(kr || en || '') + '</span>' +
+      '<span class="en-only">' + escapeHTML(en || kr || '') + '</span>'
+    );
+  }
+
+  /* ---------- Card templates ---------- */
+  const tpl = {
+    career: (item) =>
+      `<a class="card" href="${escapeHTML(item.url)}">
+         <span class="card-eyebrow">${bi(item.org_kr, item.org_en)}</span>
+         <h3 class="card-title">${bi(item.role_kr, item.role_en)}</h3>
+         <p class="card-meta">${escapeHTML(item.period)}</p>
+       </a>`,
+
+    publication: (item) =>
+      `<a class="card" href="${escapeHTML(item.url)}">
+         <span class="card-eyebrow">${escapeHTML(item.venue)}${
+        item.tag ? ' · ' + escapeHTML(item.tag) : ''
+      }</span>
+         <h3 class="card-title">${bi(item.title_kr, item.title_en)}</h3>
+         <p class="card-meta">${escapeHTML(item.year)}</p>
+       </a>`,
+
+    patent: (item) =>
+      `<div class="card">
+         <span class="card-eyebrow">${escapeHTML(item.category)}</span>
+         <h3 class="card-title">${bi(item.title_kr, item.title_en)}</h3>
+         <p class="card-meta">${escapeHTML(item.date)}</p>
+       </div>`,
+  };
+
+  /* ---------- Loader ---------- */
+  async function load(file, containerId, type) {
+    const container = document.getElementById(containerId);
+    if (!container) return;
+    try {
+      const res = await fetch('/data/' + file);
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      const items = await res.json();
+      if (!Array.isArray(items) || items.length === 0) {
+        container.innerHTML = '<p class="empty">— No items yet.</p>';
+        return;
+      }
+      container.innerHTML = items.map(tpl[type]).join('');
+    } catch (e) {
+      console.error('[render.js]', file, e);
+      container.innerHTML =
+        '<p class="empty">Failed to load. Please refresh.</p>';
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    load('career.json', 'career-list', 'career');
+    load('publications.json', 'publications-list', 'publication');
+    load('patents.json', 'patents-list', 'patent');
+  });
+})();
