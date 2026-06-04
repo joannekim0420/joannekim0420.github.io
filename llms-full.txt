@@ -1,0 +1,1126 @@
+# Jongeun Kim — AI Engineer · Portfolio (full content)
+
+> Complete plain-text content and structure of https://joannekim0420.github.io/ , provided for LLMs/agents because the live site renders parts of its content with JavaScript. Contains: site map, every page's text, all internal/external links, and the full publications/patents/news/research data.
+
+Source of truth: the repository at github.com/joannekim0420/joannekim0420.github.io . Regenerate with tools/generate_llms.py after any content change.
+
+## Site map
+- https://joannekim0420.github.io/ — Home: Profile, career overview, and tabbed publications / patents / news / research
+- https://joannekim0420.github.io/career/hdclabs/ — Career — HDC LABS: Home AI agent / elevator situational analysis / fire detection project deep-dives
+- https://joannekim0420.github.io/career/unist/ — Career — UNIST: M.S. in Artificial Intelligence — multilingual multimodal, LG utterance generation, slogan generation, LOVEU challenge
+- https://joannekim0420.github.io/career/ncsoft/ — Career — NC Soft: Machine-translation quality evaluation internship
+- https://joannekim0420.github.io/career/choroksoft/ — Career — ChorokSoft: Sports AI internship — golf-swing pose analysis
+- https://joannekim0420.github.io/career/smu/ — Career — Sangmyung University: B.S. in Human Intelligence Information Engineering
+- https://joannekim0420.github.io/llms.txt — short index (this file's table of contents)
+
+
+======================================================================
+## Page: Home  (https://joannekim0420.github.io/)
+_Profile, career overview, and tabbed publications / patents / news / research_
+
+Jongeun Kim
+
+HOME
+CAREER
+PUBLICATIONS
+NEWS
+RESEARCH
+
+KR
+EN
+
+# 김종은 AI Engineer
+Jongeun Kim AI Engineer
+
+VLM·LLM·비디오 언더스탠딩 — 연구부터 현장 적용까지 멀티모달 AI 개발
+
+Multimodal AI — VLM, LLM, and video understanding, from research to real-world deployment
+
+- 홈 AI 에이전트, 엘리베이터 상황 분석, 화재 탐지 등 실환경 멀티모달 AI 과제의 PoC부터 현장 적용까지 수행
+
+- UNIST 인공지능대학원 석사 (멀티모달·NLP), 논문 7편과 특허 7건으로 연구 성과 권리화
+
+- Home AI agents, in-elevator situational analysis, and fire detection — real-world multimodal AI from PoC to field deployment
+
+- M.S. at UNIST Graduate School of AI (multimodal & NLP); results consolidated into 7 papers and 7 patents
+
+GitHub
+
+LinkedIn
+
+Scholar
+
+JK
+
+## Career
+
+Click a card to view the details
+
+🏢
+
+HDC LABS
+
+R&D Center AI Lab
+
+2024.05 ~ Present
+
+🏫
+
+UNIST
+
+M.S. in Artificial Intelligence
+
+2022.08 ~ 2024.08
+
+🎮
+
+NC SOFT
+
+기계번역데이터팀 인턴
+MT Data Team Intern
+
+2021.07 ~ 2022.01
+
+🌿
+
+초록소프트
+ChorokSoft
+
+스포츠 AI 팀 인턴
+Sports AI Team Intern
+
+2021.01 ~ 2021.02
+
+🏫
+
+Sangmyung
+University
+
+휴먼지능정보공학과 학사
+B.S. in Human Intelligence Information Engineering
+
+2017.02 ~ 2022.02
+
+## Selected Projects
+
+Selected projects and key contributions
+
+차세대 홈 AI Agent 시스템
+Next-Gen Home AI Agent System →
+
+HDC LABS / 2025.06 – Present
+
+VideoLLM LLM Kafka
+
+기여도
+Contribution
+
+35%
+
+엘리베이터 내부 상황 분석
+In-Elevator Situational Analysis →
+
+HDC LABS / 2025.02 – Present
+
+VLM Object Detection Synthetic Data
+
+기여도
+Contribution
+
+30%
+
+지하주차장 화재 탐지
+Underground Parking Fire Detection →
+
+HDC LABS / 2024.09 – 2025.04
+
+YOLO VLM Florence2
+
+기여도
+Contribution
+
+40%
+
+Publications
+Patents
+News
+Research
+
+© Jongeun Kim
+
+### Internal links
+- Jongeun Kim -> https://joannekim0420.github.io/
+- HOME -> https://joannekim0420.github.io/
+- CAREER -> https://joannekim0420.github.io/#career
+- PUBLICATIONS -> https://joannekim0420.github.io/#publications
+- NEWS -> https://joannekim0420.github.io/#news
+- RESEARCH -> https://joannekim0420.github.io/#research
+- LinkedIn -> https://joannekim0420.github.io/#
+- Scholar -> https://joannekim0420.github.io/#
+- 🏢 HDC LABS R&D Center AI Lab 2024.05 ~ Present -> https://joannekim0420.github.io/career/hdclabs/
+- 🏫 UNIST M.S. in Artificial Intelligence 2022.08 ~ 2024.08 -> https://joannekim0420.github.io/career/unist/
+- 🎮 NC SOFT 기계번역데이터팀 인턴MT Data Team Intern 2021.07 ~ 2022.01 -> https://joannekim0420.github.io/career/ncsoft/
+- 🌿 초록소프트ChorokSoft 스포츠 AI 팀 인턴Sports AI Team Intern 2021.01 ~ 2021.02 -> https://joannekim0420.github.io/career/choroksoft/
+- 🏫 Sangmyung University 휴먼지능정보공학과 학사B.S. in Human Intelligence Information Engineering 2017.02 ~ 2022.02 -> https://joannekim0420.github.io/career/smu/
+- 차세대 홈 AI Agent 시스템Next-Gen Home AI Agent System→ HDC LABS / 2025.06 – Present VideoLLMLLMKafka 기여도Contribution35% -> https://joannekim0420.github.io/career/hdclabs/
+- 엘리베이터 내부 상황 분석In-Elevator Situational Analysis→ HDC LABS / 2025.02 – Present VLMObject DetectionSynthetic Data 기여도Contribution30% -> https://joannekim0420.github.io/career/hdclabs/
+- 지하주차장 화재 탐지Underground Parking Fire Detection→ HDC LABS / 2024.09 – 2025.04 YOLOVLMFlorence2 기여도Contribution40% -> https://joannekim0420.github.io/career/hdclabs/
+
+### External links
+- GitHub -> https://github.com/joannekim0420
+
+======================================================================
+## Page: Career — HDC LABS  (https://joannekim0420.github.io/career/hdclabs/)
+_Home AI agent / elevator situational analysis / fire detection project deep-dives_
+
+Jongeun Kim
+
+HOME
+CAREER
+PUBLICATIONS
+NEWS
+RESEARCH
+
+KR
+EN
+
+🏢
+
+# HDC LABS
+
+R&D Center AI Lab 2024.05 ~ (재직중)
+
+R&D Center AI Lab 2024.05 ~ Present
+
+VLM / LLM
+Video Understanding
+Multimodal AI
+
+## Work & Activities
+
+- 2024.09 – 2025.04
+
+지하주차장 화재 탐지 모델 개발
+Underground Parking Fire Detection AI Engineer
+
+- 2025.02 ~
+
+엘리베이터 내부 상황 분석 시스템
+In-Elevator Situational Analysis System AI Engineer
+기사 ↗
+News ↗
+
+- 2025.06 ~
+
+차세대 홈 AI Agent 시스템
+Next-Gen Home AI Agent System AI Engineer
+
+- 2024 – 2026
+
+지적재산권 확보
+Intellectual Property
+발명자
+Inventor
+특허 6건 등록 · 1건 출원, 국제 학회 논문 4편
+6 patents granted · 1 application, 4 papers at international venues
+
+## Projects
+
+프로젝트를 선택하면 아래에 상세 내용이 표시됩니다
+
+Select a project to view its details below
+
+차세대 홈 AI Agent 시스템
+
+Next-Gen Home AI Agent System
+
+- VideoLLM + LLM 기반 거주자 행동 인식·가전 제어
+
+- 행동 예측 성능 0.5902 → 0.7819 향상
+
+- 실시간 통합 파이프라인 70.46s → 30.4s 단축
+
+- Resident action recognition & appliance control with VideoLLM + LLM
+
+- Improved action-prediction accuracy 0.5902 → 0.7819
+
+- Cut the real-time pipeline from 70.46s to 30.4s
+
+엘리베이터 내부 상황 분석 시스템
+
+In-Elevator Situational Analysis System
+
+- VLM 파인튜닝 기반 반려견 탑승 인식
+
+- 탐지 정확도 57% → 87.5% 향상, 특허 등록
+
+- HDC랩스·HDC현산·현대엘리베이터 업무협약
+
+- Pet-boarding detection via VLM fine-tuning
+
+- Detection accuracy 57% → 87.5%, patent granted
+
+- Three-party MOU: HDC LABS, HDC Hyundai Dev., Hyundai Elevator
+
+지하주차장 화재 탐지 모델
+
+Underground Parking Fire Detection
+
+- YOLO + VLM(Florence2) 통합 화재 탐지 알고리즘
+
+- 최초 탐지 시간 6.51s → 3.03s, Recall 0.835 → 0.904
+
+- ICLR 2025 워크샵 논문 게재, 특허 등록
+
+- Integrated YOLO + VLM (Florence2) fire-detection algorithm
+
+- First detection 6.51s → 3.03s, recall 0.835 → 0.904
+
+- ICLR 2025 workshop paper published, patent granted
+
+### 차세대 홈 AI Agent 시스템 개발 (2025.06 ~)
+
+Next-Gen Home AI Agent System (2025.06 ~)
+
+핵심 역할
+Key role
+
+기여도 35% — 데이터셋 구축, 행동 인식 방법론 제안, 실시간 통합 파이프라인 개발
+35% contribution — dataset construction, action-recognition methodology, real-time integrated pipeline
+
+개요집안 내 월패드와 연동하여 가전 기능을 제어하기 위한 차세대 홈 AI 에이전트 핵심 기술 요소 개발
+OverviewCore technologies for a next-generation home AI agent that controls appliances through the in-home wall pad
+
+1
+데이터셋 수집
+Dataset Collection
+
+기존 문제점
+Problem
+
+- 기존 공개 데이터는 CCTV 뷰의 실내 거주자 행동 데이터가 부족하고, 가정마다 상이한 실내 구조 변화에 대한 대응이 어려운 한계 존재
+
+- Public datasets lack CCTV-view indoor resident-action data and adapt poorly to per-home variations in indoor layout
+
+담당 업무
+Responsibilities
+
+- 실제 주거 환경(부엌, 거실, 방 등)에서 액션별 영상을 직접 수집
+
+- 65개 이상의 행동 클래스에 대해 총 600개 이상의 테스트 영상을 라벨링하여 자체 데이터셋 구축
+
+- Collected per-action videos directly in real residential environments (kitchen, living room, bedrooms)
+
+- Built an in-house dataset by labeling 600+ test videos covering 65+ action classes
+
+2
+VideoLLM + LLM 행동 분류
+VideoLLM + LLM Action Classification
+
+기존 문제점
+Problem
+
+- VideoLLM 모델로 직접 행동 분류 수행 시 단일 모델 기반 분류 성능이 0.5902로 한계 존재
+
+- Direct action classification with a single VideoLLM topped out at 0.5902 accuracy
+
+담당 업무
+Responsibilities
+
+- VideoLLM으로 행동 요약을 생성하고, 캡션 결과를 LLM에 입력해 프롬프트 엔지니어링 기반으로 액션을 예측하는 방법론 제안
+
+- 예측된 행동을 기반으로 월패드와 연동하여 가전기기를 알고리즘적으로 제어 가능한 구조 구현
+
+- VLM 기반 Agentic AI 가능성을 검토하며, LLM을 거치지 않고 직접 가전 제어로 연결 가능한 멀티모달 에이전트용 데이터셋 수집 진행 중
+
+- Proposed a methodology where the VideoLLM summarizes the action and an LLM classifies it from the caption via prompt engineering
+
+- Implemented a structure that algorithmically controls appliances through the wall pad based on the predicted action
+
+- Exploring VLM-based agentic AI — collecting a dataset that maps video directly to appliance control without an intermediate LLM
+
+업무 성과
+Achievements
+
+- 프롬프트 엔지니어링으로 행동 예측 성능 0.5902 → 0.7819 향상
+
+- 다양한 VideoLLM(Qwen2.5-VL/VideoLLaMA3)과 LLM(Gemma3/Qwen3/LLaMA3.1/DeepSeek) 조합에 대한 비교 실험 수행
+
+- 행동인식을 기반으로 한 IoT 가전기기 제어방법 및 시스템 특허 확보 KR 10-2971047
+
+- Improved action-prediction accuracy from 0.5902 to 0.7819 through prompt engineering
+
+- Benchmarked combinations of VideoLLMs (Qwen2.5-VL/VideoLLaMA3) and LLMs (Gemma3/Qwen3/LLaMA3.1/DeepSeek)
+
+- Secured a patent on action-recognition-based IoT appliance control KR 10-2971047
+
+3
+실시간 통합 파이프라인 개발
+Real-Time Integrated Pipeline
+
+담당 업무
+Responsibilities
+
+- 실제 주거 환경에서 CCTV 영상을 실시간 스트리밍으로 수신하며 ① 얼굴 인식, ② 객체 추적, ③ 행동 인식, ④ 객체 인식 등 다수 모델을 병렬 처리하는 통합 파이프라인 설계 및 구현
+
+- vLLM 라이브러리 서빙을 검토했으나 비디오 특성상 통신 시간이 로컬 처리 대비 2~3배 증가함을 확인, 로컬 GPU 1개에서 동작하는 통합 파이프라인 제시
+
+- 특정 사용자 액션 발생 시 Kafka 이벤트를 발행하여 개인화 맞춤 DB 및 월패드 시스템과 연동
+
+- Designed and implemented an integrated pipeline that ingests live CCTV streams from real residences and runs face recognition, object tracking, action recognition, and object detection in parallel
+
+- Evaluated vLLM-based serving, found video transfer made it 2–3× slower than local processing, and proposed a single-GPU local integrated pipeline instead
+
+- Published Kafka events on specific user actions, integrating with the personalization DB and the wall-pad system
+
+업무 성과
+Achievements
+
+- 병렬 처리 최적화로 처리 시간 70.46s → 30.4s 단축, 실시간 스트리밍 가능 수준 확보
+
+- Cut end-to-end processing from 70.46s to 30.4s through parallelization, reaching real-time streaming capability
+
+### 엘리베이터 내부 상황 분석 시스템 (2025.02 ~)
+
+In-Elevator Situational Analysis System (2025.02 ~)
+
+핵심 역할
+Key role
+
+기여도 30% — 반려견 탑승 인식 모델 및 알고리즘 개발
+30% contribution — pet-boarding detection model & algorithm
+
+개요승강기 혼잡도·대기 시간 감소, 이상 행동 탐지와 반려견 목줄 끼임 사고 예방을 위한 AI 기반 엘리베이터 운영 시스템 개발
+OverviewAn AI-based elevator operation system that reduces congestion and wait time, detects anomalies, and prevents pet-leash entrapment accidents
+
+1
+반려견 탑승 인식 모델 및 알고리즘 개발
+Pet-Boarding Detection Model & Algorithm
+
+기존 문제점
+Problem
+
+- 엘리베이터 CCTV는 상단 모서리에서 내려다보는 비정형 시야각을 가지며, 기존 모델로는 반려견의 탑승 여부를 정확히 판단하기 어려움
+
+- Elevator CCTVs use an atypical top-corner viewpoint, making pet-boarding judgments unreliable with off-the-shelf models
+
+담당 업무
+Responsibilities
+
+- 탑승 데이터 수집 및 구축 — 실제 엘리베이터 환경에서 촬영된 반려견 탑승 영상을 수집·정제·라벨링하고, 엘리베이터 CCTV 시점 기반 생성형 반려견 합성 데이터를 추가해 학습 데이터셋 확장
+
+- VLM 기반 모델 파인튜닝 — 수집한 데이터를 기반으로 VLM을 object detection 태스크에 맞게 커스터마이징하고, 엘리베이터 환경 특성을 반영해 모델 학습
+
+- 탑승 시점 판단 알고리즘 개발 — 문 열림/닫힘 시점을 기준으로 사람과 반려견의 동시 탑승 여부를 판단하는 알고리즘을 구현, 반려견 목줄 끼임 사고를 예방하도록 설계
+
+- Boarding data construction — collected, cleaned, and labeled real in-elevator pet videos, and extended the training set with generative synthetic pet data rendered from the elevator-CCTV viewpoint
+
+- VLM fine-tuning — customized a VLM for the object-detection task and trained it to reflect elevator-environment characteristics
+
+- Boarding-moment algorithm — implemented door open/close-based logic that judges simultaneous boarding of a person and a pet, designed to prevent leash-entrapment accidents
+
+업무 성과
+Achievements
+
+- 반려견 탑승 탐지 정확도 57% → 87.5% 향상
+
+- 반려견과 유사 객체(인형 등) 구분 정확도 91% 달성
+
+- '사용자로그를 고려한 엘리베이터 내부의 반려동물 유무 탐지방법 및 시스템' 특허 등록 KR 10-2876730
+
+- HDC랩스·HDC현대산업개발·현대엘리베이터 업무 협약 체결 HDC현산, 서울원 아이파크에 AI 승강기 도입 ↗
+
+- 합성 데이터 생성 연구로 후속 논문 게재 합성 데이터 생성 자동화 (WACVW 2026, Oral)
+
+- Improved pet-boarding detection accuracy from 57% to 87.5%
+
+- Achieved 91% accuracy in distinguishing pets from similar objects (e.g., plush toys)
+
+- Patent granted: detecting pets inside an elevator considering user logs KR 10-2876730
+
+- Three-party MOU among HDC LABS, HDC Hyundai Development, and Hyundai Elevator HDC to deploy AI elevators at Seoul One IPARK ↗
+
+- Follow-up paper from the synthetic-data research Automated synthetic data generation (WACVW 2026, Oral)
+
+### 지하주차장 화재 탐지 모델 개발 (2024.09 – 2025.04)
+
+Underground Parking Fire Detection (2024.09 – 2025.04)
+
+핵심 역할
+Key role
+
+기여도 40% — VLM 통합 알고리즘 개발, VLM 모델 비교 선정
+40% contribution — VLM-integrated algorithm, VLM model benchmarking & selection
+
+개요화재 예방과 신속한 대응을 위한 AI CCTV 화재 탐지 솔루션 개발
+OverviewAn AI CCTV fire-detection solution for prevention and rapid response
+
+1
+VLM 모델 통합 알고리즘 개발
+VLM-Integrated Detection Algorithm
+
+기존 문제점
+Problem
+
+- YOLO 모델은 실시간 처리와 객체 위치 탐지에 강점이 있으나, 연기·초기 화염 단계에서는 정확도 및 민감도(Recall)가 낮은 한계 존재
+
+- YOLO excels at real-time localization but suffers low accuracy and recall on smoke and early-stage flames
+
+담당 업무
+Responsibilities
+
+- 연산량은 크지만 정밀한 판단이 가능한 VLM을 병렬적으로 활용하는 상황 인식 구조 도입
+
+- YOLO는 모든 프레임에 대해 추론을 수행하여 실시간성 유지, VLM은 초당 3프레임만 선택적으로 추론하도록 설정해 연산 자원 사용 최소화
+
+- VLM이 화재 가능성을 먼저 인지한 경우 YOLO의 confidence threshold를 동적으로 조정해 더 민감하게 화재를 탐지하도록 유도
+
+- Introduced a situational-awareness structure that runs a compute-heavy but precise VLM in parallel with YOLO
+
+- Kept YOLO inferring on every frame for real-time coverage while limiting the VLM to 3 selected frames per second to minimize compute
+
+- When the VLM first senses a possible fire, it dynamically lowers YOLO's confidence threshold so YOLO detects fire more sensitively
+
+2
+VLM 모델 비교 선정
+VLM Benchmarking & Selection
+
+담당 업무
+Responsibilities
+
+- BLIP1, BLIP2, LLaVA2, Gemma3, VideoLLaMA 등 다양한 VLM을 대상으로 FPS·정확도·탐지 지연 시간·모델 크기 기준 비교 실험 수행
+
+- 지하주차장 서버 환경의 연산 자원 제약과 실시간 요구 조건을 종합 고려해 화재 탐지 성능과 처리 속도가 가장 적합한 Florence2를 최종 모델로 선정
+
+- 환경 및 하드웨어 조건 변화에 따라 최적 모델을 선택할 수 있도록 다양한 VLM에 대한 비교 분석 지속 수행
+
+- Benchmarked VLMs including BLIP1, BLIP2, LLaVA2, Gemma3, and VideoLLaMA on FPS, accuracy, detection latency, and model size
+
+- Selected Florence2 as the final model — the best fire-detection performance and throughput under the parking-server compute constraints and real-time requirements
+
+- Continuously re-evaluating VLMs so the optimal model can be chosen as environments and hardware change
+
+업무 성과
+Achievements
+
+- 최초 화재 탐지 시간 단축 — 6.51s → 3.03s
+
+- Recall 0.835 → 0.904 향상
+
+- ICLR 2025 워크샵 ICBINB 논문 게재 An Integrated YOLO and VLM System for Fire Detection in Enclosed Environments (ICLRW 2025)
+
+- '인공신경망 기반의 복합모델을 이용한 주차장 화재 탐지 방법 및 시스템' 특허 등록 KR 10-2857163
+
+- 광명 센트럴 아이파크 지하주차장 화재 탐지 AI CCTV 상용 도입 예정
+
+- Cut first fire-detection time from 6.51s to 3.03s
+
+- Improved recall from 0.835 to 0.904
+
+- Published at the ICLR 2025 ICBINB workshop An Integrated YOLO and VLM System for Fire Detection in Enclosed Environments (ICLRW 2025)
+
+- Patent granted: parking-lot fire detection using an ANN-based composite model KR 10-2857163
+
+- Commercial deployment planned for the underground parking AI CCTV at Gwangmyeong Central IPARK
+
+© Jongeun Kim Home
+
+
+### External links
+- Jongeun Kim -> https://
+- HOME -> https://
+- CAREER -> https://#career
+- PUBLICATIONS -> https://#publications
+- NEWS -> https://#news
+- RESEARCH -> https://#research
+- 기사 ↗News ↗ -> https://www.yna.co.kr/view/AKR20250414119000003
+- HDC현산, 서울원 아이파크에 AI 승강기 도입 ↗ -> https://www.yna.co.kr/view/AKR20250414119000003
+- 합성 데이터 생성 자동화 (WACVW 2026, Oral) -> https://papers/wacvw2026/
+- HDC to deploy AI elevators at Seoul One IPARK ↗ -> https://www.yna.co.kr/view/AKR20250414119000003
+- Automated synthetic data generation (WACVW 2026, Oral) -> https://papers/wacvw2026/
+- An Integrated YOLO and VLM System for Fire Detection in Enclosed Environments (ICLRW 2025) -> https://papers/iclrw2025/
+- Home -> https://
+
+======================================================================
+## Page: Career — UNIST  (https://joannekim0420.github.io/career/unist/)
+_M.S. in Artificial Intelligence — multilingual multimodal, LG utterance generation, slogan generation, LOVEU challenge_
+
+Jongeun Kim
+
+HOME
+CAREER
+PUBLICATIONS
+NEWS
+RESEARCH
+
+KR
+EN
+
+🏫
+
+# UNIST
+
+인공지능대학원 석사 2022.08 ~ 2024.08 · MVL Lab 학부연구 인턴 2022.04 ~ 2022.07
+
+M.S., Graduate School of Artificial Intelligence 2022.08 ~ 2024.08 · MVL Lab Intern 2022.04 ~ 2022.07
+
+Multimodal
+NLP / LLM
+Machine Translation
+Text Generation
+
+## Education
+
+인공지능대학원 석사과정 2022.08 ~ 2024.08
+
+M.S. program, Graduate School of Artificial Intelligence 2022.08 ~ 2024.08
+
+- NLP·LLM 기반 문장 생성 및 평가 방법 연구, 이미지-텍스트 멀티모달 분야로 확장
+
+- MVL Lab 인턴(2022.04 ~ 2022.07) — 영상·텍스트·질의응답을 결합한 멀티모달 모델링 수행
+
+- Research on NLP/LLM-based text generation and evaluation, extended into image-text multimodality
+
+- MVL Lab internship (2022.04 ~ 2022.07) — multimodal modeling combining video, text, and question answering
+
+졸업 논문: Towards Efficient Multilingual Multimodal Fusion: A Contrastive Learning Approach Using Machine Translation
+( Details)
+
+M.S. thesis: Towards Efficient Multilingual Multimodal Fusion: A Contrastive Learning Approach Using Machine Translation
+( Details)
+
+## Projects
+
+프로젝트를 선택하면 아래에 상세 내용이 표시됩니다
+
+Select a project to view its details below
+
+고객 발화 Variation 텍스트 생성 (LG)
+
+Customer-Utterance Variation Generation (LG)
+
+- 생성형 AI 기반 데이터 증강 파이프라인 개발
+
+- AI Judge 정량 평가 정확도 95.77% 달성
+
+- 성과 인정으로 LG H&A 산학과제 연장
+
+- Generative-AI data-augmentation pipeline
+
+- 95.77% accuracy on AI-judge quantitative evaluation
+
+- Follow-on LG H&A industry-academia project secured
+
+다국어 멀티모달 융합 (석사 졸업논문)
+
+Multilingual Multimodal Fusion (M.S. Thesis)
+
+- 기계번역으로 14개 언어 데이터 증강
+
+- CLIP + XLM-RoBERTa 대조학습 정렬
+
+- 단일 이미지 토큰 기반 다국어 생성 입증
+
+- 14-language data augmentation via machine translation
+
+- CLIP + XLM-RoBERTa contrastive alignment
+
+- Multilingual generation from a single image token
+
+슬로건 자동 생성 (심도컴퍼니)
+
+Slogan Generation (Simdo Company)
+
+- 노이즈 섭동 기반 다양성 제어 생성 모델
+
+- 기존 방법 대비 SOTA 성능 달성
+
+- CIKM 2023 논문 게재
+
+- Diversity-controllable generation via noise perturbation
+
+- State-of-the-art results over prior methods
+
+- Published at CIKM 2023
+
+CVPR'22 LOVEU 챌린지 (Pyler)
+
+CVPR'22 LOVEU Challenge (Pyler)
+
+- 영상·스크립트·질문 멀티모달 QA 모델링
+
+- 베이스라인 대비 평균 Recall +0.075
+
+- CVPR 2022 LOVEU 워크샵 챌린지 2등 입상
+
+- Multimodal QA over video, script, and questions
+
+- +0.075 mean recall over the baseline
+
+- 2nd place, CVPR 2022 LOVEU workshop challenge
+
+### [UNIST-LG] 고객 발화 Variation 텍스트 생성 (2023.10 – 2024.05)
+
+[UNIST-LG] Customer-Utterance Variation Generation (2023.10 – 2024.05)
+
+핵심 역할
+Key role
+
+기여도 30% — 데이터 수집·생성, 생성 모델 평가 설계
+30% contribution — data collection/generation, generation-model evaluation design
+
+개요고객 발화 변형(variation) 생성 및 포맷 변경 자동화로 데이터 구축 과정의 인적 자원 투입을 최소화하는 생성형 AI 기반 데이터 증강 파이프라인 개발
+OverviewA generative-AI data-augmentation pipeline that automates customer-utterance variation and reformatting, minimizing manual effort in dataset construction
+
+1
+데이터 수집 및 생성
+Data Collection & Generation
+
+담당 업무
+Responsibilities
+
+- ChatGPT를 활용해 few-shot으로 의미는 유지하되 표현이 다른 고객 발화 문장을 반복 생성
+
+- 생성 문장은 사람 검수를 거쳐 정제 후, 원본 데이터 대비 약 10% 수준으로 데이터 증강 비율 제한
+
+- 증강 데이터가 학습을 과도하게 주도하지 않도록 원본 텍스트의 분포와 경향성을 유지하면서 표현 다양성만 확장하는 전략 적용
+
+- Iteratively generated customer utterances with ChatGPT in a few-shot setup — same meaning, varied expression
+
+- Cleaned generated sentences through human review and capped augmentation at ~10% of the original data
+
+- Preserved the original text's distribution and tendencies, expanding only expression diversity so augmented data would not dominate training
+
+2
+생성 모델 평가
+Generation-Model Evaluation
+
+담당 업무
+Responsibilities
+
+- 정성 평가 — ① 표현의 다양성, ② 문장의 완전성, ③ 의미적 일치성 세 기준을 설정하고 사용자에게 각 문장을 1~5점 척도로 평가받음 (랜덤 추출 200개 문장 × 평가자 50명)
+
+- 정량 평가 — BLEU·ROUGE·BERTScore가 표현 다양성을 충분히 반영하지 못해, ChatGPT를 AI Judge로 활용한 few-shot variation classification 방식 설계
+
+- Qualitative — defined three criteria (expression diversity, sentence completeness, semantic consistency) and had users rate each sentence on a 1–5 scale (200 random sentences × 50 raters)
+
+- Quantitative — since BLEU/ROUGE/BERTScore fail to capture variation, designed a few-shot variation-classification scheme using ChatGPT as an AI judge
+
+업무 성과
+Achievements
+
+- 정량 평가 정확도 95.77% 달성
+
+- 사용자 평가에서 평균 3점 이상 비율 81% 달성
+
+- 해당 과제의 성과로 LG H&A와 추가 산학과제 연장
+
+- Achieved 95.77% accuracy on the quantitative evaluation
+
+- 81% of sentences scored an average of 3+ in user evaluation
+
+- The results led to a follow-on industry-academia project with LG H&A
+
+### 다국어 멀티모달 융합 — 석사 졸업논문
+
+Towards Efficient Multilingual Multimodal Fusion — M.S. Thesis
+
+핵심 역할
+Key role
+
+기여도 100% — 개인 연구
+100% contribution — individual research
+
+개요NC Soft에서의 다국어 처리 경험과 석사 과정의 멀티모달 연구를 결합한 다국어 멀티모달 처리 방법론 연구
+OverviewA multilingual multimodal methodology combining machine-translation experience from NC Soft with multimodal research during the master's program
+
+1
+기계번역 기반 다국어 멀티모달 데이터 증강
+MT-Based Multilingual Data Augmentation
+
+- 부족한 다국어 데이터를 보강하기 위해 SOTA 기계번역 모델을 활용, 데이터셋을 14개 언어로 확장
+
+- 번역 결과를 영어로 back-translation한 뒤 원문과의 BLEU score를 기준으로 번역 모델을 선별해 학습 데이터 구성
+
+- Expanded the dataset into 14 languages with state-of-the-art machine-translation models to compensate for scarce multilingual data
+
+- Validated quality by back-translating into English and selecting translation models by BLEU score against the source
+
+2
+다국어 멀티모달 모델링
+Multilingual Multimodal Modeling
+
+- Part A — Multilingual Representation Alignment: 사전 학습된 CLIP 이미지 인코더와 XLM-RoBERTa 텍스트 인코더로 feature를 추출하고, projection layer를 거쳐 다국어 contrastive loss로 image-text pair를 latent space에서 정렬·융합
+
+- Part B — Multilingual Captioning & Generation: 다국어 텍스트와 정렬된 단일 이미지 토큰 벡터를 GPT-2 계열 디코더에 입력, 이미지 기반 캡션 및 Q&A 태스크로 학습
+
+- Part A — Multilingual Representation Alignment: extracted features with a pretrained CLIP image encoder and an XLM-RoBERTa text encoder, projected each modality, and fused image-text pairs in latent space with a multilingual contrastive loss
+
+- Part B — Multilingual Captioning & Generation: fed the single image token aligned with multilingual text into a GPT-2-family decoder, trained on image-grounded captioning and Q&A
+
+연구 성과
+Results
+
+- 기존 모델 대비 성능 경쟁보다, 단일 image token만으로도 의미 있는 다국어 생성이 가능함을 입증
+
+- LLM judge 평가에서 다양한 언어에 대해 이미지 내용을 반영한 캡션 생성 결과 확인
+
+- Demonstrated that meaningful multilingual generation is possible from a single image token, rather than chasing benchmark gains
+
+- LLM-judge evaluation confirmed captions reflect image content across diverse languages
+
+- 방송미디어공학회 2025 게재
+Published at KSBE 2025
+
+### [UNIST-심도컴퍼니] Effective Slogan Generation with Noise Perturbation
+
+[UNIST-Simdo] Effective Slogan Generation with Noise Perturbation
+
+핵심 역할
+Key role
+
+기여도 100% — 데이터 구축, 모델링, 평가
+100% contribution — dataset, modeling, evaluation
+
+개요회사의 비전과 브랜드 가치를 담은 슬로건 생성을 자동화하는 새로운 접근법
+OverviewA new approach to automating slogan generation that captures a company's vision and brand value
+
+1
+데이터 수집 및 전처리
+Data Collection & Preprocessing
+
+- 16개 도메인(food, drinks, tours, cosmetics, technology 등)에 대해 브랜드/회사 설명과 슬로건을 웹 크롤링하여 데이터셋 구축
+
+- 슬로건 생성의 다양성을 확보하기 위해 하나의 회사에 여러 개의 슬로건이 매칭되도록 구성, 전처리 과정에서 날짜·특수문자 등 불필요한 요소 제거
+
+- Built a dataset by crawling brand/company descriptions and slogans across 16 domains (food, drinks, tours, cosmetics, technology, …)
+
+- Matched multiple slogans to each company to secure generation diversity; removed dates, special characters, and other noise in preprocessing
+
+2
+모델링 및 평가
+Modeling & Evaluation
+
+- 트랜스포머 계열 모델 입력 전 input embedding에 가우시안 노이즈를 추가, 문장의 다양성을 조정하는 하이퍼파라미터 도입
+
+- 표현 다양성과 브랜드 정체성 일치 여부를 함께 평가하는 Cosine Similarity 기반 평가 지표 설계
+
+- Added Gaussian noise to the input embeddings before the transformer, introducing a hyper-parameter that controls sentence diversity
+
+- Designed cosine-similarity-based metrics that jointly evaluate expression diversity and brand-identity consistency
+
+연구 성과
+Results
+
+- 정량 평가 Description 33.83% → 44.04%, Reference 28.16% → 30.10% 성능 향상으로 기존 방법 대비 SOTA 달성
+
+- State-of-the-art over prior methods: Description 33.83% → 44.04%, Reference 28.16% → 30.10%
+
+- CIKM 2023 1저자 게재
+First-author paper at CIKM 2023
+
+### [UNIST-Pyler] CVPR'22 LOVEU Track 3 Challenge
+
+[UNIST-Pyler] CVPR'22 LOVEU Track 3 Challenge
+
+핵심 역할
+Key role
+
+기여도 60% — 멀티모달 모델링
+60% contribution — multimodal modeling
+
+개요사용자 시점에서 기계 조작 과정을 단계별로 안내하기 위해, 설명 영상과 스크립트를 학습하여 사용자 질문에 응답하는 방법론을 제안한 CVPR 2022 LOVEU Workshop 챌린지
+OverviewThe CVPR 2022 LOVEU workshop challenge: answer user questions step-by-step by learning from instructional videos and scripts, guiding machine operation from the user's viewpoint
+
+1
+멀티모달 모델링
+Multimodal Modeling
+
+- 영상, 텍스트 스크립트, 사용자 질문, 사용자 이미지, 정답 후보 등 다양한 입력을 각각 ViT 또는 BERT로 feature 추출, modality별 정보를 독립적으로 인코딩
+
+- 시각-텍스트 간 의미적 연결을 강화하기 위해 Cross Multi-Head Attention 구조를 적용해 modality 간 상호작용 학습
+
+- 모든 feature에 GRU를 적용해 시간 정보를 반영, 사용자의 질문에 대해 단계적인 응답이 가능하도록 설계
+
+- 최종적으로 MLP를 통해 정답 후보 중 하나를 선택
+
+- Encoded each input — video, text script, user question, user-view image, and answer candidates — independently with ViT or BERT
+
+- Applied cross multi-head attention to strengthen the semantic connection between visual and textual modalities
+
+- Applied a GRU across all features to inject temporal information, enabling step-wise responses to user questions
+
+- Selected the final answer among candidates with an MLP head
+
+연구 성과
+Results
+
+- 베이스라인 대비 평균 Recall 0.075 향상
+
+- CVPR 2022 LOVEU Workshop 챌린지 2등 입상
+
+- 약 100개의 소량 학습 데이터에서도 효과적인 학습 구조 제시
+
+- Improved mean recall by 0.075 over the baseline
+
+- 2nd place at the CVPR 2022 LOVEU workshop challenge
+
+- Demonstrated an architecture that learns effectively from only ~100 training samples
+
+- CVPRW 2022 기술 보고서
+CVPRW 2022 technical report
+
+© Jongeun Kim Home
+
+
+### External links
+- Jongeun Kim -> https://
+- HOME -> https://
+- CAREER -> https://#career
+- PUBLICATIONS -> https://#publications
+- NEWS -> https://#news
+- RESEARCH -> https://#research
+- Details -> https://papers/ksbe2025/
+- 방송미디어공학회 2025 게재Published at KSBE 2025 -> https://papers/ksbe2025/
+- CIKM 2023 1저자 게재First-author paper at CIKM 2023 -> https://papers/cikm2023/
+- CVPRW 2022 기술 보고서CVPRW 2022 technical report -> https://papers/loveu2022/
+- Home -> https://
+
+======================================================================
+## Page: Career — NC Soft  (https://joannekim0420.github.io/career/ncsoft/)
+_Machine-translation quality evaluation internship_
+
+Jongeun Kim
+
+HOME
+CAREER
+PUBLICATIONS
+NEWS
+RESEARCH
+
+KR
+EN
+
+🎮
+
+# NC Soft
+
+기계번역데이터팀 인턴 2021.07 ~ 2022.01
+
+Machine Translation Data Team, Intern 2021.07 ~ 2022.01
+
+Machine Translation
+NLP
+Evaluation
+
+## Projects
+
+### 다국어 기계 번역 문장 품질 평가
+
+Multilingual Machine-Translation Quality Evaluation
+
+핵심 역할
+Key role
+
+기여도 100% — 번역 품질 자동 평가 모델링, 전후처리 자동화
+100% contribution — automatic translation-quality evaluation modeling, pre/post-processing automation
+
+개요번역 문장과 원문 간 의미적 일치도를 수치화하여 human evaluation을 대체·보조할 수 있는 자동 평가 방법 연구
+OverviewAn automatic evaluation method that quantifies semantic agreement between source and translation to replace or assist human evaluation
+
+1
+번역 품질 자동 평가 모델링
+Automatic Quality-Evaluation Modeling
+
+- 사전 학습된 다국어 문장 인코더(multilingual sentence encoder)를 활용해 원문-번역문 문장 쌍을 같은 임베딩 공간으로 정렬
+
+- 다국어 문장 인코더가 언어가 달라도 의미적으로 유사한 문장을 같은 latent space에서 가깝게 정렬하는 특성을 기반으로, 문장 쌍 간 Cosine Similarity를 활용해 파인튜닝 진행
+
+- 임베딩 공간에서의 거리 값이 실제 사람 평가 점수와 더 높은 상관관계를 갖도록 개선, 문법·의미 보존 측면에서 신뢰도 높은 품질 평가 구현
+
+- Aligned source-translation sentence pairs in a shared embedding space using a pretrained multilingual sentence encoder
+
+- Fine-tuned with cosine similarity over sentence pairs, exploiting the encoder's property of placing semantically similar sentences close together across languages
+
+- Improved the correlation between embedding distance and human evaluation scores, yielding more reliable quality assessment in grammar and meaning preservation
+
+성과
+Results
+
+- 학부생 인턴 프로젝트로 수행한 결과를 기계번역 데이터팀 내부 기술 발표 자료로 공유
+
+- Results from this undergraduate-intern project were shared as an internal technical presentation within the MT data team
+
+© Jongeun Kim Home
+
+
+### External links
+- Jongeun Kim -> https://
+- HOME -> https://
+- CAREER -> https://#career
+- PUBLICATIONS -> https://#publications
+- NEWS -> https://#news
+- RESEARCH -> https://#research
+- Home -> https://
+
+======================================================================
+## Page: Career — ChorokSoft  (https://joannekim0420.github.io/career/choroksoft/)
+_Sports AI internship — golf-swing pose analysis_
+
+Jongeun Kim
+
+HOME
+CAREER
+PUBLICATIONS
+NEWS
+RESEARCH
+
+KR
+EN
+
+🌿
+
+# 초록소프트
+ChorokSoft
+
+스포츠 AI 팀 인턴 2021.01 ~ 2021.02
+
+Sports AI Team, Intern 2021.01 ~ 2021.02
+
+Pose Estimation
+Computer Vision
+Sports AI
+
+## Work & Activities
+
+### 스켈레톤 자세 추정 기반 골프 자세 분석
+
+Golf-Swing Analysis via Skeleton Pose Estimation
+
+- 스켈레톤 자세 추정(skeleton pose estimation) 모델을 활용해 골프 스윙 자세를 분석하는 스포츠 AI 업무 수행
+
+- 관절 키포인트 추출 결과를 기반으로 자세 비교·분석 파이프라인 검토
+
+- Analyzed golf-swing posture using skeleton pose-estimation models on the sports AI team
+
+- Explored a posture comparison and analysis pipeline based on extracted joint keypoints
+
+© Jongeun Kim Home
+
+
+### External links
+- Jongeun Kim -> https://
+- HOME -> https://
+- CAREER -> https://#career
+- PUBLICATIONS -> https://#publications
+- NEWS -> https://#news
+- RESEARCH -> https://#research
+- Home -> https://
+
+======================================================================
+## Page: Career — Sangmyung University  (https://joannekim0420.github.io/career/smu/)
+_B.S. in Human Intelligence Information Engineering_
+
+Jongeun Kim
+
+HOME
+CAREER
+PUBLICATIONS
+NEWS
+RESEARCH
+
+KR
+EN
+
+🏫
+
+# 상명대학교
+Sangmyung University
+
+휴먼지능정보공학과 학사 2017.02 ~ 2022.02
+
+B.S. in Human Intelligence Information Engineering 2017.02 ~ 2022.02
+
+B.S.
+AI / Software
+
+## Education
+
+휴먼지능정보공학과 학사과정 2017.02 ~ 2022.02
+
+B.S. program, Dept. of Human Intelligence Information Engineering 2017.02 ~ 2022.02
+
+- 학부 과정 중 초록소프트(2021.01 ~ 2021.02), NC Soft(2021.07 ~ 2022.01) 인턴 수행
+
+- Completed internships during undergraduate studies at ChorokSoft (2021.01 ~ 2021.02) and NC Soft (2021.07 ~ 2022.01)
+
+© Jongeun Kim Home
+
+
+### External links
+- Jongeun Kim -> https://
+- HOME -> https://
+- CAREER -> https://#career
+- PUBLICATIONS -> https://#publications
+- NEWS -> https://#news
+- RESEARCH -> https://#research
+- Home -> https://
+
+======================================================================
+## Publications
+
+### Journals (1)
+- Jongeun Kim. "A Contrastive Learning Framework for Efficient Multilingual Multimodal Fusion Using Machine-Translated Data." 한국방송·미디어공학회 하계학술대회 (KSBE Summer Conference), 2025 [Domestic] — https://joannekim0420.github.io/papers/ksbe2025/
+
+### Conferences (6)
+- Dongsik Yoon, Jongeun Kim. "From Prompts to Deployment: Auto-Curated Domain-Specific Dataset Generation via Diffusion Models." IEEE/CVF Winter Conference on Applications of Computer Vision Workshop (WACVW), 2026 (Oral) — https://joannekim0420.github.io/papers/wacvw2026/
+- Jongeun Kim*, Yejin Lee*, Dongsik Yoon*, Chansung Jung, Gunhee Lee. "An Integrated YOLO and VLM System for Fire Detection in Enclosed Environments." International Conference on Learning Representations Workshop (ICLRW), 2025 — https://joannekim0420.github.io/papers/iclrw2025/
+- Dongsik Yoon, Jongeun Kim. "Your Super Resolution Model is not Enough for Tackling Real-World Scenarios." International Conference on Computer Vision Workshop (ICCVW), 2025 — https://joannekim0420.github.io/papers/iccvw2025/
+- Dongsik Yoon, Jongeun Kim, Seonggeun Song, Yejin Lee, Gunhee Lee. "OverallNet: Scale-Arbitrary Lightweight SR Model for handling 360° Panoramic Images." SIGGRAPH Asia Posters, 2024 — https://joannekim0420.github.io/papers/siggraph2024/
+- Jongeun Kim, MinChung Kim, Taehwan Kim. "Effective Slogan Generation with Noise Perturbation." ACM International Conference on Information and Knowledge Management (CIKM), 2023 — https://joannekim0420.github.io/papers/cikm2023/
+- Hyeonyu Kim, Jongeun Kim, Jeonghun Kang, Sanguk Park, Dongchan Park, Taehwan Kim. "Technical Report for CVPR 2022 LOVEU AQTC Challenge." IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshop (CVPRW), LOVEU Track 3, 2022 (2nd Place) — https://joannekim0420.github.io/papers/loveu2022/
+
+======================================================================
+## Patents
+
+### Granted (6)
+- [KR] 10-2809119 — 인공지능 모델 기반 실내 건축 공사의 하자를 탐지하기 위한 전자 장치 및 구동 방법 (AI-based electronic device for detecting defects in indoor construction work, and its operating method). Granted 2025-05-13. Application 10-2024-0160742.
+- [KR] 10-2857163 — 인공신경망 기반의 복합모델을 이용한 주차장 화재 탐지 방법 및 시스템 (Method and system for parking-lot fire detection using an ANN-based composite model). Granted 2025-09-04. Application 10-2024-0177540.
+- [KR] 10-2876730 — 사용자로그를 고려한 엘리베이터 내부의 반려동물 유무 탐지방법 및 시스템 (Method and system for detecting pets inside an elevator considering user logs). Granted 2025-10-22. Application 10-2025-0066321.
+- [KR] 10-2910653 — 인공신경망을 이용한 건설현장에서의 충돌위험 탐지방법 및 시스템 (Method and system for collision-risk detection at construction sites using artificial neural networks). Granted 2026-01-06. Application 10-2025-0060698.
+- [KR] 10-2958364 — 인공신경망을 이용한 공간의 점유율 추정방법 및 시스템 (Method and system for estimating space occupancy using artificial neural networks). Granted 2026-04-23. Application 10-2025-0066324.
+- [KR] 10-2971047 — 행동인식을 기반으로 한 IoT 가전기기 제어방법 및 시스템 (Method and system for controlling IoT home appliances based on action recognition). Granted 2026-05-26. Application 10-2025-0182191.
+
+### Applications (1)
+- [KR] 적합성이 높은 스타일변환이미지를 생성하는 방법 및 시스템 (Method and system for generating high-fidelity style-transferred images). Application 10-2025-0060701.
+
+======================================================================
+## News (1)
+
+- 2025-04-14 — HDC현산, 서울원 아이파크에 AI 승강기 도입 / HDC Hyundai Development to deploy AI elevators at Seoul One IPARK (연합뉴스) — https://www.yna.co.kr/view/AKR20250414119000003
+  - HDC현대산업개발은 인공지능(AI)을 활용한 승강기 운영 시스템 개발을 위해 HDC랩스, 현대엘리베이터와 기술제휴를 위한 업무협약식을 진행했다고 밝혔다.
+
+======================================================================
+## Research / Papers (7)
+
+- "From Prompts to Deployment: Auto-Curated Domain-Specific Dataset Generation via Diffusion Models" (From Prompts to Deployment) — WACVW 2026, 2026 (Oral)
+  - Authors: Dongsik Yoon, Jongeun Kim
+  - In this paper, we present an automated pipeline for generating domain-specific synthetic datasets with diffusion models, addressing the distribution shift between pre-trained models and real-world deployment environments. Our three-stage framework first synthesizes target objects within domain-specific backgrounds through controlled inpainting. The generated outputs are then validated via a multi-modal assessment that integrates object detection, aesthetic scoring, and vision-language alignment. Finally, a user-preference classifier is employed to capture subjective selection criteria. This pipeline enables the efficient construction of high-quality, deployable datasets while reducing reliance on extensive real-world data collection.
+- "Your Super Resolution Model is not Enough for Tackling Real-World Scenarios" (Your Super Resolution Model is not Enough) — ICCVW 2025, 2025
+  - Authors: Dongsik Yoon, Jongeun Kim
+  - Despite remarkable progress in Single Image Super-Resolution (SISR), traditional models often struggle to generalize across varying scale factors, limiting their real-world applicability. To address this, we propose a plugin Scale-Aware Attention Module (SAAM) designed to retrofit modern fixed-scale SR models with the ability to perform arbitrary-scale SR. SAAM employs lightweight, scale-adaptive feature extraction and upsampling, incorporating the Simple parameter-free Attention Module (SimAM) for efficient guidance and gradient variance loss to enhance sharpness in image details. Our method integrates seamlessly into multiple state-of-the-art SR backbones (e.g., SCNet, HiT-SR, OverNet), delivering competitive or superior performance across a wide range of integer and non-integer scale factors. Extensive experiments on benchmark datasets demonstrate that our approach enables robust multi-scale upscaling with minimal computational overhead, offering a practical solution for real-world scenarios.
+- "A Contrastive Learning Framework for Efficient Multilingual Multimodal Fusion Using Machine-Translated Data" (Multilingual Multimodal Fusion) — KSBE 2025, 2025
+  - Authors: Jongeun Kim
+  - Large vision-language models are predominantly trained on English-centric corpora, leaving multilingual users underserved. This work, conducted as my master's thesis at UNIST Graduate School of Artificial Intelligence, proposes a contrastive learning framework for efficient multilingual multimodal fusion. To compensate for scarce multilingual supervision, an image-text dataset is expanded into 14 languages using state-of-the-art machine-translation models; translation quality is validated by back-translating into English and selecting translation models by BLEU score. A pretrained CLIP image encoder and an XLM-RoBERTa multilingual text encoder are aligned in a shared latent space via projection layers trained with a multilingual contrastive loss. The resulting single image token, aligned with multilingual text, is then fed into a GPT-2-style decoder for multilingual image captioning and visual Q&A. Experiments show that even a single image token enables meaningful multilingual generation, and LLM-judge evaluation confirms that generated captions reflect image content across languages.
+- "An Integrated YOLO and VLM System for Fire Detection in Enclosed Environments" (Integrated YOLO and VLM Fire Detection) — ICLRW 2025, 2025
+  - Authors: Jongeun Kim*, Yejin Lee*, Dongsik Yoon*, Chansung Jung, Gunhee Lee
+  - While YOLO models show promise in car fire detection, they remain insufficient for real-world deployment in underground and indoor car parks due to dataset limitations, evaluation gaps, and deployment constraints. We first fine-tune YOLO on fire/smoke-augmented dataset, but analysis reveals that it struggles with ambiguous fire-smoke boundaries, leading to false predictions. To address this, we propose a real-time end-to-end framework integrating YOLOv8s with Florence2 VLM, combining object detection with contextual reasoning. While YOLOv8s with VLM improves detection reliability, challenges are still ongoing. Our findings highlight YOLO's limitations in fire detection and the need for a more adaptive, environment-aware approach.
+- "OverallNet: Scale-Arbitrary Lightweight SR Model for handling 360° Panoramic Images" (OverallNet) — SIGGRAPH Asia 2024, 2024
+  - Authors: Dongsik Yoon, Jongeun Kim, Seonggeun Song, Yejin Lee, Gunhee Lee
+  - Estimating room layouts from 360° panoramic images is an essential task in computer vision, enhancing 3D scene understanding from 2D images. To achieve and handle high-quality panoramas necessitates a Super-Resolution (SR) technique that is both light and capable of arbitrary-scale SR, optimized for efficient inference. In this study, we propose a simple model that employs a modular arbitrary-scale technique. Additionally, our model incorporates quantization to maximize efficiency during user inference, making it well-suited for processing high-quality panoramic images.
+- "Effective Slogan Generation with Noise Perturbation" (Slogan Generation with Noise Perturbation) — CIKM 2023, 2023
+  - Authors: Jongeun Kim, MinChung Kim, Taehwan Kim
+  - Slogans play a crucial role in building a company's brand identity: a good slogan must reflect the company's vision and brand value while remaining expressive and distinct. We propose a framework that automates slogan generation with a pre-trained transformer encoder-decoder fine-tuned on company descriptions and their slogans, where Gaussian noise perturbation is injected into the input embeddings as a controllable hyper-parameter that diversifies the generated sentences without losing semantic fidelity. To support training, we curated a dataset of brand/company descriptions paired with multiple slogans per company across 16 domains (e.g., food, drinks, tours, cosmetics, technology) via web crawling. Since slogans must be evaluated on both expression diversity and brand-identity consistency, we design cosine-similarity-based metrics covering both axes. The proposed approach outperforms existing methods, improving the Description score from 33.83% to 44.04% and the Reference score from 28.16% to 30.10%.
+- "Technical Report for CVPR 2022 LOVEU AQTC Challenge" (CVPR 2022 LOVEU AQTC Challenge) — CVPRW 2022, 2022 (2nd Place)
+  - Authors: Hyeonyu Kim, Jongeun Kim, Jeonghun Kang, Sanguk Park, Dongchan Park, Taehwan Kim
+  - This report presents our 2nd-place solution to the CVPR 2022 LOVEU AQTC (Affordance-centric Question-driven Task Completion) challenge, which aims to guide users through machine operation step by step by learning from instructional videos and scripts. Our model encodes heterogeneous inputs — instructional video, text script, user question, user-view image, and answer candidates — independently with ViT and BERT, strengthens the semantic connection between vision and language through cross multi-head attention, and applies a GRU over all features to inject temporal context, enabling step-wise responses to user questions. A final MLP selects the answer among the candidates. The proposed architecture improves mean recall by 0.075 over the baseline and remains effective with as few as ~100 training samples, ranking 2nd overall in track 3 of the challenge.

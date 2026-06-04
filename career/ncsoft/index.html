@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>NC Soft Jongeun Kim</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../../assets/css/style.css?v=20260605a">
+</head>
+<body data-root="../../" style="--accent:#1f2937;--accent-soft:#eef0f3;">
+
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="../../">Jongeun Kim</a>
+    <nav class="primary">
+      <a href="../../">HOME</a>
+      <a href="../../#career" class="active">CAREER</a>
+      <a href="../../#publications">PUBLICATIONS</a>
+      <a href="../../#news">NEWS</a>
+      <a href="../../#research">RESEARCH</a>
+      <div class="lang-toggle" role="tablist" aria-label="Language">
+        <button type="button" data-lang="ko" aria-label="Korean">KR</button>
+        <button type="button" data-lang="en" aria-label="English">EN</button>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="block career-detail" style="border-top:0">
+    <div class="container">
+      <div class="career-hero" style="--hero-from:#f3f4f6; --hero-to:#fafafa; --hero-accent:#d1d5db80;">
+        <div class="logo-wrap">
+          <span style="font-size:48px;" aria-hidden="true">🎮</span>
+        </div>
+        <div class="head">
+          <h1>NC Soft</h1>
+          <p class="meta">
+            <span class="ko-only">기계번역데이터팀 인턴 2021.07 ~ 2022.01</span>
+            <span class="en-only">Machine Translation Data Team, Intern 2021.07 ~ 2022.01</span>
+          </p>
+          <div class="badge-row">
+            <span class="role-badge">Machine Translation</span>
+            <span class="role-badge">NLP</span>
+            <span class="role-badge">Evaluation</span>
+          </div>
+        </div>
+      </div>
+
+      <h2>Projects</h2>
+      <div class="project">
+        <div class="proj-head">
+          <h3>
+            <span class="ko-only">다국어 기계 번역 문장 품질 평가</span>
+            <span class="en-only">Multilingual Machine-Translation Quality Evaluation</span>
+          </h3>
+          <div class="contrib-min">
+            <span class="pill"><span class="ko-only">핵심 역할</span><span class="en-only">Key role</span></span>
+            <div class="c-body">
+              <div class="c-role"><span class="ko-only">기여도 100% — 번역 품질 자동 평가 모델링, 전후처리 자동화</span><span class="en-only">100% contribution — automatic translation-quality evaluation modeling, pre/post-processing automation</span></div>
+              <div class="c-collab"><span class="ko-only"><strong>개요</strong>번역 문장과 원문 간 의미적 일치도를 수치화하여 human evaluation을 대체·보조할 수 있는 자동 평가 방법 연구</span><span class="en-only"><strong>Overview</strong>An automatic evaluation method that quantifies semantic agreement between source and translation to replace or assist human evaluation</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="phase">
+          <div class="phase-title"><span class="pnum">1</span><span class="ko-only">번역 품질 자동 평가 모델링</span><span class="en-only">Automatic Quality-Evaluation Modeling</span></div>
+          <div class="project-text">
+            <ul class="ko-only">
+              <li>사전 학습된 다국어 문장 인코더(multilingual sentence encoder)를 활용해 원문-번역문 문장 쌍을 같은 임베딩 공간으로 정렬</li>
+              <li>다국어 문장 인코더가 언어가 달라도 의미적으로 유사한 문장을 같은 latent space에서 가깝게 정렬하는 특성을 기반으로, 문장 쌍 간 Cosine Similarity를 활용해 파인튜닝 진행</li>
+              <li>임베딩 공간에서의 거리 값이 실제 사람 평가 점수와 더 높은 상관관계를 갖도록 개선, 문법·의미 보존 측면에서 신뢰도 높은 품질 평가 구현</li>
+            </ul>
+            <ul class="en-only">
+              <li>Aligned source-translation sentence pairs in a shared embedding space using a pretrained multilingual sentence encoder</li>
+              <li>Fine-tuned with cosine similarity over sentence pairs, exploiting the encoder's property of placing semantically similar sentences close together across languages</li>
+              <li>Improved the correlation between embedding distance and human evaluation scores, yielding more reliable quality assessment in grammar and meaning preservation</li>
+            </ul>
+            <div class="blabel"><span class="ko-only">성과</span><span class="en-only">Results</span></div>
+            <ul class="ko-only">
+              <li>학부생 인턴 프로젝트로 수행한 결과를 기계번역 데이터팀 내부 기술 발표 자료로 공유</li>
+            </ul>
+            <ul class="en-only">
+              <li>Results from this undergraduate-intern project were shared as an internal technical presentation within the MT data team</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">© Jongeun Kim <a href="../../">Home</a></div>
+</footer>
+
+<script src="../../assets/js/main.js?v=20260605a"></script>
+</body>
+</html>

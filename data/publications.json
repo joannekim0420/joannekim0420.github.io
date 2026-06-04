@@ -1,0 +1,97 @@
+{
+  "journals": [
+    {
+      "idx": 1,
+      "category": "Domestic",
+      "authors": "Jongeun Kim",
+      "title": "A Contrastive Learning Framework for Efficient Multilingual Multimodal Fusion Using Machine-Translated Data",
+      "venue": "한국방송·미디어공학회 하계학술대회 (KSBE Summer Conference)",
+      "year": 2025,
+      "month": 6,
+      "note": "",
+      "link": "./papers/ksbe2025/",
+      "link_type": "internal",
+      "paper_slug": "ksbe2025"
+    }
+  ],
+  "conferences": [
+    {
+      "idx": 1,
+      "category": "",
+      "authors": "Hyeonyu Kim, Jongeun Kim, Jeonghun Kang, Sanguk Park, Dongchan Park, Taehwan Kim",
+      "title": "Technical Report for CVPR 2022 LOVEU AQTC Challenge",
+      "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshop (CVPRW), LOVEU Track 3",
+      "year": 2022,
+      "month": 6,
+      "note": "2nd Place",
+      "link": "./papers/loveu2022/",
+      "link_type": "internal",
+      "paper_slug": "loveu2022"
+    },
+    {
+      "idx": 2,
+      "category": "",
+      "authors": "Jongeun Kim, MinChung Kim, Taehwan Kim",
+      "title": "Effective Slogan Generation with Noise Perturbation",
+      "venue": "ACM International Conference on Information and Knowledge Management (CIKM)",
+      "year": 2023,
+      "month": 10,
+      "note": "",
+      "link": "./papers/cikm2023/",
+      "link_type": "internal",
+      "paper_slug": "cikm2023"
+    },
+    {
+      "idx": 3,
+      "category": "",
+      "authors": "Dongsik Yoon, Jongeun Kim, Seonggeun Song, Yejin Lee, Gunhee Lee",
+      "title": "OverallNet: Scale-Arbitrary Lightweight SR Model for handling 360° Panoramic Images",
+      "venue": "SIGGRAPH Asia Posters",
+      "year": 2024,
+      "month": 12,
+      "note": "",
+      "link": "./papers/siggraph2024/",
+      "link_type": "internal",
+      "paper_slug": "siggraph2024"
+    },
+    {
+      "idx": 4,
+      "category": "",
+      "authors": "Jongeun Kim*, Yejin Lee*, Dongsik Yoon*, Chansung Jung, Gunhee Lee",
+      "title": "An Integrated YOLO and VLM System for Fire Detection in Enclosed Environments",
+      "venue": "International Conference on Learning Representations Workshop (ICLRW)",
+      "year": 2025,
+      "month": 4,
+      "note": "",
+      "link": "./papers/iclrw2025/",
+      "link_type": "internal",
+      "paper_slug": "iclrw2025"
+    },
+    {
+      "idx": 5,
+      "category": "",
+      "authors": "Dongsik Yoon, Jongeun Kim",
+      "title": "Your Super Resolution Model is not Enough for Tackling Real-World Scenarios",
+      "venue": "International Conference on Computer Vision Workshop (ICCVW)",
+      "year": 2025,
+      "month": 10,
+      "note": "",
+      "link": "./papers/iccvw2025/",
+      "link_type": "internal",
+      "paper_slug": "iccvw2025"
+    },
+    {
+      "idx": 6,
+      "category": "",
+      "authors": "Dongsik Yoon, Jongeun Kim",
+      "title": "From Prompts to Deployment: Auto-Curated Domain-Specific Dataset Generation via Diffusion Models",
+      "venue": "IEEE/CVF Winter Conference on Applications of Computer Vision Workshop (WACVW)",
+      "year": 2026,
+      "month": 3,
+      "note": "Oral",
+      "link": "./papers/wacvw2026/",
+      "link_type": "internal",
+      "paper_slug": "wacvw2026"
+    }
+  ]
+}

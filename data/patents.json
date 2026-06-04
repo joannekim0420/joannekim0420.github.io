@@ -1,0 +1,68 @@
+{
+  "granted": [
+    {
+      "idx": 1,
+      "title": "인공지능 모델 기반 실내 건축 공사의 하자를 탐지하기 위한 전자 장치 및 구동 방법",
+      "title_en": "AI-based electronic device for detecting defects in indoor construction work, and its operating method",
+      "country": "KR",
+      "patent_no": "10-2809119",
+      "application_no": "10-2024-0160742",
+      "granted_date": "2025-05-13"
+    },
+    {
+      "idx": 2,
+      "title": "인공신경망 기반의 복합모델을 이용한 주차장 화재 탐지 방법 및 시스템",
+      "title_en": "Method and system for parking-lot fire detection using an ANN-based composite model",
+      "country": "KR",
+      "patent_no": "10-2857163",
+      "application_no": "10-2024-0177540",
+      "granted_date": "2025-09-04"
+    },
+    {
+      "idx": 3,
+      "title": "사용자로그를 고려한 엘리베이터 내부의 반려동물 유무 탐지방법 및 시스템",
+      "title_en": "Method and system for detecting pets inside an elevator considering user logs",
+      "country": "KR",
+      "patent_no": "10-2876730",
+      "application_no": "10-2025-0066321",
+      "granted_date": "2025-10-22"
+    },
+    {
+      "idx": 4,
+      "title": "인공신경망을 이용한 건설현장에서의 충돌위험 탐지방법 및 시스템",
+      "title_en": "Method and system for collision-risk detection at construction sites using artificial neural networks",
+      "country": "KR",
+      "patent_no": "10-2910653",
+      "application_no": "10-2025-0060698",
+      "granted_date": "2026-01-06"
+    },
+    {
+      "idx": 5,
+      "title": "인공신경망을 이용한 공간의 점유율 추정방법 및 시스템",
+      "title_en": "Method and system for estimating space occupancy using artificial neural networks",
+      "country": "KR",
+      "patent_no": "10-2958364",
+      "application_no": "10-2025-0066324",
+      "granted_date": "2026-04-23"
+    },
+    {
+      "idx": 6,
+      "title": "행동인식을 기반으로 한 IoT 가전기기 제어방법 및 시스템",
+      "title_en": "Method and system for controlling IoT home appliances based on action recognition",
+      "country": "KR",
+      "patent_no": "10-2971047",
+      "application_no": "10-2025-0182191",
+      "granted_date": "2026-05-26"
+    }
+  ],
+  "application": [
+    {
+      "idx": 1,
+      "title": "적합성이 높은 스타일변환이미지를 생성하는 방법 및 시스템",
+      "title_en": "Method and system for generating high-fidelity style-transferred images",
+      "country": "KR",
+      "application_no": "10-2025-0060701",
+      "published_date": "2025-05-09"
+    }
+  ]
+}

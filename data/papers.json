@@ -1,0 +1,319 @@
+[
+  {
+    "slug": "wacvw2026",
+    "title": "From Prompts to Deployment: Auto-Curated Domain-Specific Dataset Generation via Diffusion Models",
+    "short_title": "From Prompts to Deployment",
+    "venue": "IEEE/CVF Winter Conference on Applications of Computer Vision Workshop (WACVW)",
+    "venue_short": "WACVW 2026",
+    "year": 2026,
+    "month": "March",
+    "note": "Oral",
+    "authors": ["Dongsik Yoon", "Jongeun Kim"],
+    "affiliation": "HDC LABS",
+    "abstract": "In this paper, we present an automated pipeline for generating domain-specific synthetic datasets with diffusion models, addressing the distribution shift between pre-trained models and real-world deployment environments. Our three-stage framework first synthesizes target objects within domain-specific backgrounds through controlled inpainting. The generated outputs are then validated via a multi-modal assessment that integrates object detection, aesthetic scoring, and vision-language alignment. Finally, a user-preference classifier is employed to capture subjective selection criteria. This pipeline enables the efficient construction of high-quality, deployable datasets while reducing reliance on extensive real-world data collection.",
+    "video_id": "Z2OQIBj17bM",
+    "video_title": "[SAFE @ WACV 2026 Oral] Auto-Curated Domain-Specific Dataset Generation via Diffusion Models",
+    "thumbnail_external": "/assets/img/ext/6967a74701de1eca43eb3233_fig1_4.png",
+    "thumbnail_caption": "Overview of the proposed three-stage, diffusion-based dataset generation and auto-curation pipeline.",
+    "links": [
+      { "label": "Paper (arXiv)", "url": "https://arxiv.org/abs/2601.08095", "type": "arxiv" }
+    ],
+    "sections": [
+      {
+        "title": "Proposed Methods",
+        "intro": "Our automated dataset generation pipeline has two prerequisites:",
+        "bullets": [
+          "Domain-specific background images: scenes that are intrinsically difficult to collect or tied to a specific site (e.g., underground parking lots, elevator CCTV views, home security camera footage). Because these images constitute the backgrounds in which the model will operate in real-world settings, the number of obtainable images may be limited.",
+          "Target object: the object to be synthesized within the given domain context. We focus on natural object–scene combinations that are scarce in publicly available datasets (e.g., underground parking lot with a fire, elevator CCTV viewpoint with a dog, robot vacuum cleaners in home security footage)."
+        ],
+        "figures": []
+      },
+      {
+        "title": "Accepted samples",
+        "figures": [
+          {
+            "src": "/assets/img/ext/6967a91653488b0c12747628_fig4_2.png",
+            "caption": "Success image that passes all three stages, demonstrating target object synthesis within a domain-specific background."
+          }
+        ]
+      },
+      {
+        "title": "Rejected samples",
+        "figures": [
+          {
+            "src": "/assets/img/ext/6967a76ff35a235d94428751_fig2_2.png",
+            "caption": "Rejected @ Stage 1 — Instance detection & aesthetic filtering. Negative images that failed object synthesis due to low detection and aesthetics scores."
+          },
+          {
+            "src": "/assets/img/ext/6967a8eab2e29e5976f538f1_fig3_2.png",
+            "caption": "Rejected @ Stage 2 — Preference score filtering. Discarded images rejected in Stage 2 due to poor viewpoint/pose from annotators despite successful object synthesis."
+          }
+        ]
+      }
+    ],
+    "bibtex": "@inproceedings{yoon2026fromprompts,\n  title     = {From Prompts to Deployment: Auto-Curated Domain-Specific Dataset Generation via Diffusion Models},\n  author    = {Yoon, Dongsik and Kim, Jongeun},\n  booktitle = {IEEE/CVF Winter Conference on Applications of Computer Vision Workshops (WACVW)},\n  year      = {2026}\n}"
+  },
+  {
+    "slug": "iccvw2025",
+    "title": "Your Super Resolution Model is not Enough for Tackling Real-World Scenarios",
+    "short_title": "Your Super Resolution Model is not Enough",
+    "venue": "International Conference on Computer Vision Workshop (ICCVW)",
+    "venue_short": "ICCVW 2025",
+    "year": 2025,
+    "month": "October",
+    "note": "",
+    "authors": ["Dongsik Yoon", "Jongeun Kim"],
+    "affiliation": "HDC LABS",
+    "abstract": "Despite remarkable progress in Single Image Super-Resolution (SISR), traditional models often struggle to generalize across varying scale factors, limiting their real-world applicability. To address this, we propose a plugin Scale-Aware Attention Module (SAAM) designed to retrofit modern fixed-scale SR models with the ability to perform arbitrary-scale SR. SAAM employs lightweight, scale-adaptive feature extraction and upsampling, incorporating the Simple parameter-free Attention Module (SimAM) for efficient guidance and gradient variance loss to enhance sharpness in image details. Our method integrates seamlessly into multiple state-of-the-art SR backbones (e.g., SCNet, HiT-SR, OverNet), delivering competitive or superior performance across a wide range of integer and non-integer scale factors. Extensive experiments on benchmark datasets demonstrate that our approach enables robust multi-scale upscaling with minimal computational overhead, offering a practical solution for real-world scenarios.",
+    "thumbnail_external": "/assets/img/ext/687f0956472aac22b4b599df_fig2_4.png",
+    "thumbnail_caption": "Comparison between the existing feature adaptation block and the proposed SAAM block.",
+    "links": [
+      { "label": "Paper (CVF Open Access)", "url": "https://openaccess.thecvf.com/content/ICCV2025W/ECLR/html/Yoon_Your_Super_Resolution_Model_is_not_Enough_for_Tackling_Real-World_ICCVW_2025_paper.html", "type": "cvf_openaccess" }
+    ],
+    "sections": [
+      {
+        "title": "Quantitative Comparison",
+        "figures": [
+          {
+            "src": "/assets/img/ext/687f09e6a6134c58e34f2880_tb1.PNG",
+            "caption": "Baseline models are each trained on data that match a single output scale; as a result, most cannot infer images at unseen scales. Our unified model, with only a lightweight plug-in, delivers comparable or superior results across many scales."
+          }
+        ]
+      },
+      {
+        "title": "Qualitative Comparison",
+        "figures": [
+          {
+            "src": "/assets/img/ext/687f095db7975d70c6e3ef00_fig3.png",
+            "caption": "Qualitative comparison by integrating our method into the baseline model on BSD100 and Urban100."
+          }
+        ]
+      }
+    ],
+    "bibtex": "@inproceedings{yoon2025yoursr,\n  title     = {Your Super Resolution Model is not Enough for Tackling Real-World Scenarios},\n  author    = {Yoon, Dongsik and Kim, Jongeun},\n  booktitle = {International Conference on Computer Vision Workshops (ICCVW)},\n  year      = {2025}\n}"
+  },
+  {
+    "slug": "ksbe2025",
+    "title": "A Contrastive Learning Framework for Efficient Multilingual Multimodal Fusion Using Machine-Translated Data",
+    "short_title": "Multilingual Multimodal Fusion",
+    "venue": "한국방송·미디어공학회 하계학술대회 (KSBE Summer Conference)",
+    "venue_short": "KSBE 2025",
+    "year": 2025,
+    "month": "June",
+    "note": "",
+    "authors": ["Jongeun Kim"],
+    "affiliation": "UNIST",
+    "abstract": "Large vision-language models are predominantly trained on English-centric corpora, leaving multilingual users underserved. This work, conducted as my master's thesis at UNIST Graduate School of Artificial Intelligence, proposes a contrastive learning framework for efficient multilingual multimodal fusion. To compensate for scarce multilingual supervision, an image-text dataset is expanded into 14 languages using state-of-the-art machine-translation models; translation quality is validated by back-translating into English and selecting translation models by BLEU score. A pretrained CLIP image encoder and an XLM-RoBERTa multilingual text encoder are aligned in a shared latent space via projection layers trained with a multilingual contrastive loss. The resulting single image token, aligned with multilingual text, is then fed into a GPT-2-style decoder for multilingual image captioning and visual Q&A. Experiments show that even a single image token enables meaningful multilingual generation, and LLM-judge evaluation confirms that generated captions reflect image content across languages.",
+    "links": [],
+    "sections": [
+      {
+        "title": "Machine-Translation-Based Multilingual Data Augmentation",
+        "bullets": [
+          "Expanded the training dataset into 14 languages using state-of-the-art machine-translation models to compensate for scarce multilingual image-text data.",
+          "Validated translation quality by back-translating each output into English and computing BLEU against the source sentence, keeping only translation models that pass the quality bar."
+        ],
+        "figures": []
+      },
+      {
+        "title": "Multilingual Multimodal Modeling",
+        "bullets": [
+          "Part A — Multilingual Representation Alignment: image features from a pretrained CLIP image encoder and multilingual text features from XLM-RoBERTa pass through projection layers and are fused in a shared latent space with a multilingual contrastive loss over image-text pairs.",
+          "Part B — Multilingual Captioning & Generation: the single image token aligned with multilingual text in Part A is fed into a GPT-2-family decoder, trained on image-grounded captioning and Q&A tasks."
+        ],
+        "figures": []
+      },
+      {
+        "title": "Results",
+        "bullets": [
+          "Rather than chasing benchmark gains over existing models, the study demonstrates that meaningful multilingual generation is possible from a single image token.",
+          "LLM-judge evaluation confirmed that generated captions reflect the image content across diverse languages."
+        ],
+        "figures": []
+      }
+    ],
+    "bibtex": "@inproceedings{kim2025multilingual,\n  title     = {A Contrastive Learning Framework for Efficient Multilingual Multimodal Fusion Using Machine-Translated Data},\n  author    = {Kim, Jongeun},\n  booktitle = {Korean Society of Broadcast and Media Engineers (KSBE) Summer Conference},\n  year      = {2025}\n}"
+  },
+  {
+    "slug": "iclrw2025",
+    "title": "An Integrated YOLO and VLM System for Fire Detection in Enclosed Environments",
+    "short_title": "Integrated YOLO and VLM Fire Detection",
+    "venue": "International Conference on Learning Representations Workshop (ICLRW)",
+    "venue_short": "ICLRW 2025",
+    "year": 2025,
+    "month": "April",
+    "note": "",
+    "authors": ["Jongeun Kim*", "Yejin Lee*", "Dongsik Yoon*", "Chansung Jung", "Gunhee Lee"],
+    "affiliation": "HDC LABS",
+    "abstract": "While YOLO models show promise in car fire detection, they remain insufficient for real-world deployment in underground and indoor car parks due to dataset limitations, evaluation gaps, and deployment constraints. We first fine-tune YOLO on fire/smoke-augmented dataset, but analysis reveals that it struggles with ambiguous fire-smoke boundaries, leading to false predictions. To address this, we propose a real-time end-to-end framework integrating YOLOv8s with Florence2 VLM, combining object detection with contextual reasoning. While YOLOv8s with VLM improves detection reliability, challenges are still ongoing. Our findings highlight YOLO's limitations in fire detection and the need for a more adaptive, environment-aware approach.",
+    "thumbnail_external": "/assets/img/ext/68738cf93f954fe802db4a24_zzxc.webp",
+    "thumbnail_caption": "Qualitative results on real-world fire comparing VLM only, YOLO only, and our proposed approach of VLM+YOLO integration.",
+    "links": [
+      { "label": "Paper (PMLR)", "url": "https://proceedings.mlr.press/v296/kim25a.html", "type": "mlr" },
+      { "label": "OpenReview", "url": "https://openreview.net/forum?id=SKZuWQOHTh", "type": "external" }
+    ],
+    "sections": [
+      {
+        "title": "Proposed Methods",
+        "figures": [
+          {
+            "src": "/assets/img/ext/6872715b1841454b4af36ae2_fire.png",
+            "caption": "An end-to-end fire detection framework designed for detecting car fire/smoke events in real-time CCTV footage of confined environments. The framework consists of four main stages: data augmentation, training, real-time inference, and alerting security."
+          }
+        ]
+      },
+      {
+        "title": "Quantitative Comparison",
+        "figures": [
+          {
+            "src": "/assets/img/ext/687db97be07bbbdecb0d8b44_tb1.PNG",
+            "caption": "Automatic evaluation of YOLO models with and without the VLM integration on test set."
+          }
+        ]
+      },
+      {
+        "title": "Ablation Study",
+        "figures": [
+          {
+            "src": "/assets/img/ext/687dbc02a292c37c81a9fd07_tb2.PNG",
+            "caption": "Ablation study on the impact of confidence threshold adjustments and the exclusion of synthetic data."
+          }
+        ]
+      },
+      {
+        "title": "Fire / Smoke Dataset Augmentation",
+        "figures": [
+          {
+            "src": "/assets/img/ext/687dba4a8a0a65f3934b1b97_Picture1_2.png",
+            "caption": "Fire/Smoke Dataset Generation Workflow for Underground Parking Scenarios. The process breaks down to three stages: Location and mask preparation, fire/smoke object generation, and image refinement."
+          },
+          {
+            "src": "/assets/img/ext/687dba4aff3efd85b1b7cba4_fig4_2.png",
+            "caption": "Examples of synthetically generated fire and smoke images."
+          }
+        ]
+      }
+    ],
+    "bibtex": "@inproceedings{kim2025yolovlm,\n  title     = {An Integrated {YOLO} and {VLM} System for Fire Detection in Enclosed Environments},\n  author    = {Kim, Jongeun and Lee, Yejin and Yoon, Dongsik and Jung, Chansung and Lee, Gunhee},\n  booktitle = {ICLR Workshops},\n  year      = {2025}\n}"
+  },
+  {
+    "slug": "siggraph2024",
+    "title": "OverallNet: Scale-Arbitrary Lightweight SR Model for handling 360° Panoramic Images",
+    "short_title": "OverallNet",
+    "venue": "SIGGRAPH Asia Posters",
+    "venue_short": "SIGGRAPH Asia 2024",
+    "year": 2024,
+    "month": "December",
+    "note": "",
+    "authors": ["Dongsik Yoon", "Jongeun Kim", "Seonggeun Song", "Yejin Lee", "Gunhee Lee"],
+    "affiliation": "HDC LABS",
+    "abstract": "Estimating room layouts from 360° panoramic images is an essential task in computer vision, enhancing 3D scene understanding from 2D images. To achieve and handle high-quality panoramas necessitates a Super-Resolution (SR) technique that is both light and capable of arbitrary-scale SR, optimized for efficient inference. In this study, we propose a simple model that employs a modular arbitrary-scale technique. Additionally, our model incorporates quantization to maximize efficiency during user inference, making it well-suited for processing high-quality panoramic images.",
+    "thumbnail_external": "/assets/img/ext/687bc27386c3d9d7043935da_app_1_2.png",
+    "thumbnail_caption": "A summary of the method for processing panoramics with the SR technique.",
+    "links": [
+      { "label": "Paper (ACM DL)", "url": "https://dl.acm.org/doi/10.1145/3681756.3697939", "type": "acm" }
+    ],
+    "sections": [
+      {
+        "title": "Proposed Methods",
+        "figures": [
+          {
+            "src": "/assets/img/ext/687bc25783fa35cf717ec286_fig1_7.png",
+            "caption": "We propose a novel architecture that incorporates the scale-aware module of ArbSR. To further enhance SR sharpness and realism, we introduce a feature extractor built with a block called the scale-aware dense group (SADG). Unlike OSM, our architecture includes a scale-aware upsampling layer, facilitating scale-arbitrary SR at various factors. We replace activation functions in the SADG block with SiLU layers."
+          }
+        ]
+      },
+      {
+        "title": "Qualitative Comparison",
+        "figures": [
+          {
+            "src": "/assets/img/ext/687bc2580017efd81270d449_app_2_2.png",
+            "caption": "We compare SR quality with the existing OverNet method, each trained on three different scale types. Validations are conducted on the Set14 dataset. OverNet shows considerable degradation when applied to scales not covered in its training dataset."
+          }
+        ]
+      }
+    ],
+    "bibtex": "@inproceedings{yoon2024overallnet,\n  title     = {OverallNet: Scale-Arbitrary Lightweight SR Model for handling 360° Panoramic Images},\n  author    = {Yoon, Dongsik and Kim, Jongeun and Song, Seonggeun and Lee, Yejin and Lee, Gunhee},\n  booktitle = {SIGGRAPH Asia Posters},\n  year      = {2024},\n  doi       = {10.1145/3681756.3697939}\n}"
+  },
+  {
+    "slug": "cikm2023",
+    "title": "Effective Slogan Generation with Noise Perturbation",
+    "short_title": "Slogan Generation with Noise Perturbation",
+    "venue": "ACM International Conference on Information and Knowledge Management (CIKM)",
+    "venue_short": "CIKM 2023",
+    "year": 2023,
+    "month": "October",
+    "note": "",
+    "authors": ["Jongeun Kim", "MinChung Kim", "Taehwan Kim"],
+    "affiliation": "UNIST",
+    "abstract": "Slogans play a crucial role in building a company's brand identity: a good slogan must reflect the company's vision and brand value while remaining expressive and distinct. We propose a framework that automates slogan generation with a pre-trained transformer encoder-decoder fine-tuned on company descriptions and their slogans, where Gaussian noise perturbation is injected into the input embeddings as a controllable hyper-parameter that diversifies the generated sentences without losing semantic fidelity. To support training, we curated a dataset of brand/company descriptions paired with multiple slogans per company across 16 domains (e.g., food, drinks, tours, cosmetics, technology) via web crawling. Since slogans must be evaluated on both expression diversity and brand-identity consistency, we design cosine-similarity-based metrics covering both axes. The proposed approach outperforms existing methods, improving the Description score from 33.83% to 44.04% and the Reference score from 28.16% to 30.10%.",
+    "links": [
+      { "label": "Paper (arXiv)", "url": "https://arxiv.org/abs/2310.04472", "type": "arxiv" }
+    ],
+    "sections": [
+      {
+        "title": "Dataset Construction",
+        "bullets": [
+          "Crawled brand/company descriptions and slogans across 16 domains (food, drinks, tours, cosmetics, technology, etc.).",
+          "Paired each company with multiple slogans to secure diversity in slogan generation.",
+          "Cleaned the corpus by removing dates, special characters, and other noise during preprocessing."
+        ],
+        "figures": []
+      },
+      {
+        "title": "Noise-Perturbation Modeling",
+        "bullets": [
+          "Added Gaussian noise to the input embeddings before the transformer encoder, exposing a hyper-parameter that controls sentence diversity.",
+          "Fine-tuned the encoder-decoder so that generation stays anchored to the company description while varying surface expression."
+        ],
+        "figures": []
+      },
+      {
+        "title": "Evaluation & Results",
+        "bullets": [
+          "Designed cosine-similarity-based metrics that jointly evaluate expression diversity and brand-identity consistency.",
+          "Achieved state-of-the-art performance against prior slogan-generation methods: Description 33.83% → 44.04%, Reference 28.16% → 30.10%."
+        ],
+        "figures": []
+      }
+    ],
+    "bibtex": "@inproceedings{kim2023slogan,\n  title     = {Effective Slogan Generation with Noise Perturbation},\n  author    = {Kim, Jongeun and Kim, MinChung and Kim, Taehwan},\n  booktitle = {Proceedings of the 32nd ACM International Conference on Information and Knowledge Management (CIKM)},\n  year      = {2023}\n}"
+  },
+  {
+    "slug": "loveu2022",
+    "title": "Technical Report for CVPR 2022 LOVEU AQTC Challenge",
+    "short_title": "CVPR 2022 LOVEU AQTC Challenge",
+    "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshop (CVPRW), LOVEU Track 3",
+    "venue_short": "CVPRW 2022",
+    "year": 2022,
+    "month": "June",
+    "note": "2nd Place",
+    "authors": ["Hyeonyu Kim", "Jongeun Kim", "Jeonghun Kang", "Sanguk Park", "Dongchan Park", "Taehwan Kim"],
+    "affiliation": "UNIST",
+    "abstract": "This report presents our 2nd-place solution to the CVPR 2022 LOVEU AQTC (Affordance-centric Question-driven Task Completion) challenge, which aims to guide users through machine operation step by step by learning from instructional videos and scripts. Our model encodes heterogeneous inputs — instructional video, text script, user question, user-view image, and answer candidates — independently with ViT and BERT, strengthens the semantic connection between vision and language through cross multi-head attention, and applies a GRU over all features to inject temporal context, enabling step-wise responses to user questions. A final MLP selects the answer among the candidates. The proposed architecture improves mean recall by 0.075 over the baseline and remains effective with as few as ~100 training samples, ranking 2nd overall in track 3 of the challenge.",
+    "links": [
+      { "label": "Paper (arXiv)", "url": "https://arxiv.org/abs/2206.14555", "type": "arxiv" }
+    ],
+    "sections": [
+      {
+        "title": "Multimodal Modeling",
+        "bullets": [
+          "Extracted features independently for each modality — video, text script, user question, user-view image, and answer candidates — using ViT and BERT encoders.",
+          "Applied cross multi-head attention to strengthen the semantic connection between visual and textual modalities.",
+          "Applied a GRU over all features to reflect temporal information, enabling step-by-step answers to the user's question.",
+          "Selected the final answer among candidates with an MLP head."
+        ],
+        "figures": []
+      },
+      {
+        "title": "Results",
+        "bullets": [
+          "Improved mean recall by 0.075 over the challenge baseline.",
+          "Ranked 2nd overall in the CVPR 2022 LOVEU Workshop Track 3 challenge, placing 1st in two of the four evaluation metrics.",
+          "Demonstrated an architecture that learns effectively from a small training set of around 100 samples."
+        ],
+        "figures": []
+      }
+    ],
+    "bibtex": "@article{kim2022loveu,\n  title   = {Technical Report for CVPR 2022 LOVEU AQTC Challenge},\n  author  = {Kim, Hyeonyu and Kim, Jongeun and Kang, Jeonghun and Park, Sanguk and Park, Dongchan and Kim, Taehwan},\n  journal = {arXiv preprint arXiv:2206.14555},\n  year    = {2022}\n}"
+  }
+]
