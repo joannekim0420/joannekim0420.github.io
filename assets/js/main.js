@@ -25,6 +25,11 @@
     return res.json();
   }
 
+  // Pick Korean or English label based on the active language (default ko).
+  function L(ko, en) {
+    return currentLang() === 'ko' ? ko : en;
+  }
+
   function highlightAuthors(authorsStr) {
     // Bold "Jongeun Kim" wherever it appears.
     return authorsStr.replace(/(Jongeun Kim\*?)/g, '<span class="me">$1</span>');
@@ -38,11 +43,14 @@
   }
 
   function linkTag(linkType) {
+    // Proper nouns (arXiv, IEEE, CVF, ACM, PMLR) stay as-is in both languages.
     const map = {
       arxiv: 'arXiv', ieee: 'IEEE Xplore', cvf_openaccess: 'CVF', acm: 'ACM DL',
-      mlr: 'PMLR', project_page: 'Project page', code: 'Code', internal: 'Details', external: 'Link'
+      mlr: 'PMLR',
+      project_page: L('프로젝트 페이지', 'Project page'), code: L('코드', 'Code'),
+      internal: L('상세', 'Details'), external: L('링크', 'Link')
     };
-    return map[linkType] || 'Link';
+    return map[linkType] || L('링크', 'Link');
   }
 
   function renderPublications(target, data) {
@@ -51,14 +59,14 @@
     const conferences = data.conferences.slice().sort((a, b) => b.idx - a.idx);
 
     if (conferences.length) {
-      target.appendChild(el('h3', { class: 'sub-h' }, 'International Conference'));
+      target.appendChild(el('h3', { class: 'sub-h' }, L('국제 학회', 'International Conference')));
       const ul1 = el('ul', { class: 'pub-list' });
       for (const c of conferences) ul1.appendChild(renderPubItem(c));
       target.appendChild(ul1);
     }
 
     if (journals.length) {
-      target.appendChild(el('h3', { class: 'sub-h' }, 'Domestic Conference'));
+      target.appendChild(el('h3', { class: 'sub-h' }, L('국내 학회', 'Domestic Conference')));
       const ul2 = el('ul', { class: 'pub-list' });
       for (const j of journals) ul2.appendChild(renderPubItem(j));
       target.appendChild(ul2);
@@ -95,9 +103,9 @@
 
   function renderPatents(target, data) {
     target.innerHTML = '';
-    target.appendChild(el('h3', { class: 'sub-h' }, 'Granted'));
+    target.appendChild(el('h3', { class: 'sub-h' }, L('등록', 'Granted')));
     target.appendChild(renderPatentTable(data.granted, true));
-    target.appendChild(el('h3', { class: 'sub-h' }, 'Application'));
+    target.appendChild(el('h3', { class: 'sub-h' }, L('출원', 'Application')));
     target.appendChild(renderPatentTable(data.application, false));
   }
 
@@ -105,8 +113,8 @@
     const table = el('table', { class: 'patent-table' });
     const head = el('thead');
     head.innerHTML = granted
-      ? '<tr><th>#</th><th>Title</th><th>Patent No.</th><th>Application No.</th><th>Granted</th></tr>'
-      : '<tr><th>#</th><th>Title</th><th>Application/Publication No.</th><th>Date</th></tr>';
+      ? `<tr><th>#</th><th>${L('명칭', 'Title')}</th><th>${L('등록번호', 'Patent No.')}</th><th>${L('출원번호', 'Application No.')}</th><th>${L('등록일', 'Granted')}</th></tr>`
+      : `<tr><th>#</th><th>${L('명칭', 'Title')}</th><th>${L('출원/공개번호', 'Application/Publication No.')}</th><th>${L('일자', 'Date')}</th></tr>`;
     table.appendChild(head);
     const body = el('tbody');
     rows.forEach((r) => {
@@ -208,7 +216,7 @@
         </figure>` : ''}
 
         ${paper.video_id ? `
-        <h2 class="paper-section-heading">${escapeHtml(paper.video_heading || 'Presentation')}</h2>
+        <h2 class="paper-section-heading">${escapeHtml(paper.video_heading || L('발표', 'Presentation'))}</h2>
         <div class="paper-video">
           <iframe src="https://www.youtube.com/embed/${encodeURIComponent(paper.video_id)}?rel=0&controls=1"
                   frameborder="0"
@@ -218,14 +226,14 @@
         </div>` : ''}
 
         <div class="paper-body">
-          <h2>Abstract</h2>
+          <h2>${L('초록', 'Abstract')}</h2>
           <p>${escapeHtml(paper.abstract)}</p>
 
           ${sectionsHtml}
 
           <h2>BibTeX</h2>
           <div class="bibtex-box">
-            <button class="copy" type="button">Copy</button>
+            <button class="copy" type="button">${L('복사', 'Copy')}</button>
             <pre id="bibtex-pre">${escapeHtml(paper.bibtex)}</pre>
           </div>
         </div>
@@ -235,10 +243,10 @@
       copyBtn.addEventListener('click', async () => {
         try {
           await navigator.clipboard.writeText(paper.bibtex);
-          copyBtn.textContent = 'Copied!';
-          setTimeout(() => (copyBtn.textContent = 'Copy'), 1500);
+          copyBtn.textContent = L('복사됨!', 'Copied!');
+          setTimeout(() => (copyBtn.textContent = L('복사', 'Copy')), 1500);
         } catch (e) {
-          copyBtn.textContent = 'Copy failed';
+          copyBtn.textContent = L('복사 실패', 'Copy failed');
         }
       });
     }

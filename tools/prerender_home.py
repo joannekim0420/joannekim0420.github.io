@@ -41,10 +41,12 @@ def hl_authors(s):
     return re.sub(r"(Jongeun Kim\*?)", r'<span class="me">\1</span>', esc(s))
 
 
+# Korean labels — the prerendered fallback renders in the page's DEFAULT language
+# (Korean), matching what a first-time visitor sees before main.js re-renders.
 LINK_TAG = {
     "arxiv": "arXiv", "ieee": "IEEE Xplore", "cvf_openaccess": "CVF", "acm": "ACM DL",
-    "mlr": "PMLR", "project_page": "Project page", "code": "Code",
-    "internal": "Details", "external": "Link",
+    "mlr": "PMLR", "project_page": "프로젝트 페이지", "code": "코드",
+    "internal": "상세", "external": "링크",
 }
 
 
@@ -90,11 +92,11 @@ def render_publications():
 
     out = []
     if confs:
-        out.append('<h3 class="sub-h">International Conference</h3><ul class="pub-list">')
+        out.append('<h3 class="sub-h">국제 학회</h3><ul class="pub-list">')
         out += [item(c) for c in confs]
         out.append("</ul>")
     if journals:
-        out.append('<h3 class="sub-h">Domestic Conference</h3><ul class="pub-list">')
+        out.append('<h3 class="sub-h">국내 학회</h3><ul class="pub-list">')
         out += [item(j) for j in journals]
         out.append("</ul>")
     return "".join(out)
@@ -105,9 +107,9 @@ def render_patents():
 
     def table(rows, granted):
         if granted:
-            head = "<tr><th>#</th><th>Title</th><th>Patent No.</th><th>Application No.</th><th>Granted</th></tr>"
+            head = "<tr><th>#</th><th>명칭</th><th>등록번호</th><th>출원번호</th><th>등록일</th></tr>"
         else:
-            head = "<tr><th>#</th><th>Title</th><th>Application/Publication No.</th><th>Date</th></tr>"
+            head = "<tr><th>#</th><th>명칭</th><th>출원/공개번호</th><th>일자</th></tr>"
         body = []
         for r in rows:
             title = esc(r.get("title"))  # KO default (matches pickLang default)
@@ -130,8 +132,8 @@ def render_patents():
         return '<table class="patent-table"><thead>%s</thead><tbody>%s</tbody></table>' % (
             head, "".join(body))
 
-    return ('<h3 class="sub-h">Granted</h3>%s'
-            '<h3 class="sub-h">Application</h3>%s') % (
+    return ('<h3 class="sub-h">등록</h3>%s'
+            '<h3 class="sub-h">출원</h3>%s') % (
         table(d["granted"], True), table(d["application"], False))
 
 

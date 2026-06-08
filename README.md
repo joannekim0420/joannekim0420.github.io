@@ -16,7 +16,7 @@ Pure static HTML + vanilla JS — **no build step**. GitHub Pages serves the rep
   - `patents.json` — granted / application patent tables
   - `news.json` — news cards
   - `papers.json` — full per-paper data rendered into `papers/<slug>/`
-- `career/<slug>/` — per-workplace detail pages (hdclabs, unist, ncsoft, choroksoft, smu)
+- `career/<slug>/` — per-workplace detail pages (hdclabs, unist, ncsoft, smu)
 - `papers/<slug>/` — per-paper detail shells (content comes from `data/papers.json`)
 - `assets/js/main.js` — renders the JSON data, KR/EN language toggle, tabs
 - Bilingual: `.ko-only` / `.en-only` blocks toggled via the KR/EN buttons

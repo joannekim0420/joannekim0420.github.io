@@ -7,7 +7,6 @@
 - [Career — HDC LABS](https://joannekim0420.github.io/career/hdclabs/): Home AI agent / elevator situational analysis / fire detection project deep-dives
 - [Career — UNIST](https://joannekim0420.github.io/career/unist/): M.S. in Artificial Intelligence — multilingual multimodal, LG utterance generation, slogan generation, LOVEU challenge
 - [Career — NC Soft](https://joannekim0420.github.io/career/ncsoft/): Machine-translation quality evaluation internship
-- [Career — ChorokSoft](https://joannekim0420.github.io/career/choroksoft/): Sports AI internship — golf-swing pose analysis
 - [Career — Sangmyung University](https://joannekim0420.github.io/career/smu/): B.S. in Human Intelligence Information Engineering
 
 ## Full content

@@ -9,7 +9,6 @@ Source of truth: the repository at github.com/joannekim0420/joannekim0420.github
 - https://joannekim0420.github.io/career/hdclabs/ — Career — HDC LABS: Home AI agent / elevator situational analysis / fire detection project deep-dives
 - https://joannekim0420.github.io/career/unist/ — Career — UNIST: M.S. in Artificial Intelligence — multilingual multimodal, LG utterance generation, slogan generation, LOVEU challenge
 - https://joannekim0420.github.io/career/ncsoft/ — Career — NC Soft: Machine-translation quality evaluation internship
-- https://joannekim0420.github.io/career/choroksoft/ — Career — ChorokSoft: Sports AI internship — golf-swing pose analysis
 - https://joannekim0420.github.io/career/smu/ — Career — Sangmyung University: B.S. in Human Intelligence Information Engineering
 - https://joannekim0420.github.io/llms.txt — short index (this file's table of contents)
 
@@ -18,12 +17,22 @@ Source of truth: the repository at github.com/joannekim0420/joannekim0420.github
 ## Page: Home  (https://joannekim0420.github.io/)
 _Profile, career overview, and tabbed publications / patents / news / research_
 
+김종은
 Jongeun Kim
 
+홈
 HOME
+
+경력
 CAREER
+
+논문
 PUBLICATIONS
+
+뉴스
 NEWS
+
+연구
 RESEARCH
 
 KR
@@ -50,29 +59,35 @@ LinkedIn
 
 Scholar
 
-JK
+[image: Jongeun Kim]
 
-## Career
+## 경력
+Career
 
+카드를 클릭하면 상세 정보를 볼 수 있습니다
 Click a card to view the details
 
-🏢
+[image: HDC LABS]
 
 HDC LABS
 
+R&D 센터 AI Lab
 R&D Center AI Lab
 
-2024.05 ~ Present
+2024.05 ~
+현재
+Present
 
-🏫
+[image: UNIST]
 
 UNIST
 
+인공지능 석사
 M.S. in Artificial Intelligence
 
 2022.08 ~ 2024.08
 
-🎮
+[image: NC SOFT]
 
 NC SOFT
 
@@ -81,17 +96,7 @@ MT Data Team Intern
 
 2021.07 ~ 2022.01
 
-🌿
-
-초록소프트
-ChorokSoft
-
-스포츠 AI 팀 인턴
-Sports AI Team Intern
-
-2021.01 ~ 2021.02
-
-🏫
+[image: Sangmyung University]
 
 Sangmyung
 University
@@ -101,14 +106,18 @@ B.S. in Human Intelligence Information Engineering
 
 2017.02 ~ 2022.02
 
-## Selected Projects
+## 주요 프로젝트
+Selected Projects
 
+주요 프로젝트와 핵심 기여
 Selected projects and key contributions
 
 차세대 홈 AI Agent 시스템
 Next-Gen Home AI Agent System →
 
-HDC LABS / 2025.06 – Present
+HDC LABS / 2025.06 –
+현재
+Present
 
 VideoLLM LLM Kafka
 
@@ -120,7 +129,9 @@ Contribution
 엘리베이터 내부 상황 분석
 In-Elevator Situational Analysis →
 
-HDC LABS / 2025.02 – Present
+HDC LABS / 2025.02 –
+현재
+Present
 
 VLM Object Detection Synthetic Data
 
@@ -141,50 +152,68 @@ Contribution
 
 40%
 
+논문
 Publications
+
+특허
 Patents
+
+뉴스
 News
+
+연구
 Research
 
-© Jongeun Kim
+©
+김종은
+Jongeun Kim
 
 ### Internal links
-- Jongeun Kim -> https://joannekim0420.github.io/
-- HOME -> https://joannekim0420.github.io/
-- CAREER -> https://joannekim0420.github.io/#career
-- PUBLICATIONS -> https://joannekim0420.github.io/#publications
-- NEWS -> https://joannekim0420.github.io/#news
-- RESEARCH -> https://joannekim0420.github.io/#research
-- LinkedIn -> https://joannekim0420.github.io/#
-- Scholar -> https://joannekim0420.github.io/#
-- 🏢 HDC LABS R&D Center AI Lab 2024.05 ~ Present -> https://joannekim0420.github.io/career/hdclabs/
-- 🏫 UNIST M.S. in Artificial Intelligence 2022.08 ~ 2024.08 -> https://joannekim0420.github.io/career/unist/
-- 🎮 NC SOFT 기계번역데이터팀 인턴MT Data Team Intern 2021.07 ~ 2022.01 -> https://joannekim0420.github.io/career/ncsoft/
-- 🌿 초록소프트ChorokSoft 스포츠 AI 팀 인턴Sports AI Team Intern 2021.01 ~ 2021.02 -> https://joannekim0420.github.io/career/choroksoft/
-- 🏫 Sangmyung University 휴먼지능정보공학과 학사B.S. in Human Intelligence Information Engineering 2017.02 ~ 2022.02 -> https://joannekim0420.github.io/career/smu/
-- 차세대 홈 AI Agent 시스템Next-Gen Home AI Agent System→ HDC LABS / 2025.06 – Present VideoLLMLLMKafka 기여도Contribution35% -> https://joannekim0420.github.io/career/hdclabs/
-- 엘리베이터 내부 상황 분석In-Elevator Situational Analysis→ HDC LABS / 2025.02 – Present VLMObject DetectionSynthetic Data 기여도Contribution30% -> https://joannekim0420.github.io/career/hdclabs/
+- 김종은Jongeun Kim -> https://joannekim0420.github.io/
+- 홈HOME -> https://joannekim0420.github.io/
+- 경력CAREER -> https://joannekim0420.github.io/#career
+- 논문PUBLICATIONS -> https://joannekim0420.github.io/#publications
+- 뉴스NEWS -> https://joannekim0420.github.io/#news
+- 연구RESEARCH -> https://joannekim0420.github.io/#research
+- HDC LABS R&D 센터 AI LabR&D Center AI Lab 2024.05 ~ 현재Present -> https://joannekim0420.github.io/career/hdclabs/
+- UNIST 인공지능 석사M.S. in Artificial Intelligence 2022.08 ~ 2024.08 -> https://joannekim0420.github.io/career/unist/
+- NC SOFT 기계번역데이터팀 인턴MT Data Team Intern 2021.07 ~ 2022.01 -> https://joannekim0420.github.io/career/ncsoft/
+- Sangmyung University 휴먼지능정보공학과 학사B.S. in Human Intelligence Information Engineering 2017.02 ~ 2022.02 -> https://joannekim0420.github.io/career/smu/
+- 차세대 홈 AI Agent 시스템Next-Gen Home AI Agent System→ HDC LABS / 2025.06 – 현재Present VideoLLMLLMKafka 기여도Contribution35% -> https://joannekim0420.github.io/career/hdclabs/
+- 엘리베이터 내부 상황 분석In-Elevator Situational Analysis→ HDC LABS / 2025.02 – 현재Present VLMObject DetectionSynthetic Data 기여도Contribution30% -> https://joannekim0420.github.io/career/hdclabs/
 - 지하주차장 화재 탐지Underground Parking Fire Detection→ HDC LABS / 2024.09 – 2025.04 YOLOVLMFlorence2 기여도Contribution40% -> https://joannekim0420.github.io/career/hdclabs/
 
 ### External links
 - GitHub -> https://github.com/joannekim0420
+- LinkedIn -> https://www.linkedin.com/in/%EC%A2%85%EC%9D%80-%EA%B9%80-1a036a368/
+- Scholar -> https://scholar.google.com/citations?user=PHEuuWoAAAAJ&hl=ko
 
 ======================================================================
 ## Page: Career — HDC LABS  (https://joannekim0420.github.io/career/hdclabs/)
 _Home AI agent / elevator situational analysis / fire detection project deep-dives_
 
+김종은
 Jongeun Kim
 
+홈
 HOME
+
+경력
 CAREER
+
+논문
 PUBLICATIONS
+
+뉴스
 NEWS
+
+연구
 RESEARCH
 
 KR
 EN
 
-🏢
+[image: HDC LABS]
 
 # HDC LABS
 
@@ -196,24 +225,31 @@ VLM / LLM
 Video Understanding
 Multimodal AI
 
-## Work & Activities
+## 업무 및 활동
+Work & Activities
 
 - 2024.09 – 2025.04
 
 지하주차장 화재 탐지 모델 개발
-Underground Parking Fire Detection AI Engineer
+Underground Parking Fire Detection
+AI 엔지니어
+AI Engineer
 
 - 2025.02 ~
 
 엘리베이터 내부 상황 분석 시스템
-In-Elevator Situational Analysis System AI Engineer
+In-Elevator Situational Analysis System
+AI 엔지니어
+AI Engineer
 기사 ↗
 News ↗
 
 - 2025.06 ~
 
 차세대 홈 AI Agent 시스템
-Next-Gen Home AI Agent System AI Engineer
+Next-Gen Home AI Agent System
+AI 엔지니어
+AI Engineer
 
 - 2024 – 2026
 
@@ -224,7 +260,8 @@ Inventor
 특허 6건 등록 · 1건 출원, 국제 학회 논문 4편
 6 patents granted · 1 application, 4 papers at international venues
 
-## Projects
+## 프로젝트
+Projects
 
 프로젝트를 선택하면 아래에 상세 내용이 표시됩니다
 
@@ -523,40 +560,54 @@ Achievements
 
 - Commercial deployment planned for the underground parking AI CCTV at Gwangmyeong Central IPARK
 
-© Jongeun Kim Home
+©
+김종은
+Jongeun Kim
+홈
+Home
 
 
 ### External links
-- Jongeun Kim -> https://
-- HOME -> https://
-- CAREER -> https://#career
-- PUBLICATIONS -> https://#publications
-- NEWS -> https://#news
-- RESEARCH -> https://#research
+- 김종은Jongeun Kim -> https://
+- 홈HOME -> https://
+- 경력CAREER -> https://#career
+- 논문PUBLICATIONS -> https://#publications
+- 뉴스NEWS -> https://#news
+- 연구RESEARCH -> https://#research
 - 기사 ↗News ↗ -> https://www.yna.co.kr/view/AKR20250414119000003
 - HDC현산, 서울원 아이파크에 AI 승강기 도입 ↗ -> https://www.yna.co.kr/view/AKR20250414119000003
 - 합성 데이터 생성 자동화 (WACVW 2026, Oral) -> https://papers/wacvw2026/
 - HDC to deploy AI elevators at Seoul One IPARK ↗ -> https://www.yna.co.kr/view/AKR20250414119000003
 - Automated synthetic data generation (WACVW 2026, Oral) -> https://papers/wacvw2026/
 - An Integrated YOLO and VLM System for Fire Detection in Enclosed Environments (ICLRW 2025) -> https://papers/iclrw2025/
-- Home -> https://
+- 홈Home -> https://
 
 ======================================================================
 ## Page: Career — UNIST  (https://joannekim0420.github.io/career/unist/)
 _M.S. in Artificial Intelligence — multilingual multimodal, LG utterance generation, slogan generation, LOVEU challenge_
 
+김종은
 Jongeun Kim
 
+홈
 HOME
+
+경력
 CAREER
+
+논문
 PUBLICATIONS
+
+뉴스
 NEWS
+
+연구
 RESEARCH
 
 KR
 EN
 
-🏫
+[image: UNIST]
 
 # UNIST
 
@@ -569,7 +620,8 @@ NLP / LLM
 Machine Translation
 Text Generation
 
-## Education
+## 학력
+Education
 
 인공지능대학원 석사과정 2022.08 ~ 2024.08
 
@@ -589,7 +641,8 @@ M.S. program, Graduate School of Artificial Intelligence 2022.08 ~ 2024.08
 M.S. thesis: Towards Efficient Multilingual Multimodal Fusion: A Contrastive Learning Approach Using Machine Translation
 ( Details)
 
-## Projects
+## 프로젝트
+Projects
 
 프로젝트를 선택하면 아래에 상세 내용이 표시됩니다
 
@@ -870,38 +923,52 @@ Results
 - CVPRW 2022 기술 보고서
 CVPRW 2022 technical report
 
-© Jongeun Kim Home
+©
+김종은
+Jongeun Kim
+홈
+Home
 
 
 ### External links
-- Jongeun Kim -> https://
-- HOME -> https://
-- CAREER -> https://#career
-- PUBLICATIONS -> https://#publications
-- NEWS -> https://#news
-- RESEARCH -> https://#research
+- 김종은Jongeun Kim -> https://
+- 홈HOME -> https://
+- 경력CAREER -> https://#career
+- 논문PUBLICATIONS -> https://#publications
+- 뉴스NEWS -> https://#news
+- 연구RESEARCH -> https://#research
 - Details -> https://papers/ksbe2025/
 - 방송미디어공학회 2025 게재Published at KSBE 2025 -> https://papers/ksbe2025/
 - CIKM 2023 1저자 게재First-author paper at CIKM 2023 -> https://papers/cikm2023/
 - CVPRW 2022 기술 보고서CVPRW 2022 technical report -> https://papers/loveu2022/
-- Home -> https://
+- 홈Home -> https://
 
 ======================================================================
 ## Page: Career — NC Soft  (https://joannekim0420.github.io/career/ncsoft/)
 _Machine-translation quality evaluation internship_
 
+김종은
 Jongeun Kim
 
+홈
 HOME
+
+경력
 CAREER
+
+논문
 PUBLICATIONS
+
+뉴스
 NEWS
+
+연구
 RESEARCH
 
 KR
 EN
 
-🎮
+[image: NC SOFT]
 
 # NC Soft
 
@@ -913,7 +980,8 @@ Machine Translation
 NLP
 Evaluation
 
-## Projects
+## 프로젝트
+Projects
 
 ### 다국어 기계 번역 문장 품질 평가
 
@@ -951,88 +1019,48 @@ Results
 
 - Results from this undergraduate-intern project were shared as an internal technical presentation within the MT data team
 
-© Jongeun Kim Home
-
-
-### External links
-- Jongeun Kim -> https://
-- HOME -> https://
-- CAREER -> https://#career
-- PUBLICATIONS -> https://#publications
-- NEWS -> https://#news
-- RESEARCH -> https://#research
-- Home -> https://
-
-======================================================================
-## Page: Career — ChorokSoft  (https://joannekim0420.github.io/career/choroksoft/)
-_Sports AI internship — golf-swing pose analysis_
-
+©
+김종은
 Jongeun Kim
-
-HOME
-CAREER
-PUBLICATIONS
-NEWS
-RESEARCH
-
-KR
-EN
-
-🌿
-
-# 초록소프트
-ChorokSoft
-
-스포츠 AI 팀 인턴 2021.01 ~ 2021.02
-
-Sports AI Team, Intern 2021.01 ~ 2021.02
-
-Pose Estimation
-Computer Vision
-Sports AI
-
-## Work & Activities
-
-### 스켈레톤 자세 추정 기반 골프 자세 분석
-
-Golf-Swing Analysis via Skeleton Pose Estimation
-
-- 스켈레톤 자세 추정(skeleton pose estimation) 모델을 활용해 골프 스윙 자세를 분석하는 스포츠 AI 업무 수행
-
-- 관절 키포인트 추출 결과를 기반으로 자세 비교·분석 파이프라인 검토
-
-- Analyzed golf-swing posture using skeleton pose-estimation models on the sports AI team
-
-- Explored a posture comparison and analysis pipeline based on extracted joint keypoints
-
-© Jongeun Kim Home
+홈
+Home
 
 
 ### External links
-- Jongeun Kim -> https://
-- HOME -> https://
-- CAREER -> https://#career
-- PUBLICATIONS -> https://#publications
-- NEWS -> https://#news
-- RESEARCH -> https://#research
-- Home -> https://
+- 김종은Jongeun Kim -> https://
+- 홈HOME -> https://
+- 경력CAREER -> https://#career
+- 논문PUBLICATIONS -> https://#publications
+- 뉴스NEWS -> https://#news
+- 연구RESEARCH -> https://#research
+- 홈Home -> https://
 
 ======================================================================
 ## Page: Career — Sangmyung University  (https://joannekim0420.github.io/career/smu/)
 _B.S. in Human Intelligence Information Engineering_
 
+김종은
 Jongeun Kim
 
+홈
 HOME
+
+경력
 CAREER
+
+논문
 PUBLICATIONS
+
+뉴스
 NEWS
+
+연구
 RESEARCH
 
 KR
 EN
 
-🏫
+[image: Sangmyung University]
 
 # 상명대학교
 Sangmyung University
@@ -1044,27 +1072,32 @@ B.S. in Human Intelligence Information Engineering 2017.02 ~ 2022.02
 B.S.
 AI / Software
 
-## Education
+## 학력
+Education
 
 휴먼지능정보공학과 학사과정 2017.02 ~ 2022.02
 
 B.S. program, Dept. of Human Intelligence Information Engineering 2017.02 ~ 2022.02
 
-- 학부 과정 중 초록소프트(2021.01 ~ 2021.02), NC Soft(2021.07 ~ 2022.01) 인턴 수행
+- 학부 과정 중 NC Soft(2021.07 ~ 2022.01) 인턴 수행
 
-- Completed internships during undergraduate studies at ChorokSoft (2021.01 ~ 2021.02) and NC Soft (2021.07 ~ 2022.01)
+- Completed an internship during undergraduate studies at NC Soft (2021.07 ~ 2022.01)
 
-© Jongeun Kim Home
+©
+김종은
+Jongeun Kim
+홈
+Home
 
 
 ### External links
-- Jongeun Kim -> https://
-- HOME -> https://
-- CAREER -> https://#career
-- PUBLICATIONS -> https://#publications
-- NEWS -> https://#news
-- RESEARCH -> https://#research
-- Home -> https://
+- 김종은Jongeun Kim -> https://
+- 홈HOME -> https://
+- 경력CAREER -> https://#career
+- 논문PUBLICATIONS -> https://#publications
+- 뉴스NEWS -> https://#news
+- 연구RESEARCH -> https://#research
+- 홈Home -> https://
 
 ======================================================================
 ## Publications

@@ -34,8 +34,6 @@ PAGES = [
      "M.S. in Artificial Intelligence — multilingual multimodal, LG utterance generation, slogan generation, LOVEU challenge"),
     ("career/ncsoft/index.html", "/career/ncsoft/", "Career — NC Soft",
      "Machine-translation quality evaluation internship"),
-    ("career/choroksoft/index.html", "/career/choroksoft/", "Career — ChorokSoft",
-     "Sports AI internship — golf-swing pose analysis"),
     ("career/smu/index.html", "/career/smu/", "Career — Sangmyung University",
      "B.S. in Human Intelligence Information Engineering"),
 ]
