@@ -44,7 +44,7 @@
           <div class="badge-row">
             <span class="role-badge">Machine Translation</span>
             <span class="role-badge">NLP</span>
-            <span class="role-badge">Evaluation</span>
+            <span class="role-badge">Quality Evaluation</span>
           </div>
         </div>
       </div>
@@ -67,24 +67,40 @@
 
         <div class="phase">
           <div class="phase-title"><span class="pnum">1</span><span class="ko-only">번역 품질 자동 평가 모델링</span><span class="en-only">Automatic Quality-Evaluation Modeling</span></div>
-          <div class="project-text">
-            <ul class="ko-only">
-              <li>사전 학습된 다국어 문장 인코더(multilingual sentence encoder)를 활용해 원문-번역문 문장 쌍을 같은 임베딩 공간으로 정렬</li>
-              <li>다국어 문장 인코더가 언어가 달라도 의미적으로 유사한 문장을 같은 latent space에서 가깝게 정렬하는 특성을 기반으로, 문장 쌍 간 Cosine Similarity를 활용해 파인튜닝 진행</li>
-              <li>임베딩 공간에서의 거리 값이 실제 사람 평가 점수와 더 높은 상관관계를 갖도록 개선, 문법·의미 보존 측면에서 신뢰도 높은 품질 평가 구현</li>
-            </ul>
-            <ul class="en-only">
-              <li>Aligned source-translation sentence pairs in a shared embedding space using a pretrained multilingual sentence encoder</li>
-              <li>Fine-tuned with cosine similarity over sentence pairs, exploiting the encoder's property of placing semantically similar sentences close together across languages</li>
-              <li>Improved the correlation between embedding distance and human evaluation scores, yielding more reliable quality assessment in grammar and meaning preservation</li>
-            </ul>
-            <div class="blabel"><span class="ko-only">성과</span><span class="en-only">Results</span></div>
-            <ul class="ko-only">
-              <li>학부생 인턴 프로젝트로 수행한 결과를 기계번역 데이터팀 내부 기술 발표 자료로 공유</li>
-            </ul>
-            <ul class="en-only">
-              <li>Results from this undergraduate-intern project were shared as an internal technical presentation within the MT data team</li>
-            </ul>
+          <div class="project-row">
+            <div class="project-text">
+              <div class="blabel"><span class="ko-only">기존 문제점</span><span class="en-only">Problem</span></div>
+              <ul class="ko-only">
+                <li>번역 품질을 사람이 직접 평가하는 방식은 비용과 시간이 크고, 평가자 간 기준 편차가 존재해 대규모 데이터에 일관되게 적용하기 어려움</li>
+              </ul>
+              <ul class="en-only">
+                <li>Human evaluation of translation quality is costly and slow, and inter-annotator variance makes it hard to apply consistently at scale</li>
+              </ul>
+              <div class="blabel"><span class="ko-only">담당 업무</span><span class="en-only">Responsibilities</span></div>
+              <ul class="ko-only">
+                <li>사전 학습된 다국어 문장 인코더(multilingual sentence encoder)를 활용해 원문-번역문 문장 쌍을 같은 임베딩 공간으로 정렬</li>
+                <li>다국어 문장 인코더가 언어가 달라도 의미적으로 유사한 문장을 같은 latent space에서 가깝게 정렬하는 특성을 기반으로, 문장 쌍 간 Cosine Similarity를 활용해 파인튜닝 진행</li>
+                <li>임베딩 공간에서의 거리 값이 실제 사람 평가 점수와 더 높은 상관관계를 갖도록 개선, 문법·의미 보존 측면에서 신뢰도 높은 품질 평가 구현</li>
+              </ul>
+              <ul class="en-only">
+                <li>Aligned source-translation sentence pairs in a shared embedding space using a pretrained multilingual sentence encoder</li>
+                <li>Fine-tuned with cosine similarity over sentence pairs, exploiting the encoder's property of placing semantically similar sentences close together across languages</li>
+                <li>Improved the correlation between embedding distance and human evaluation scores, yielding more reliable quality assessment in grammar and meaning preservation</li>
+              </ul>
+              <div class="blabel"><span class="ko-only">업무 성과</span><span class="en-only">Achievements</span></div>
+              <ul class="ko-only">
+                <li>학부생 인턴 프로젝트로 수행한 결과를 기계번역 데이터팀 내부 기술 발표 자료로 공유</li>
+              </ul>
+              <ul class="en-only">
+                <li>Results from this undergraduate-intern project were shared as an internal technical presentation within the MT data team</li>
+              </ul>
+            </div>
+            <div class="project-images">
+              <figure class="project-figure">
+                <img src="../../assets/img/ext/nc_quality.png" alt="Automatic translation-quality evaluation">
+                <figcaption><span class="ko-only">번역 품질 자동 평가 모델 개요</span><span class="en-only">Automatic translation-quality evaluation overview</span></figcaption>
+              </figure>
+            </div>
           </div>
         </div>
       </div>
