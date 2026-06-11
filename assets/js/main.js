@@ -368,7 +368,7 @@
   }
 
   // Page bootstraps
-  const TAB_NAMES = ['publications', 'patents', 'news', 'research'];
+  const TAB_NAMES = ['publications', 'patents', 'news', 'research', 'awards'];
 
   function activateTab(name) {
     if (!TAB_NAMES.includes(name)) return;
