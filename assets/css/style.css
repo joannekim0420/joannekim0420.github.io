@@ -127,7 +127,7 @@ a.sp-card:hover .sp-arrow { transform: translateX(4px); color: var(--accent); }
 .hero ul.bullets { margin: 0; padding: 0 0 0 18px; color: var(--fg-muted); }
 .hero ul.bullets li { margin: 4px 0; }
 .hero .avatar {
-  width: 200px; height: 200px; border-radius: 0;
+  width: 200px; height: 250px; border-radius: 50%;
   background: var(--bg-soft); object-fit: cover;
   border: 1px solid var(--border);
 }
@@ -955,7 +955,7 @@ footer.site-footer {
 /* ----- Mobile ----- */
 @media (max-width: 720px) {
   .hero-grid { grid-template-columns: 1fr; }
-  .hero .avatar { width: 140px; height: 140px; }
+  .hero .avatar { width: 140px; height: 175px; }
   .hero h1 { font-size: 28px; }
   .site-header .inner { flex-direction: column; gap: 8px; }
   nav.primary { justify-content: center; }

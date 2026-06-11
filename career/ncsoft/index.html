@@ -50,7 +50,30 @@
       </div>
 
       <h2><span class="ko-only">프로젝트</span><span class="en-only">Projects</span></h2>
-      <div class="project">
+      <p style="color:var(--fg-muted);margin-top:-12px;">
+        <span class="ko-only">프로젝트를 선택하면 아래에 상세 내용이 표시됩니다</span>
+        <span class="en-only">Select a project to view its details below</span>
+      </p>
+      <div class="proj-select-grid">
+        <button type="button" class="proj-card active" data-panel="mtqe">
+          <div class="name">
+            <span class="ko-only">다국어 기계 번역 문장 품질 평가</span>
+            <span class="en-only">Multilingual MT Quality Evaluation</span>
+          </div>
+          <ul class="ko-only">
+            <li>다국어 문장 인코더로 원문-번역문 의미 정렬</li>
+            <li>Cosine Similarity 파인튜닝으로 사람 평가와 상관도 향상</li>
+            <li>기계번역 데이터팀 내부 기술 발표</li>
+          </ul>
+          <ul class="en-only">
+            <li>Source-translation semantic alignment via a multilingual encoder</li>
+            <li>Cosine-similarity fine-tuning improves correlation with human scores</li>
+            <li>Presented as an internal MT-team tech talk</li>
+          </ul>
+        </button>
+      </div>
+
+      <div class="project proj-panel active" data-panel="mtqe" id="proj-mtqe">
         <div class="proj-head">
           <h3>
             <span class="ko-only">다국어 기계 번역 문장 품질 평가</span>
