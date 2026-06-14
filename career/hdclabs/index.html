@@ -17,6 +17,10 @@
   .career-detail #proj-fire .ov-k { flex: 0 0 96px; font-weight: 700; color: var(--accent-strong); }
   .career-detail #proj-fire .ov-v { color: var(--fg); }
   .career-detail #proj-fire .proj-head .project-figure { width: 100%; max-width: 760px; margin-top: 6px; }
+  /* Home AI Agent project: figures + tech-stack chips */
+  .career-detail #proj-agent .project-figure { width: 100%; max-width: 840px; margin: 14px 0 2px; }
+  .career-detail .tech-stack { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
+  .career-detail .tech-stack span { font-size: 11.5px; font-weight: 600; color: var(--accent-strong); background: var(--accent-soft); border: 1px solid var(--border); border-radius: 999px; padding: 3px 10px; }
 </style>
 </head>
 <body data-root="../../" style="--accent:#c8102e;--accent-soft:#fcecef;">
@@ -99,14 +103,14 @@
             <span class="en-only">Next-Gen Home AI Agent System</span>
           </div>
           <ul class="ko-only">
-            <li>VideoLLM + LLM 기반 거주자 행동 인식·가전 제어</li>
-            <li>행동 예측 성능 0.5902 → 0.7819 향상</li>
-            <li>실시간 통합 파이프라인 70.46s → 30.4s 단축</li>
+            <li>거주자 행동·물체·얼굴 인식 기반 개인화 홈 AI 에이전트</li>
+            <li>VideoLLM 프롬프트 엔지니어링으로 액션 정확도 65~69% → 77~81%</li>
+            <li>Jetson NX 4bit 배포, 5초 영상 평균 4.2초 처리 (실시간)</li>
           </ul>
           <ul class="en-only">
-            <li>Resident action recognition &amp; appliance control with VideoLLM + LLM</li>
-            <li>Improved action-prediction accuracy 0.5902 → 0.7819</li>
-            <li>Cut the real-time pipeline from 70.46s to 30.4s</li>
+            <li>Personalized home AI agent from resident action/object/face recognition</li>
+            <li>VideoLLM prompt engineering lifted action accuracy 65–69% → 77–81%</li>
+            <li>4-bit on Jetson NX, ~4.2s for a 5s clip (real-time)</li>
           </ul>
         </button>
         <button type="button" class="proj-card" data-panel="elv">
@@ -146,96 +150,129 @@
       <div class="project proj-panel active" data-panel="agent" id="proj-agent">
         <div class="proj-head">
           <h3>
-            <span class="ko-only">차세대 홈 AI Agent 시스템 개발 (2025.06 ~)</span>
-            <span class="en-only">Next-Gen Home AI Agent System (2025.06 ~)</span>
+            <span class="ko-only">차세대 홈 AI Agent 시스템 (2025.06 ~ 진행 중)</span>
+            <span class="en-only">Next-Gen Home AI Agent System (2025.06 ~ Present)</span>
           </h3>
           <div class="contrib-min">
-            <span class="pill"><span class="ko-only">핵심 역할</span><span class="en-only">Key role</span></span>
+            <span class="pill"><span class="ko-only">담당 역할</span><span class="en-only">Role</span></span>
             <div class="c-body">
-              <div class="c-role"><span class="ko-only">기여도 35% — 데이터셋 구축, 행동 인식 방법론 제안, 실시간 통합 파이프라인 개발</span><span class="en-only">35% contribution — dataset construction, action-recognition methodology, real-time integrated pipeline</span></div>
-              <div class="c-collab"><span class="ko-only"><strong>개요</strong>집안 내 월패드와 연동하여 가전 기능을 제어하기 위한 차세대 홈 AI 에이전트 핵심 기술 요소 개발</span><span class="en-only"><strong>Overview</strong>Core technologies for a next-generation home AI agent that controls appliances through the in-home wall pad</span></div>
+              <div class="c-role"><span class="ko-only">Vision AI 통합 파이프라인 및 시스템 개발 — 데이터 수집·라벨링부터 모델 추론, 엣지 배포까지 전체 흐름 담당 (인프라파트 DB·월패드 연동, NLP파트 LLM 에이전트와 협업)</span><span class="en-only">Vision AI integrated pipeline &amp; system development — owning the full flow from data collection/labeling to model inference and edge deployment (with the infra team on DB/wall-pad integration and the NLP team on the LLM agent)</span></div>
+              <div class="c-collab"><span class="ko-only"><strong>개요</strong>집안(거실·방·부엌 등)의 카메라·IoT 가전·월패드와 연동되어 거주자의 행동·물체·얼굴을 인식하고 개인화하는 차세대 홈 AI 에이전트. 모델하우스 시범 운영을 목표로 실제 주거 환경에서 안정적으로 동작하는 Vision AI 시스템을 설계·구현</span><span class="en-only"><strong>Overview</strong>A next-gen home AI agent that links to in-home cameras, IoT appliances, and the wall pad to recognize and personalize residents' actions, objects, and faces — designing a Vision AI system that runs reliably in real homes, targeting a model-house pilot</span></div>
             </div>
           </div>
         </div>
 
         <div class="phase">
-          <div class="phase-title"><span class="pnum">1</span><span class="ko-only">데이터셋 수집</span><span class="en-only">Dataset Collection</span></div>
+          <div class="phase-title"><span class="pnum">1</span><span class="ko-only">데이터셋 구축</span><span class="en-only">Dataset Construction</span></div>
           <div class="project-text">
-            <div class="blabel"><span class="ko-only">기존 문제점</span><span class="en-only">Problem</span></div>
-            <ul class="ko-only">
-              <li>기존 공개 데이터는 CCTV 뷰의 실내 거주자 행동 데이터가 부족하고, 가정마다 상이한 실내 구조 변화에 대한 대응이 어려운 한계 존재</li>
-            </ul>
-            <ul class="en-only">
-              <li>Public datasets lack CCTV-view indoor resident-action data and adapt poorly to per-home variations in indoor layout</li>
-            </ul>
             <div class="blabel"><span class="ko-only">담당 업무</span><span class="en-only">Responsibilities</span></div>
             <ul class="ko-only">
-              <li>실제 주거 환경(부엌, 거실, 방 등)에서 액션별 영상을 직접 수집</li>
-              <li>65개 이상의 행동 클래스에 대해 총 600개 이상의 테스트 영상을 라벨링하여 자체 데이터셋 구축</li>
+              <li>집안 행동 오픈소스 데이터 부족 문제를 해결하기 위해 실제 주거 공간에서 거주자 행동을 직접 촬영, 600개 이상 영상을 65개 이상 액션으로 정의·라벨링</li>
+              <li>클래스 중첩·라벨링 모호성을 반복 검토하며 15개 핵심 클래스로 재정의 → 최종 공식 데이터셋(648개, 2560×1440) 릴리즈</li>
             </ul>
             <ul class="en-only">
-              <li>Collected per-action videos directly in real residential environments (kitchen, living room, bedrooms)</li>
-              <li>Built an in-house dataset by labeling 600+ test videos covering 65+ action classes</li>
+              <li>To address the scarcity of open-source in-home action data, filmed resident actions directly in real living spaces and defined/labeled 600+ videos into 65+ actions</li>
+              <li>Iteratively reviewed class overlap and labeling ambiguity, consolidating to 15 core classes → released the final official dataset (648 clips, 2560×1440)</li>
+            </ul>
+            <figure class="project-figure">
+              <img src="../../assets/img/ext/hdc_aihome2.png" alt="Multi-camera capture in a real residential environment">
+              <figcaption><span class="ko-only">실제 주거 환경 4-카메라 영상 수집</span><span class="en-only">Multi-camera capture in a real residential environment</span></figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="phase">
+          <div class="phase-title"><span class="pnum">2</span><span class="ko-only">모델·알고리즘 제안</span><span class="en-only">Model &amp; Algorithm</span></div>
+          <div class="project-text">
+            <div class="blabel"><span class="ko-only">담당 업무</span><span class="en-only">Responsibilities</span></div>
+            <ul class="ko-only">
+              <li>학습 데이터가 부족한 상황에서 VideoLLM(Qwen-VL, VideoLLaMA3)으로 영상을 액션 분류, 액션 클래스를 동적으로 교체할 수 있도록 프롬프트 엔지니어링</li>
+              <li>프롬프트를 "상위 3개 → 단일 1개 선택"으로 변경해 정확도 65~69% → 77~81% 개선 (가장 큰 성능 개선 요인)</li>
+              <li>로딩·양자화 방식 비교를 통해 HF Transformers + 4bit + NF4 조합을 성능·속도 최적값으로 확립</li>
+            </ul>
+            <ul class="en-only">
+              <li>With limited training data, classified video actions using VideoLLMs (Qwen-VL, VideoLLaMA3), with prompt engineering to swap action classes dynamically</li>
+              <li>Changing the prompt from "top-3 → single-1 selection" improved accuracy from 65–69% to 77–81% (the single biggest gain)</li>
+              <li>Established HF Transformers + 4-bit + NF4 as the performance/speed optimum through loading and quantization comparisons</li>
             </ul>
           </div>
         </div>
 
         <div class="phase">
-          <div class="phase-title"><span class="pnum">2</span><span class="ko-only">VideoLLM + LLM 행동 분류</span><span class="en-only">VideoLLM + LLM Action Classification</span></div>
+          <div class="phase-title"><span class="pnum">3</span><span class="ko-only">시스템 아키텍처 통합</span><span class="en-only">System Architecture Integration</span></div>
           <div class="project-text">
-            <div class="blabel"><span class="ko-only">기존 문제점</span><span class="en-only">Problem</span></div>
-            <ul class="ko-only">
-              <li>VideoLLM 모델로 직접 행동 분류 수행 시 단일 모델 기반 분류 성능이 0.5902로 한계 존재</li>
-            </ul>
-            <ul class="en-only">
-              <li>Direct action classification with a single VideoLLM topped out at 0.5902 accuracy</li>
-            </ul>
             <div class="blabel"><span class="ko-only">담당 업무</span><span class="en-only">Responsibilities</span></div>
             <ul class="ko-only">
-              <li>VideoLLM으로 행동 요약을 생성하고, 캡션 결과를 LLM에 입력해 프롬프트 엔지니어링 기반으로 액션을 예측하는 방법론 제안</li>
-              <li>예측된 행동을 기반으로 월패드와 연동하여 가전기기를 알고리즘적으로 제어 가능한 구조 구현</li>
-              <li>VLM 기반 Agentic AI 가능성을 검토하며, LLM을 거치지 않고 직접 가전 제어로 연결 가능한 멀티모달 에이전트용 데이터셋 수집 진행 중</li>
+              <li>Camera/RTSP → 전처리 → VideoLLM 추론 → DB → AI Agent로 이어지는 비동기 실시간 파이프라인 구성</li>
+              <li>다중 카메라·다중 모델 환경의 GPU 메모리 과부하·지연 문제를 멀티프로세싱·멀티스레딩·배치 처리로 해결</li>
+              <li>Kafka 기반으로 "의미 있는 상태 변화"만 전달 (개인화 로그는 저빈도·장기 저장, 행동 이벤트는 고빈도·실시간 처리)</li>
             </ul>
             <ul class="en-only">
-              <li>Proposed a methodology where the VideoLLM summarizes the action and an LLM classifies it from the caption via prompt engineering</li>
-              <li>Implemented a structure that algorithmically controls appliances through the wall pad based on the predicted action</li>
-              <li>Exploring VLM-based agentic AI — collecting a dataset that maps video directly to appliance control without an intermediate LLM</li>
-            </ul>
-            <div class="blabel"><span class="ko-only">업무 성과</span><span class="en-only">Achievements</span></div>
-            <ul class="ko-only">
-              <li>프롬프트 엔지니어링으로 행동 예측 성능 0.5902 → 0.7819 향상</li>
-              <li>다양한 VideoLLM(Qwen2.5-VL/VideoLLaMA3)과 LLM(Gemma3/Qwen3/LLaMA3.1/DeepSeek) 조합에 대한 비교 실험 수행</li>
-              <li>행동인식을 기반으로 한 IoT 가전기기 제어방법 및 시스템 특허 확보<span class="sub">KR 10-2971047</span></li>
-            </ul>
-            <ul class="en-only">
-              <li>Improved action-prediction accuracy from 0.5902 to 0.7819 through prompt engineering</li>
-              <li>Benchmarked combinations of VideoLLMs (Qwen2.5-VL/VideoLLaMA3) and LLMs (Gemma3/Qwen3/LLaMA3.1/DeepSeek)</li>
-              <li>Secured a patent on action-recognition-based IoT appliance control<span class="sub">KR 10-2971047</span></li>
+              <li>Built an asynchronous real-time pipeline: Camera/RTSP → preprocessing → VideoLLM inference → DB → AI Agent</li>
+              <li>Resolved GPU memory overload and latency in multi-camera/multi-model settings via multiprocessing, multithreading, and batching</li>
+              <li>Published only "meaningful state changes" over Kafka (personalization logs: low-frequency long-term storage; action events: high-frequency real-time)</li>
             </ul>
           </div>
         </div>
 
         <div class="phase">
-          <div class="phase-title"><span class="pnum">3</span><span class="ko-only">실시간 통합 파이프라인 개발</span><span class="en-only">Real-Time Integrated Pipeline</span></div>
+          <div class="phase-title"><span class="pnum">4</span><span class="ko-only">엣지 배포</span><span class="en-only">Edge Deployment</span></div>
           <div class="project-text">
             <div class="blabel"><span class="ko-only">담당 업무</span><span class="en-only">Responsibilities</span></div>
             <ul class="ko-only">
-              <li>실제 주거 환경에서 CCTV 영상을 실시간 스트리밍으로 수신하며 ① 얼굴 인식, ② 객체 추적, ③ 행동 인식, ④ 객체 인식 등 다수 모델을 병렬 처리하는 통합 파이프라인 설계 및 구현</li>
-              <li>vLLM 라이브러리 서빙을 검토했으나 비디오 특성상 통신 시간이 로컬 처리 대비 2~3배 증가함을 확인, 로컬 GPU 1개에서 동작하는 통합 파이프라인 제시</li>
-              <li>특정 사용자 액션 발생 시 Kafka 이벤트를 발행하여 개인화 맞춤 DB 및 월패드 시스템과 연동</li>
+              <li>온디바이스 담당자와 협업하여 Jetson NX에 4bit 양자화 모델 배포, RK3576 카메라와 실시간 연동</li>
             </ul>
             <ul class="en-only">
-              <li>Designed and implemented an integrated pipeline that ingests live CCTV streams from real residences and runs face recognition, object tracking, action recognition, and object detection in parallel</li>
-              <li>Evaluated vLLM-based serving, found video transfer made it 2–3× slower than local processing, and proposed a single-GPU local integrated pipeline instead</li>
-              <li>Published Kafka events on specific user actions, integrating with the personalization DB and the wall-pad system</li>
+              <li>Collaborated with the on-device engineer to deploy the 4-bit quantized model on Jetson NX, integrated in real time with an RK3576 camera</li>
             </ul>
             <div class="blabel"><span class="ko-only">업무 성과</span><span class="en-only">Achievements</span></div>
             <ul class="ko-only">
-              <li>병렬 처리 최적화로 처리 시간 70.46s → 30.4s 단축, 실시간 스트리밍 가능 수준 확보</li>
+              <li>5초 영상 기준 평균 4.2초 내 처리로 실시간 처리 가능성 확인 (액션 정확도 0.71)</li>
             </ul>
             <ul class="en-only">
-              <li>Cut end-to-end processing from 70.46s to 30.4s through parallelization, reaching real-time streaming capability</li>
+              <li>Confirmed real-time feasibility — 4.2s average processing for a 5s clip (action accuracy 0.71)</li>
             </ul>
+          </div>
+        </div>
+
+        <div class="phase">
+          <div class="phase-title"><span class="pnum">5</span><span class="ko-only">데이터 수집·라벨링 자동화 툴 개발</span><span class="en-only">Data Collection &amp; Labeling Automation Tool</span></div>
+          <div class="project-text">
+            <div class="blabel"><span class="ko-only">담당 업무</span><span class="en-only">Responsibilities</span></div>
+            <ul class="ko-only">
+              <li>촬영 → 1차 자동 라벨링 → 클래스별 검증 → 학습 → 배포로 이어지는 5단계 자동화 파이프라인 개발</li>
+              <li>Qwen3-VL 초기 라벨링 후 검증 단계에서 통과·사람 검수로 분기하는 구조로 데이터 확보·라벨링 비용 절감</li>
+            </ul>
+            <ul class="en-only">
+              <li>Built a 5-stage automation pipeline: filming → initial auto-labeling → per-class verification → training → deployment</li>
+              <li>After Qwen3-VL initial labeling, branched into pass/human-review at verification, cutting data-acquisition and labeling cost</li>
+            </ul>
+            <figure class="project-figure">
+              <img src="../../assets/img/ext/hdc_aihome0_pipeline.png" alt="5-stage data automation pipeline">
+              <figcaption><span class="ko-only">촬영·라벨링·검증·학습·배포 5단계 자동화 파이프라인</span><span class="en-only">5-stage filming–labeling–verification–training–deployment pipeline</span></figcaption>
+            </figure>
+            <figure class="project-figure">
+              <img src="../../assets/img/ext/hdc_aihome1_auto_labeling_tool.png" alt="Data collection and labeling automation tool">
+              <figcaption><span class="ko-only">데이터 수집·라벨링 자동화 툴</span><span class="en-only">Data collection &amp; labeling automation tool</span></figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="phase">
+          <div class="phase-title"><span class="ko-only">성과</span><span class="en-only">Achievements</span></div>
+          <div class="project-text">
+            <ul class="ko-only">
+              <li>행동 인식 기반 IoT 가전 제어 등 관련 기술 특허 확보<span class="sub">KR 10-2971047</span></li>
+              <li>모델하우스 시범 운영용 4-카메라 Vision AI 시스템 구현 및 데이터 자동 라벨링 툴 개발</li>
+            </ul>
+            <ul class="en-only">
+              <li>Secured related-technology patents, including action-recognition-based IoT appliance control<span class="sub">KR 10-2971047</span></li>
+              <li>Implemented a 4-camera Vision AI system for the model-house pilot and built a data auto-labeling tool</li>
+            </ul>
+            <div class="blabel"><span class="ko-only">기술 스택</span><span class="en-only">Tech stack</span></div>
+            <div class="tech-stack">
+              <span>VideoLLM</span><span>LLM Prompt Engineering</span><span>Fine-tuning</span><span>4bit / NF4</span><span>Jetson NX</span><span>TensorRT</span><span>Kafka</span><span>Multiprocessing / Threading</span><span>Python</span>
+            </div>
           </div>
         </div>
       </div>
