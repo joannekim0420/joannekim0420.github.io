@@ -8,6 +8,16 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
 <link rel="stylesheet" href="../../assets/css/style.css?v=20260611a">
+<style>
+  /* Fire-detection project: stack header, overview spec list, and figure */
+  .career-detail #proj-fire .proj-head { flex-direction: column; }
+  .career-detail #proj-fire .proj-head .contrib-min { max-width: none; }
+  .career-detail #proj-fire .proj-overview { display: grid; gap: 7px; margin-top: 2px; }
+  .career-detail #proj-fire .ov-row { display: flex; gap: 12px; font-size: 13.5px; line-height: 1.5; }
+  .career-detail #proj-fire .ov-k { flex: 0 0 96px; font-weight: 700; color: var(--accent-strong); }
+  .career-detail #proj-fire .ov-v { color: var(--fg); }
+  .career-detail #proj-fire .proj-head .project-figure { width: 100%; max-width: 760px; margin-top: 6px; }
+</style>
 </head>
 <body data-root="../../" style="--accent:#c8102e;--accent-soft:#fcecef;">
 
@@ -295,9 +305,18 @@
             <span class="pill"><span class="ko-only">핵심 역할</span><span class="en-only">Key role</span></span>
             <div class="c-body">
               <div class="c-role"><span class="ko-only">기여도 40% — VLM 통합 알고리즘 개발, VLM 모델 비교 선정</span><span class="en-only">40% contribution — VLM-integrated algorithm, VLM model benchmarking &amp; selection</span></div>
-              <div class="c-collab"><span class="ko-only"><strong>개요</strong>화재 예방과 신속한 대응을 위한 AI CCTV 화재 탐지 솔루션 개발</span><span class="en-only"><strong>Overview</strong>An AI CCTV fire-detection solution for prevention and rapid response</span></div>
             </div>
           </div>
+          <div class="proj-overview">
+            <div class="ov-row"><span class="ov-k"><span class="ko-only">적용 환경</span><span class="en-only">Environment</span></span><span class="ov-v"><span class="ko-only">지하주차장 (전기차 충전구역)</span><span class="en-only">Underground parking (EV charging zone)</span></span></div>
+            <div class="ov-row"><span class="ov-k"><span class="ko-only">연동 대상</span><span class="en-only">Integration</span></span><span class="ov-v"><span class="ko-only">자체 플랫폼</span><span class="en-only">In-house platform</span></span></div>
+            <div class="ov-row"><span class="ov-k"><span class="ko-only">핵심 기능</span><span class="en-only">Core features</span></span><span class="ov-v"><span class="ko-only">YOLO 기반 연기/불 탐지 + VLM 기반 상황 인식</span><span class="en-only">YOLO-based smoke/fire detection + VLM-based situational awareness</span></span></div>
+            <div class="ov-row"><span class="ov-k"><span class="ko-only">목표</span><span class="en-only">Goal</span></span><span class="ov-v"><span class="ko-only">화재 예방과 신속한 대응을 위한 AI CCTV 화재 탐지 솔루션 개발</span><span class="en-only">An AI CCTV fire-detection solution for prevention and rapid response</span></span></div>
+            <div class="ov-row"><span class="ov-k"><span class="ko-only">협업</span><span class="en-only">Collaboration</span></span><span class="ov-v"><span class="ko-only">수호이미지랩스(CCTV 전문기업)</span><span class="en-only">Suho Image Labs (CCTV specialist)</span></span></div>
+          </div>
+          <figure class="project-figure">
+            <img src="../../assets/img/ext/hdc_firedetection.png" alt="Underground parking fire detection">
+          </figure>
         </div>
 
         <div class="phase">
@@ -344,14 +363,14 @@
               <li>Recall 0.835 → 0.904 향상</li>
               <li>ICLR 2025 워크샵 ICBINB 논문 게재<span class="sub"><a href="../../papers/iclrw2025/">An Integrated YOLO and VLM System for Fire Detection in Enclosed Environments (ICLRW 2025)</a></span></li>
               <li>'인공신경망 기반의 복합모델을 이용한 주차장 화재 탐지 방법 및 시스템' 특허 등록<span class="sub">KR 10-2857163</span></li>
-              <li>광명 센트럴 아이파크 지하주차장 화재 탐지 AI CCTV 상용 도입 예정</li>
+              <li>광명 센트럴 아이파크 지하주차장 화재 탐지 AI CCTV 상용 도입</li>
             </ul>
             <ul class="en-only">
               <li>Cut first fire-detection time from 6.51s to 3.03s</li>
               <li>Improved recall from 0.835 to 0.904</li>
               <li>Published at the ICLR 2025 ICBINB workshop<span class="sub"><a href="../../papers/iclrw2025/">An Integrated YOLO and VLM System for Fire Detection in Enclosed Environments (ICLRW 2025)</a></span></li>
               <li>Patent granted: parking-lot fire detection using an ANN-based composite model<span class="sub">KR 10-2857163</span></li>
-              <li>Commercial deployment planned for the underground parking AI CCTV at Gwangmyeong Central IPARK</li>
+              <li>Commercial deployment in the underground parking AI CCTV at Gwangmyeong Central IPARK</li>
             </ul>
           </div>
         </div>
