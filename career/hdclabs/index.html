@@ -9,16 +9,22 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
 <link rel="stylesheet" href="../../assets/css/style.css?v=20260611a">
 <style>
-  /* Fire-detection project: stack header, overview spec list, and figure */
-  .career-detail #proj-fire .proj-head { flex-direction: column; }
-  .career-detail #proj-fire .proj-head .contrib-min { max-width: none; }
-  .career-detail #proj-fire .proj-overview { display: grid; gap: 7px; margin-top: 2px; }
-  .career-detail #proj-fire .ov-row { display: flex; gap: 12px; font-size: 13.5px; line-height: 1.5; }
-  .career-detail #proj-fire .ov-k { flex: 0 0 96px; font-weight: 700; color: var(--accent-strong); }
-  .career-detail #proj-fire .ov-v { color: var(--fg); }
+  /* Fire-detection & Home AI Agent: stack header, overview spec list, figure */
+  .career-detail #proj-fire .proj-head,
+  .career-detail #proj-agent .proj-head { flex-direction: column; }
+  .career-detail #proj-fire .proj-head .contrib-min,
+  .career-detail #proj-agent .proj-head .contrib-min { max-width: none; }
+  .career-detail .proj-overview { display: grid; gap: 7px; margin-top: 2px; }
+  .career-detail .ov-row { display: flex; gap: 12px; font-size: 13.5px; line-height: 1.5; }
+  .career-detail .ov-k { flex: 0 0 96px; font-weight: 700; color: var(--accent-strong); }
+  .career-detail .ov-v { color: var(--fg); }
   .career-detail #proj-fire .proj-head .project-figure { width: 100%; max-width: 760px; margin-top: 6px; }
   /* Home AI Agent project: figures + tech-stack chips */
   .career-detail #proj-agent .project-figure { width: 100%; max-width: 840px; margin: 14px 0 2px; }
+  .career-detail #proj-agent .project-figure.fig-half { max-width: 420px; margin-left: auto; margin-right: auto; }
+  .career-detail #proj-agent .fig-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; max-width: 840px; margin: 14px 0 2px; }
+  .career-detail #proj-agent .fig-row .project-figure { width: 100%; max-width: none; margin: 0; }
+  @media (max-width: 640px) { .career-detail #proj-agent .fig-row { grid-template-columns: 1fr; } }
   .career-detail .tech-stack { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
   .career-detail .tech-stack span { font-size: 11.5px; font-weight: 600; color: var(--accent-strong); background: var(--accent-soft); border: 1px solid var(--border); border-radius: 999px; padding: 3px 10px; }
 </style>
@@ -154,11 +160,17 @@
             <span class="en-only">Next-Gen Home AI Agent System (2025.06 ~ Present)</span>
           </h3>
           <div class="contrib-min">
-            <span class="pill"><span class="ko-only">담당 역할</span><span class="en-only">Role</span></span>
+            <span class="pill"><span class="ko-only">핵심 역할</span><span class="en-only">Key role</span></span>
             <div class="c-body">
-              <div class="c-role"><span class="ko-only">Vision AI 통합 파이프라인 및 시스템 개발 — 데이터 수집·라벨링부터 모델 추론, 엣지 배포까지 전체 흐름 담당 (인프라파트 DB·월패드 연동, NLP파트 LLM 에이전트와 협업)</span><span class="en-only">Vision AI integrated pipeline &amp; system development — owning the full flow from data collection/labeling to model inference and edge deployment (with the infra team on DB/wall-pad integration and the NLP team on the LLM agent)</span></div>
-              <div class="c-collab"><span class="ko-only"><strong>개요</strong>집안(거실·방·부엌 등)의 카메라·IoT 가전·월패드와 연동되어 거주자의 행동·물체·얼굴을 인식하고 개인화하는 차세대 홈 AI 에이전트. 모델하우스 시범 운영을 목표로 실제 주거 환경에서 안정적으로 동작하는 Vision AI 시스템을 설계·구현</span><span class="en-only"><strong>Overview</strong>A next-gen home AI agent that links to in-home cameras, IoT appliances, and the wall pad to recognize and personalize residents' actions, objects, and faces — designing a Vision AI system that runs reliably in real homes, targeting a model-house pilot</span></div>
+              <div class="c-role"><span class="ko-only">기여도 35% — 데이터셋 구축, 행동 인식 모델링, 통합 파이프라인 개발, 엣지 배포·프로젝트 매니징</span><span class="en-only">35% contribution — dataset construction, action-recognition modeling, integrated pipeline development, edge deployment &amp; project management</span></div>
             </div>
+          </div>
+          <div class="proj-overview">
+            <div class="ov-row"><span class="ov-k"><span class="ko-only">적용 환경</span><span class="en-only">Environment</span></span><span class="ov-v"><span class="ko-only">실제 주거 공간 (거실·방·부엌) · 모델하우스</span><span class="en-only">Real living spaces (living room/bedroom/kitchen) · model house</span></span></div>
+            <div class="ov-row"><span class="ov-k"><span class="ko-only">연동 대상</span><span class="en-only">Integration</span></span><span class="ov-v"><span class="ko-only">카메라·IoT 가전·월패드 (자체 플랫폼)</span><span class="en-only">Cameras, IoT appliances, wall pad (in-house platform)</span></span></div>
+            <div class="ov-row"><span class="ov-k"><span class="ko-only">핵심 기능</span><span class="en-only">Core features</span></span><span class="ov-v"><span class="ko-only">VideoLLM 기반 행동·물체·얼굴 인식 + LLM 에이전트 개인화·가전 제어</span><span class="en-only">VideoLLM-based action/object/face recognition + LLM-agent personalization &amp; appliance control</span></span></div>
+            <div class="ov-row"><span class="ov-k"><span class="ko-only">목표</span><span class="en-only">Goal</span></span><span class="ov-v"><span class="ko-only">실제 주거 환경에서 안정 동작하는 Vision AI 시스템 · 모델하우스 시범 운영</span><span class="en-only">A Vision AI system that runs reliably in real homes · model-house pilot</span></span></div>
+            <div class="ov-row"><span class="ov-k"><span class="ko-only">협업</span><span class="en-only">Collaboration</span></span><span class="ov-v"><span class="ko-only">인프라파트(DB·월패드), NLP파트(LLM 에이전트), 온디바이스 담당</span><span class="en-only">Infra (DB/wall pad), NLP (LLM agent), on-device teams</span></span></div>
           </div>
         </div>
 
@@ -174,9 +186,8 @@
               <li>To address the scarcity of open-source in-home action data, filmed resident actions directly in real living spaces and defined/labeled 600+ videos into 65+ actions</li>
               <li>Iteratively reviewed class overlap and labeling ambiguity, consolidating to 15 core classes → released the final official dataset (648 clips, 2560×1440)</li>
             </ul>
-            <figure class="project-figure">
+            <figure class="project-figure fig-half">
               <img src="../../assets/img/ext/hdc_aihome2.png" alt="Multi-camera capture in a real residential environment">
-              <figcaption><span class="ko-only">실제 주거 환경 4-카메라 영상 수집</span><span class="en-only">Multi-camera capture in a real residential environment</span></figcaption>
             </figure>
           </div>
         </div>
@@ -220,10 +231,12 @@
           <div class="project-text">
             <div class="blabel"><span class="ko-only">담당 업무</span><span class="en-only">Responsibilities</span></div>
             <ul class="ko-only">
-              <li>온디바이스 담당자와 협업하여 Jetson NX에 4bit 양자화 모델 배포, RK3576 카메라와 실시간 연동</li>
+              <li>온디바이스 담당자와 함께 Jetson NX에 적용 가능한 모델을 실험하고, 그중 가장 효과적인 4bit NF4 양자화 모델을 선정·탑재</li>
+              <li>RK3576 카메라와 실시간 연동까지 이어지도록 프로젝트 매니징 수행</li>
             </ul>
             <ul class="en-only">
-              <li>Collaborated with the on-device engineer to deploy the 4-bit quantized model on Jetson NX, integrated in real time with an RK3576 camera</li>
+              <li>Experimented with the on-device engineer on models deployable to Jetson NX, then selected and loaded the most effective 4-bit NF4 quantized model</li>
+              <li>Project-managed the work so it could integrate with an RK3576 camera in real time</li>
             </ul>
             <div class="blabel"><span class="ko-only">업무 성과</span><span class="en-only">Achievements</span></div>
             <ul class="ko-only">
@@ -247,14 +260,14 @@
               <li>Built a 5-stage automation pipeline: filming → initial auto-labeling → per-class verification → training → deployment</li>
               <li>After Qwen3-VL initial labeling, branched into pass/human-review at verification, cutting data-acquisition and labeling cost</li>
             </ul>
-            <figure class="project-figure">
-              <img src="../../assets/img/ext/hdc_aihome0_pipeline.png" alt="5-stage data automation pipeline">
-              <figcaption><span class="ko-only">촬영·라벨링·검증·학습·배포 5단계 자동화 파이프라인</span><span class="en-only">5-stage filming–labeling–verification–training–deployment pipeline</span></figcaption>
-            </figure>
-            <figure class="project-figure">
-              <img src="../../assets/img/ext/hdc_aihome1_auto_labeling_tool.png" alt="Data collection and labeling automation tool">
-              <figcaption><span class="ko-only">데이터 수집·라벨링 자동화 툴</span><span class="en-only">Data collection &amp; labeling automation tool</span></figcaption>
-            </figure>
+            <div class="fig-row">
+              <figure class="project-figure">
+                <img src="../../assets/img/ext/hdc_aihome0_pipeline.png" alt="5-stage data automation pipeline">
+              </figure>
+              <figure class="project-figure">
+                <img src="../../assets/img/ext/hdc_aihome1_auto_labeling_tool.png" alt="Data collection and labeling automation tool">
+              </figure>
+            </div>
           </div>
         </div>
 
@@ -271,7 +284,7 @@
             </ul>
             <div class="blabel"><span class="ko-only">기술 스택</span><span class="en-only">Tech stack</span></div>
             <div class="tech-stack">
-              <span>VideoLLM</span><span>LLM Prompt Engineering</span><span>Fine-tuning</span><span>4bit / NF4</span><span>Jetson NX</span><span>TensorRT</span><span>Kafka</span><span>Multiprocessing / Threading</span><span>Python</span>
+              <span>VideoLLM</span><span>LLM Prompt Engineering</span><span>Fine-tuning</span><span>4bit / NF4</span><span>Jetson NX</span><span>Kafka</span><span>Python</span><span>Project Management</span>
             </div>
           </div>
         </div>
