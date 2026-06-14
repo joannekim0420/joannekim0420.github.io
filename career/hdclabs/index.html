@@ -11,9 +11,11 @@
 <style>
   /* Fire-detection & Home AI Agent: stack header, overview spec list, figure */
   .career-detail #proj-fire .proj-head,
-  .career-detail #proj-agent .proj-head { flex-direction: column; }
+  .career-detail #proj-agent .proj-head,
+  .career-detail #proj-elv .proj-head { flex-direction: column; }
   .career-detail #proj-fire .proj-head .contrib-min,
-  .career-detail #proj-agent .proj-head .contrib-min { max-width: none; }
+  .career-detail #proj-agent .proj-head .contrib-min,
+  .career-detail #proj-elv .proj-head .contrib-min { max-width: none; }
   .career-detail .proj-overview { display: grid; gap: 7px; margin-top: 2px; }
   .career-detail .ov-row { display: flex; gap: 12px; font-size: 13.5px; line-height: 1.5; }
   .career-detail .ov-k { flex: 0 0 96px; font-weight: 700; color: var(--accent-strong); }
@@ -110,12 +112,12 @@
           </div>
           <ul class="ko-only">
             <li>거주자 행동·물체·얼굴 인식 기반 개인화 홈 AI 에이전트</li>
-            <li>VideoLLM 프롬프트 엔지니어링으로 액션 정확도 65~69% → 77~81%</li>
+            <li>VideoLLM 프롬프트 엔지니어링으로 액션 정확도 65% → 81%</li>
             <li>Jetson NX 4bit 배포, 5초 영상 평균 4.2초 처리 (실시간)</li>
           </ul>
           <ul class="en-only">
             <li>Personalized home AI agent from resident action/object/face recognition</li>
-            <li>VideoLLM prompt engineering lifted action accuracy 65–69% → 77–81%</li>
+            <li>VideoLLM prompt engineering lifted action accuracy 65% → 81%</li>
             <li>4-bit on Jetson NX, ~4.2s for a 5s clip (real-time)</li>
           </ul>
         </button>
@@ -162,7 +164,7 @@
           <div class="contrib-min">
             <span class="pill"><span class="ko-only">핵심 역할</span><span class="en-only">Key role</span></span>
             <div class="c-body">
-              <div class="c-role"><span class="ko-only">기여도 35% — 데이터셋 구축, 행동 인식 모델링, 통합 파이프라인 개발, 엣지 배포·프로젝트 매니징</span><span class="en-only">35% contribution — dataset construction, action-recognition modeling, integrated pipeline development, edge deployment &amp; project management</span></div>
+              <div class="c-role"><span class="ko-only">기여도 35% — 프로젝트 매니징, 데이터셋 구축, 행동 인식 모델링, 통합 파이프라인 개발, 엣지 배포</span><span class="en-only">35% contribution — project management, dataset construction, action-recognition modeling, integrated pipeline development, edge deployment</span></div>
             </div>
           </div>
           <div class="proj-overview">
@@ -198,12 +200,12 @@
             <div class="blabel"><span class="ko-only">담당 업무</span><span class="en-only">Responsibilities</span></div>
             <ul class="ko-only">
               <li>학습 데이터가 부족한 상황에서 VideoLLM(Qwen-VL, VideoLLaMA3)으로 영상을 액션 분류, 액션 클래스를 동적으로 교체할 수 있도록 프롬프트 엔지니어링</li>
-              <li>프롬프트를 "상위 3개 → 단일 1개 선택"으로 변경해 정확도 65~69% → 77~81% 개선 (가장 큰 성능 개선 요인)</li>
+              <li>프롬프트를 "상위 3개 → 단일 1개 선택"으로 변경해 정확도 65% → 81% 개선 (가장 큰 성능 개선 요인)</li>
               <li>로딩·양자화 방식 비교를 통해 HF Transformers + 4bit + NF4 조합을 성능·속도 최적값으로 확립</li>
             </ul>
             <ul class="en-only">
               <li>With limited training data, classified video actions using VideoLLMs (Qwen-VL, VideoLLaMA3), with prompt engineering to swap action classes dynamically</li>
-              <li>Changing the prompt from "top-3 → single-1 selection" improved accuracy from 65–69% to 77–81% (the single biggest gain)</li>
+              <li>Changing the prompt from "top-3 → single-1 selection" improved accuracy from 65% to 81% (the single biggest gain)</li>
               <li>Established HF Transformers + 4-bit + NF4 as the performance/speed optimum through loading and quantization comparisons</li>
             </ul>
           </div>
@@ -300,8 +302,13 @@
             <span class="pill"><span class="ko-only">핵심 역할</span><span class="en-only">Key role</span></span>
             <div class="c-body">
               <div class="c-role"><span class="ko-only">기여도 30% — 반려견 탑승 인식 모델 및 알고리즘 개발</span><span class="en-only">30% contribution — pet-boarding detection model &amp; algorithm</span></div>
-              <div class="c-collab"><span class="ko-only"><strong>개요</strong>승강기 혼잡도·대기 시간 감소, 이상 행동 탐지와 반려견 목줄 끼임 사고 예방을 위한 AI 기반 엘리베이터 운영 시스템 개발</span><span class="en-only"><strong>Overview</strong>An AI-based elevator operation system that reduces congestion and wait time, detects anomalies, and prevents pet-leash entrapment accidents</span></div>
             </div>
+          </div>
+          <div class="proj-overview">
+            <div class="ov-row"><span class="ov-k"><span class="ko-only">적용 환경</span><span class="en-only">Environment</span></span><span class="ov-v"><span class="ko-only">엘리베이터 카 내부 상단 모서리 CCTV 시점</span><span class="en-only">Inside the elevator car, top-corner CCTV viewpoint</span></span></div>
+            <div class="ov-row"><span class="ov-k"><span class="ko-only">핵심 기능</span><span class="en-only">Core features</span></span><span class="ov-v"><span class="ko-only">VLM 파인튜닝 기반 반려견 탑승 인식 + 목줄 끼임 사고 예방 알고리즘</span><span class="en-only">VLM-fine-tuned pet-boarding detection + leash-entrapment prevention algorithm</span></span></div>
+            <div class="ov-row"><span class="ov-k"><span class="ko-only">목표</span><span class="en-only">Goal</span></span><span class="ov-v"><span class="ko-only">승강기 혼잡도·대기 시간 감소, 이상 행동 탐지, 반려견 목줄 끼임 사고 예방 AI 운영 시스템</span><span class="en-only">An AI operation system that reduces congestion/wait time, detects anomalies, and prevents pet-leash entrapment</span></span></div>
+            <div class="ov-row"><span class="ov-k"><span class="ko-only">협업</span><span class="en-only">Collaboration</span></span><span class="ov-v"><span class="ko-only">현대엘리베이터</span><span class="en-only">Hyundai Elevator</span></span></div>
           </div>
         </div>
 
