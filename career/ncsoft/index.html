@@ -8,6 +8,12 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
 <link rel="stylesheet" href="../../assets/css/style.css?v=20260611a">
+<style>
+  /* NC Soft project: stack title, key-role, and figure vertically */
+  .career-detail #proj-mtqe .proj-head { flex-direction: column; }
+  .career-detail #proj-mtqe .proj-head .contrib-min { max-width: none; }
+  .career-detail #proj-mtqe .proj-head .project-figure { width: 100%; max-width: 760px; margin-top: 4px; }
+</style>
 </head>
 <body data-root="../../" style="--accent:#4f46e5;--accent-soft:#ecebfb;">
 
@@ -82,14 +88,18 @@
           <div class="contrib-min">
             <span class="pill"><span class="ko-only">핵심 역할</span><span class="en-only">Key role</span></span>
             <div class="c-body">
-              <div class="c-role"><span class="ko-only">기여도 100% — 번역 품질 자동 평가 모델링, 전후처리 자동화</span><span class="en-only">100% contribution — automatic translation-quality evaluation modeling, pre/post-processing automation</span></div>
-              <div class="c-collab"><span class="ko-only"><strong>개요</strong>번역 문장과 원문 간 의미적 일치도를 수치화하여 human evaluation을 대체·보조할 수 있는 자동 평가 방법 연구</span><span class="en-only"><strong>Overview</strong>An automatic evaluation method that quantifies semantic agreement between source and translation to replace or assist human evaluation</span></div>
+              <div class="c-role"><span class="ko-only">기여도 100% — 번역 품질 평가 모델링</span><span class="en-only">100% contribution — translation-quality evaluation modeling</span></div>
+              <div class="c-collab"><span class="ko-only"><strong>개요</strong>번역 문장과 원문 간 의미적 일치도를 수치화하여 human evaluation을 대체·보조할 수 있는 평가 방법 연구</span><span class="en-only"><strong>Overview</strong>An evaluation method that quantifies semantic agreement between source and translation to replace or assist human evaluation</span></div>
             </div>
           </div>
+          <figure class="project-figure">
+            <img src="../../assets/img/ext/nc_quality.png" alt="Multilingual machine-translation quality evaluation">
+            <figcaption><span class="ko-only">번역 품질 평가 모델 개요</span><span class="en-only">Translation-quality evaluation overview</span></figcaption>
+          </figure>
         </div>
 
         <div class="phase">
-          <div class="phase-title"><span class="pnum">1</span><span class="ko-only">번역 품질 자동 평가 모델링</span><span class="en-only">Automatic Quality-Evaluation Modeling</span></div>
+          <div class="phase-title"><span class="pnum">1</span><span class="ko-only">번역 품질 평가 모델링</span><span class="en-only">Quality-Evaluation Modeling</span></div>
           <div class="project-text">
             <div class="blabel"><span class="ko-only">기존 문제점</span><span class="en-only">Problem</span></div>
             <ul class="ko-only">
