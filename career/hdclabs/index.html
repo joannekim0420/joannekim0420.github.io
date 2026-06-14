@@ -201,12 +201,12 @@
             <div class="blabel"><span class="ko-only">담당 업무</span><span class="en-only">Responsibilities</span></div>
             <ul class="ko-only">
               <li>학습 데이터가 부족한 상황에서 VideoLLM(Qwen-VL, VideoLLaMA3)으로 영상을 액션 분류, 액션 클래스를 동적으로 교체할 수 있도록 프롬프트 엔지니어링</li>
-              <li>프롬프트를 "상위 3개 → 단일 1개 선택"으로 변경해 정확도 65% → 81% 개선 (가장 큰 성능 개선 요인)</li>
+              <li>평가 기준에 맞춘 단일 라벨 출력 제약과 프롬프트 구조 개선으로 행동 분류 정확도 65%→81% 향상</li>
               <li>로딩·양자화 방식 비교를 통해 HF Transformers + 4bit + NF4 조합을 성능·속도 최적값으로 확립</li>
             </ul>
             <ul class="en-only">
               <li>With limited training data, classified video actions using VideoLLMs (Qwen-VL, VideoLLaMA3), with prompt engineering to swap action classes dynamically</li>
-              <li>Changing the prompt from "top-3 → single-1 selection" improved accuracy from 65% to 81% (the single biggest gain)</li>
+              <li>Refined VideoLLM output constraints and evaluation-aligned prompting, improving single-label action classification accuracy from 65% to 81%</li>
               <li>Established HF Transformers + 4-bit + NF4 as the performance/speed optimum through loading and quantization comparisons</li>
             </ul>
           </div>
@@ -243,10 +243,10 @@
             </ul>
             <div class="blabel"><span class="ko-only">업무 성과</span><span class="en-only">Achievements</span></div>
             <ul class="ko-only">
-              <li>5초 영상 기준 평균 4.2초 내 처리로 실시간 처리 가능성 확인 (액션 정확도 0.71)</li>
+              <li>Jetson NX에서 5초 클립 평균 4.2초 처리로 준실시간 적용 가능성 확인</li>
             </ul>
             <ul class="en-only">
-              <li>Confirmed real-time feasibility — 4.2s average processing for a 5s clip (action accuracy 0.71)</li>
+              <li>Confirmed near-real-time feasibility on Jetson NX, processing 5-second clips in 4.2 seconds on average</li>
             </ul>
           </div>
         </div>
