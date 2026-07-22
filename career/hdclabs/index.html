@@ -12,9 +12,11 @@
   /* Fire-detection & Home AI Agent: stack header, overview spec list, figure */
   .career-detail #proj-fire .proj-head,
   .career-detail #proj-agent .proj-head,
+  .career-detail #proj-ipark .proj-head,
   .career-detail #proj-elv .proj-head { flex-direction: column; }
   .career-detail #proj-fire .proj-head .contrib-min,
   .career-detail #proj-agent .proj-head .contrib-min,
+  .career-detail #proj-ipark .proj-head .contrib-min,
   .career-detail #proj-elv .proj-head .contrib-min { max-width: none; }
   .career-detail .proj-overview { display: grid; gap: 7px; margin-top: 2px; }
   .career-detail .ov-row { display: flex; gap: 12px; font-size: 13.5px; line-height: 1.5; }
@@ -77,7 +79,7 @@
         <div class="wa-col">
           <ul>
             <li>
-              <div class="wa-y">2024.09 – 2025.04</div>
+              <div class="wa-y">2024.11 – 2025.02</div>
               <div class="wa-nm"><span class="wa-name"><a class="wa-goto" data-goto="fire"><span class="ko-only">지하주차장 화재 탐지 모델 개발</span><span class="en-only">Underground Parking Fire Detection</span></a></span><span class="wa-role"><span class="ko-only">AI 엔지니어</span><span class="en-only">AI Engineer</span></span></div>
             </li>
             <li>
@@ -87,6 +89,10 @@
             <li>
               <div class="wa-y">2025.06 ~</div>
               <div class="wa-nm"><span class="wa-name"><a class="wa-goto" data-goto="agent"><span class="ko-only">차세대 홈 AI Agent 시스템</span><span class="en-only">Next-Gen Home AI Agent System</span></a></span><span class="wa-role"><span class="ko-only">AI 엔지니어</span><span class="en-only">AI Engineer</span></span></div>
+            </li>
+            <li>
+              <div class="wa-y">2026.06 ~</div>
+              <div class="wa-nm"><span class="wa-name"><a class="wa-goto" data-goto="ipark"><span class="ko-only">아이파크몰 인사이트 에이전트 PoC</span><span class="en-only">IParkMall Insight Agent PoC</span></a></span><span class="wa-role"><span class="ko-only">AI 엔지니어 · PM</span><span class="en-only">AI Engineer · PM</span></span></div>
             </li>
           </ul>
         </div>
@@ -106,7 +112,23 @@
         <span class="en-only">Select a project to view its details below</span>
       </p>
       <div class="proj-select-grid">
-        <button type="button" class="proj-card active" data-panel="agent">
+        <button type="button" class="proj-card active" data-panel="ipark">
+          <div class="name">
+            <span class="ko-only">아이파크몰 인사이트 에이전트 PoC</span>
+            <span class="en-only">IParkMall Insight Agent PoC</span>
+          </div>
+          <ul class="ko-only">
+            <li>방문객 DB·외부 API 연동 대화형 인사이트 에이전트</li>
+            <li>LangGraph·tool calling 기반 다단계 추론 고도화</li>
+            <li>자동 채점 정확도 8.7%p 향상</li>
+          </ul>
+          <ul class="en-only">
+            <li>Conversational insight agent over visitor DB + external APIs</li>
+            <li>Multi-step reasoning via LangGraph &amp; tool calling</li>
+            <li>Auto-scoring accuracy improved by 8.7%p</li>
+          </ul>
+        </button>
+        <button type="button" class="proj-card" data-panel="agent">
           <div class="name">
             <span class="ko-only">차세대 홈 AI Agent 시스템</span>
             <span class="en-only">Next-Gen Home AI Agent System</span>
@@ -156,7 +178,73 @@
         </button>
       </div>
 
-      <div class="project proj-panel active" data-panel="agent" id="proj-agent">
+      <div class="project proj-panel active" data-panel="ipark" id="proj-ipark">
+        <div class="proj-head">
+          <h3>
+            <span class="ko-only">아이파크몰 인사이트 에이전트 PoC (2026.06 ~ 진행 중)</span>
+            <span class="en-only">IParkMall Insight Agent PoC (2026.06 ~ Present)</span>
+          </h3>
+          <div class="contrib-min">
+            <span class="pill"><span class="ko-only">핵심 역할</span><span class="en-only">Key role</span></span>
+            <div class="c-body">
+              <div class="c-role"><span class="ko-only">PM — 컨텍스트 엔지니어링, 대시보드 분석 자동화 에이전트 개발, 평가 체계 구축</span><span class="en-only">PM — context engineering, dashboard-analytics automation agent, evaluation framework</span></div>
+            </div>
+          </div>
+          <div class="proj-overview">
+            <div class="ov-row"><span class="ov-k"><span class="ko-only">적용 대상</span><span class="en-only">Target</span></span><span class="ov-v"><span class="ko-only">아이파크몰 방문객 데이터 기반 대화형 인사이트 서비스</span><span class="en-only">Conversational insight service over IParkMall visitor data</span></span></div>
+            <div class="ov-row"><span class="ov-k"><span class="ko-only">연동 대상</span><span class="en-only">Integration</span></span><span class="ov-v"><span class="ko-only">내부 방문객 DB · 외부 API(날씨·상권·이벤트) · 인사이트 대시보드</span><span class="en-only">Internal visitor DB · external APIs (weather, commercial area, events) · insight dashboard</span></span></div>
+            <div class="ov-row"><span class="ov-k"><span class="ko-only">핵심 기능</span><span class="en-only">Core features</span></span><span class="ov-v"><span class="ko-only">자연어 질의를 조회·결합해 답하는 대화형 인사이트 에이전트</span><span class="en-only">A conversational insight agent that resolves and combines sources to answer natural-language queries</span></span></div>
+            <div class="ov-row"><span class="ov-k"><span class="ko-only">목표</span><span class="en-only">Goal</span></span><span class="ov-v"><span class="ko-only">내부 카메라 DB와 외부 API 데이터를 통합해 자연어 질의로 인사이트를 제공하는 에이전트 설계 및 평가 체계 구축</span><span class="en-only">Design an agent that unifies internal camera DB and external API data to deliver insights via natural language, and build its evaluation framework</span></span></div>
+          </div>
+        </div>
+
+        <div class="phase">
+          <div class="phase-title"><span class="pnum">1</span><span class="ko-only">컨텍스트 엔지니어링</span><span class="en-only">Context Engineering</span></div>
+          <div class="project-text">
+            <div class="blabel"><span class="ko-only">담당 업무</span><span class="en-only">Responsibilities</span></div>
+            <ul class="ko-only">
+              <li><strong>데이터 범위·프롬프트 기준 정의</strong> — 질의 유형별로 LLM 응답에 필요한 데이터 범위와 프롬프트 구성 기준을 정의</li>
+              <li><strong>오케스트레이션 설계</strong> — 질의 의도에 따라 내부 방문객 DB·외부 API 중 필요한 소스를 선택·결합하는 조회 오케스트레이션 설계</li>
+            </ul>
+            <ul class="en-only">
+              <li><strong>Data scope &amp; prompt criteria</strong> — defined, per query type, the data scope and prompt structure required for the LLM response</li>
+              <li><strong>Orchestration design</strong> — designed retrieval orchestration that selects and combines the needed sources (internal visitor DB / external APIs) based on query intent</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="phase">
+          <div class="phase-title"><span class="pnum">2</span><span class="ko-only">대시보드 분석 자동화 에이전트 개발</span><span class="en-only">Dashboard-Analytics Automation Agent</span></div>
+          <div class="project-text">
+            <div class="blabel"><span class="ko-only">담당 업무</span><span class="en-only">Responsibilities</span></div>
+            <ul class="ko-only">
+              <li><strong>분석 에이전트 설계</strong> — 매장 유동인구 데이터를 LLM 에이전트와 연동해, 자연어 질의로 대시보드 지표를 조회·해석 → 요약 → 인사이트 생성으로 확장하는 에이전트 구조 설계</li>
+              <li><strong>이중 평가 파이프라인 구축</strong> — 13개 카테고리 260문항에 대해 자동 채점과 LLM 평가를 결합한 이중 평가 파이프라인 구축</li>
+              <li><strong>tool calling 기반 고도화 (진행 중)</strong> — 조회형 응답 구조를 tool calling 기반 다단계 에이전트로 전환하고, LangGraph로 다단계 추론 흐름 구성</li>
+            </ul>
+            <ul class="en-only">
+              <li><strong>Analytics agent design</strong> — linked store foot-traffic data to an LLM agent, extending from natural-language dashboard-metric lookup and interpretation → summary → insight generation</li>
+              <li><strong>Dual evaluation pipeline</strong> — built a dual pipeline combining automatic scoring and LLM evaluation over 260 questions across 13 categories</li>
+              <li><strong>Tool-calling upgrade (in progress)</strong> — converting the retrieval-style response structure into a tool-calling multi-step agent, with multi-step reasoning composed in LangGraph</li>
+            </ul>
+            <div class="blabel"><span class="ko-only">업무 성과</span><span class="en-only">Achievements</span></div>
+            <ul class="ko-only">
+              <li>데이터 분석 인사이트 제공 에이전트 개발</li>
+              <li>자동 채점 정확도 8.7%p 향상</li>
+            </ul>
+            <ul class="en-only">
+              <li>Delivered a data-analytics insight agent</li>
+              <li>Improved auto-scoring accuracy by 8.7%p</li>
+            </ul>
+            <div class="blabel"><span class="ko-only">기술 스택</span><span class="en-only">Tech stack</span></div>
+            <div class="tech-stack">
+              <span>AI Agent</span><span>LLM Service Design</span><span>Context Engineering</span><span>LangGraph</span><span>Tool Calling</span><span>Python</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="project proj-panel" data-panel="agent" id="proj-agent">
         <div class="proj-head">
           <h3>
             <span class="ko-only">차세대 홈 AI Agent 시스템 (2025.06 ~ 진행 중)</span>
@@ -359,8 +447,8 @@
       <div class="project lemon proj-panel" data-panel="fire" id="proj-fire">
         <div class="proj-head">
           <h3>
-            <span class="ko-only">지하주차장 화재 탐지 모델 개발 (2024.09 – 2025.04)</span>
-            <span class="en-only">Underground Parking Fire Detection (2024.09 – 2025.04)</span>
+            <span class="ko-only">지하주차장 화재 탐지 모델 개발 (2024.11 – 2025.02)</span>
+            <span class="en-only">Underground Parking Fire Detection (2024.11 – 2025.02)</span>
           </h3>
           <div class="contrib-min">
             <span class="pill"><span class="ko-only">핵심 역할</span><span class="en-only">Key role</span></span>
