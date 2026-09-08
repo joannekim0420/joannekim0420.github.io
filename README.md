@@ -24,11 +24,10 @@ Pure static HTML + vanilla JS — **no build step**. GitHub Pages serves the rep
 ## Editing content
 
 1. Edit `data/*.json` (or the career pages' HTML directly).
-2. Regenerate the static prerender + LLM files:
+2. Regenerate the static prerender:
 
    ```bash
    python tools/prerender_home.py
-   python tools/generate_llms.py
    ```
 
    Or enable the git hook once so it happens automatically on commit:

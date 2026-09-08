@@ -13,9 +13,9 @@ same CSS classes, so there is no visual flash before JS runs.
 
 Localized fields (patent / news titles) are rendered in the page's DEFAULT
 language (Korean), matching what a first-time visitor sees. The full bilingual
-data lives in llms-full.txt.
+data lives in data/*.json.
 
-Re-run after editing data/*.json (then re-run generate_llms.py too):
+Re-run after editing data/*.json:
     python3 tools/prerender_home.py
 """
 import os
