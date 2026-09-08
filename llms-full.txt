@@ -47,13 +47,13 @@ Multimodal AI and AI agents — connecting VLM/LLM to real work and systems
 
 - 홈 AI 에이전트, 마케팅 인사이트 에이전트, 엘리베이터 상황 분석, 화재 탐지 등 실환경 멀티모달 AI·Agent 과제를 PoC부터 현장 적용까지 수행
 
-- 모델 개발에서 끝나지 않고 반복 업무 자동화와 의사결정 품질 개선까지 연결 — Tool Calling·RAG·Guardrail·LLM Judge 평가 체계 구축
+- 모델 개발에서 끝나지 않고 반복 업무 자동화와 의사결정 품질 개선까지 연결 — Tool Calling·Guardrail·LLM Judge 평가 체계 구축
 
 - UNIST 인공지능대학원 석사 (멀티모달·NLP), 논문 7편과 특허 7건으로 연구 성과 권리화
 
 - Home AI agents, marketing insight agents, in-elevator situational analysis, and fire detection — real-world multimodal AI and agents from PoC to field deployment
 
-- Work does not stop at the model: it connects through to automating repetitive tasks and improving decision quality — tool calling, RAG, guardrails, and LLM-judge evaluation
+- Work does not stop at the model: it connects through to automating repetitive tasks and improving decision quality — tool calling, guardrails, and LLM-judge evaluation
 
 - M.S. at UNIST Graduate School of AI (multimodal & NLP); results consolidated into 7 papers and 7 patents
 
@@ -125,7 +125,7 @@ HDC LABS / 2026.06 –
 현재
 Present
 
-Multi-Agent Tool Calling RAG
+Multi-Agent Tool Calling
 
 차세대 홈 AI Agent 시스템
 Next-Gen Home AI Agent System →
@@ -230,7 +230,7 @@ Jongeun Kim
 - UNIST 인공지능 석사M.S. in Artificial Intelligence 2022.08 ~ 2024.08 -> https://joannekim0420.github.io/career/unist/
 - NC SOFT 기계번역데이터팀 인턴MT Data Team Intern 2021.07 ~ 2022.01 -> https://joannekim0420.github.io/career/ncsoft/
 - Sangmyung University 휴먼지능정보공학과 학사B.S. in Human Intelligence Information Engineering 2017.02 ~ 2022.02 -> https://joannekim0420.github.io/career/smu/
-- 아이파크몰 인사이트 에이전트 PoCIParkMall Insight Agent PoC→ HDC LABS / 2026.06 – 현재Present Multi-AgentTool CallingRAG -> https://joannekim0420.github.io/career/hdclabs/
+- 아이파크몰 인사이트 에이전트 PoCIParkMall Insight Agent PoC→ HDC LABS / 2026.06 – 현재Present Multi-AgentTool Calling -> https://joannekim0420.github.io/career/hdclabs/
 - 차세대 홈 AI Agent 시스템Next-Gen Home AI Agent System→ HDC LABS / 2025.06 – 현재Present VideoLLMLLMKafka 기여도Contribution35% -> https://joannekim0420.github.io/career/hdclabs/
 - 엘리베이터 내부 상황 분석In-Elevator Situational Analysis→ HDC LABS / 2025.01 – 2025.02 VLMObject DetectionSynthetic Data 기여도Contribution30% -> https://joannekim0420.github.io/career/hdclabs/
 - 지하주차장 화재 탐지Underground Parking Fire Detection→ HDC LABS / 2024.11 – 2025.02 YOLOVLMFlorence2 기여도Contribution40% -> https://joannekim0420.github.io/career/hdclabs/
@@ -277,6 +277,8 @@ R&D Center AI Lab 2024.05 ~ Present
 VLM / LLM
 Video Understanding
 Multimodal AI
+AX Engineering
+PM / PL
 
 ## 업무 및 활동
 Work & Activities
