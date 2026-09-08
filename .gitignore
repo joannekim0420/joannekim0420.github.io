@@ -21,3 +21,8 @@ npm-debug.log
 # Local dev / temp
 *.log
 *.tmp
+
+# Portfolio / resume binaries — kept local, not versioned
+# (the PPTX is a generated artifact: python3 tools/build_ppt.py)
+Jongeun_Kim_*.pptx
+Jongeun_Kim_*.pdf
