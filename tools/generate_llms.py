@@ -29,7 +29,7 @@ PAGES = [
     ("index.html", "/", "Home",
      "Profile, career overview, and tabbed publications / patents / news / research"),
     ("career/hdclabs/index.html", "/career/hdclabs/", "Career — HDC LABS",
-     "Home AI agent / elevator situational analysis / fire detection project deep-dives"),
+     "IParkMall insight agent / home AI agent / elevator situational analysis / fire detection project deep-dives"),
     ("career/unist/index.html", "/career/unist/", "Career — UNIST",
      "M.S. in Artificial Intelligence — multilingual multimodal, LG utterance generation, slogan generation, LOVEU challenge"),
     ("career/ncsoft/index.html", "/career/ncsoft/", "Career — NC Soft",

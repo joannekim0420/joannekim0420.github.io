@@ -106,7 +106,7 @@ section.hero { padding: 56px 0 32px; }
 .hero .lead { color: var(--fg); font-weight: 600; margin: 0 0 12px; font-size: 18px; line-height: 1.5; max-width: 620px; }
 
 /* Selected Projects (home) */
-.sp-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 13px; }
+.sp-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 13px; }
 .sp-card { border: 1px solid var(--border); border-radius: var(--radius); background: var(--bg-card); display: flex; align-items: center; gap: 14px; padding: 14px 16px; color: inherit; }
 a.sp-card:hover { border-color: var(--accent); transform: translateY(-2px); transition: 120ms; text-decoration: none; }
 .sp-info { flex: 1; min-width: 0; }

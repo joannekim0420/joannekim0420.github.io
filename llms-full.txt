@@ -6,7 +6,7 @@ Source of truth: the repository at github.com/joannekim0420/joannekim0420.github
 
 ## Site map
 - https://joannekim0420.github.io/ — Home: Profile, career overview, and tabbed publications / patents / news / research
-- https://joannekim0420.github.io/career/hdclabs/ — Career — HDC LABS: Home AI agent / elevator situational analysis / fire detection project deep-dives
+- https://joannekim0420.github.io/career/hdclabs/ — Career — HDC LABS: IParkMall insight agent / home AI agent / elevator situational analysis / fire detection project deep-dives
 - https://joannekim0420.github.io/career/unist/ — Career — UNIST: M.S. in Artificial Intelligence — multilingual multimodal, LG utterance generation, slogan generation, LOVEU challenge
 - https://joannekim0420.github.io/career/ncsoft/ — Career — NC Soft: Machine-translation quality evaluation internship
 - https://joannekim0420.github.io/career/smu/ — Career — Sangmyung University: B.S. in Human Intelligence Information Engineering
@@ -41,15 +41,19 @@ EN
 # 김종은 AI Engineer
 Jongeun Kim AI Engineer
 
-VLM·LLM·비디오 언더스탠딩 — 연구부터 현장 적용까지 멀티모달 AI 개발
+VLM·LLM·AI Agent — 멀티모달 AI를 실제 업무와 시스템에 연결하는 AX 개발
 
-Multimodal AI — VLM, LLM, and video understanding, from research to real-world deployment
+Multimodal AI and AI agents — connecting VLM/LLM to real work and systems
 
-- 홈 AI 에이전트, 엘리베이터 상황 분석, 화재 탐지 등 실환경 멀티모달 AI 과제의 PoC부터 현장 적용까지 수행
+- 홈 AI 에이전트, 마케팅 인사이트 에이전트, 엘리베이터 상황 분석, 화재 탐지 등 실환경 멀티모달 AI·Agent 과제를 PoC부터 현장 적용까지 수행
+
+- 모델 개발에서 끝나지 않고 반복 업무 자동화와 의사결정 품질 개선까지 연결 — Tool Calling·RAG·Guardrail·LLM Judge 평가 체계 구축
 
 - UNIST 인공지능대학원 석사 (멀티모달·NLP), 논문 7편과 특허 7건으로 연구 성과 권리화
 
-- Home AI agents, in-elevator situational analysis, and fire detection — real-world multimodal AI from PoC to field deployment
+- Home AI agents, marketing insight agents, in-elevator situational analysis, and fire detection — real-world multimodal AI and agents from PoC to field deployment
+
+- Work does not stop at the model: it connects through to automating repetitive tasks and improving decision quality — tool calling, RAG, guardrails, and LLM-judge evaluation
 
 - M.S. at UNIST Graduate School of AI (multimodal & NLP); results consolidated into 7 papers and 7 patents
 
@@ -58,6 +62,8 @@ GitHub
 LinkedIn
 
 Scholar
+
+Blog
 
 [image: Jongeun Kim]
 
@@ -112,6 +118,15 @@ Selected Projects
 주요 프로젝트와 핵심 기여
 Selected projects and key contributions
 
+아이파크몰 인사이트 에이전트 PoC
+IParkMall Insight Agent PoC →
+
+HDC LABS / 2026.06 –
+현재
+Present
+
+Multi-Agent Tool Calling RAG
+
 차세대 홈 AI Agent 시스템
 Next-Gen Home AI Agent System →
 
@@ -129,9 +144,7 @@ Contribution
 엘리베이터 내부 상황 분석
 In-Elevator Situational Analysis →
 
-HDC LABS / 2025.02 –
-현재
-Present
+HDC LABS / 2025.01 – 2025.02
 
 VLM Object Detection Synthetic Data
 
@@ -143,7 +156,7 @@ Contribution
 지하주차장 화재 탐지
 Underground Parking Fire Detection →
 
-HDC LABS / 2024.09 – 2025.04
+HDC LABS / 2024.11 – 2025.02
 
 YOLO VLM Florence2
 
@@ -164,6 +177,44 @@ News
 연구
 Research
 
+수상&자격
+Awards & Certifications
+
+### 수상
+Awards
+
+- [1] 2nd Place
+
+CVPR 2022 LOVEU AQTC Challenge (LOVEU Track 3) 2위 입상, CVPRW 2022, 2022.06
+
+2nd place, CVPR 2022 LOVEU AQTC Challenge (LOVEU Track 3), CVPRW 2022, 2022.06
+
+- [2]
+우수상
+Excellence
+
+교내 영어토론대회 3등 우수상, 2017.11
+
+Excellence Award (3rd place), Campus English Debate Competition, 2017.11
+
+### 어학
+Language
+
+- TOEIC 965점
+
+TOEIC 965
+
+- TOEIC Speaking 170점 (Advanced Low)
+
+TOEIC Speaking 170 (Advanced Low)
+
+### 자격증
+Certifications
+
+- 정보처리기사, 2022.06.02 · 자격번호 21201071305E
+
+Engineer Information Processing, 2022.06.02 · License No. 21201071305E
+
 ©
 김종은
 Jongeun Kim
@@ -179,18 +230,20 @@ Jongeun Kim
 - UNIST 인공지능 석사M.S. in Artificial Intelligence 2022.08 ~ 2024.08 -> https://joannekim0420.github.io/career/unist/
 - NC SOFT 기계번역데이터팀 인턴MT Data Team Intern 2021.07 ~ 2022.01 -> https://joannekim0420.github.io/career/ncsoft/
 - Sangmyung University 휴먼지능정보공학과 학사B.S. in Human Intelligence Information Engineering 2017.02 ~ 2022.02 -> https://joannekim0420.github.io/career/smu/
+- 아이파크몰 인사이트 에이전트 PoCIParkMall Insight Agent PoC→ HDC LABS / 2026.06 – 현재Present Multi-AgentTool CallingRAG -> https://joannekim0420.github.io/career/hdclabs/
 - 차세대 홈 AI Agent 시스템Next-Gen Home AI Agent System→ HDC LABS / 2025.06 – 현재Present VideoLLMLLMKafka 기여도Contribution35% -> https://joannekim0420.github.io/career/hdclabs/
-- 엘리베이터 내부 상황 분석In-Elevator Situational Analysis→ HDC LABS / 2025.02 – 현재Present VLMObject DetectionSynthetic Data 기여도Contribution30% -> https://joannekim0420.github.io/career/hdclabs/
-- 지하주차장 화재 탐지Underground Parking Fire Detection→ HDC LABS / 2024.09 – 2025.04 YOLOVLMFlorence2 기여도Contribution40% -> https://joannekim0420.github.io/career/hdclabs/
+- 엘리베이터 내부 상황 분석In-Elevator Situational Analysis→ HDC LABS / 2025.01 – 2025.02 VLMObject DetectionSynthetic Data 기여도Contribution30% -> https://joannekim0420.github.io/career/hdclabs/
+- 지하주차장 화재 탐지Underground Parking Fire Detection→ HDC LABS / 2024.11 – 2025.02 YOLOVLMFlorence2 기여도Contribution40% -> https://joannekim0420.github.io/career/hdclabs/
 
 ### External links
 - GitHub -> https://github.com/joannekim0420
 - LinkedIn -> https://www.linkedin.com/in/%EC%A2%85%EC%9D%80-%EA%B9%80-1a036a368/
 - Scholar -> https://scholar.google.com/citations?user=PHEuuWoAAAAJ&hl=ko
+- Blog -> https://joannekim0420.tistory.com/
 
 ======================================================================
 ## Page: Career — HDC LABS  (https://joannekim0420.github.io/career/hdclabs/)
-_Home AI agent / elevator situational analysis / fire detection project deep-dives_
+_IParkMall insight agent / home AI agent / elevator situational analysis / fire detection project deep-dives_
 
 김종은
 Jongeun Kim
@@ -217,7 +270,7 @@ EN
 
 # HDC LABS
 
-R&D Center AI Lab 2024.05 ~ (재직중)
+R&D 센터 AI Lab 2024.05 ~ (재직중)
 
 R&D Center AI Lab 2024.05 ~ Present
 
@@ -228,17 +281,17 @@ Multimodal AI
 ## 업무 및 활동
 Work & Activities
 
-- 2024.09 – 2025.04
+- 2024.11 – 2025.02
 
 지하주차장 화재 탐지 모델 개발
 Underground Parking Fire Detection
 AI 엔지니어
 AI Engineer
 
-- 2025.02 ~
+- 2025.01 – 2025.02
 
-엘리베이터 내부 상황 분석 시스템
-In-Elevator Situational Analysis System
+엘리베이터 내부 상황 분석 시스템 PoC
+In-Elevator Situational Analysis System PoC
 AI 엔지니어
 AI Engineer
 기사 ↗
@@ -250,6 +303,13 @@ News ↗
 Next-Gen Home AI Agent System
 AI 엔지니어
 AI Engineer
+
+- 2026.06 ~
+
+아이파크몰 인사이트 에이전트 PoC
+IParkMall Insight Agent PoC
+AI 엔지니어 · PM
+AI Engineer · PM
 
 - 2024 – 2026
 
@@ -267,21 +327,37 @@ Projects
 
 Select a project to view its details below
 
+아이파크몰 인사이트 에이전트 PoC
+
+IParkMall Insight Agent PoC
+
+- 방문객 DB·외부 API·운영 지식(RAG)을 통합한 마케팅 AX 에이전트
+
+- Intent Routing·Tool Calling 기반 다단계 Agentic Workflow
+
+- 자동 채점 정확도 8.7%p 향상, 단순 질의 17초 → 0.4초
+
+- Marketing AX agent unifying visitor DB, external APIs, and operational knowledge (RAG)
+
+- Multi-step agentic workflow via intent routing & tool calling
+
+- Auto-scoring accuracy +8.7%p; simple queries 17s → 0.4s
+
 차세대 홈 AI Agent 시스템
 
 Next-Gen Home AI Agent System
 
-- VideoLLM + LLM 기반 거주자 행동 인식·가전 제어
+- 거주자 행동·물체·얼굴 인식 기반 개인화 홈 AI 에이전트
 
-- 행동 예측 성능 0.5902 → 0.7819 향상
+- VideoLLM 프롬프트 엔지니어링으로 액션 정확도 65% → 81%
 
-- 실시간 통합 파이프라인 70.46s → 30.4s 단축
+- Jetson NX 4bit 배포, 5초 영상 평균 2.9초 처리 (실시간)
 
-- Resident action recognition & appliance control with VideoLLM + LLM
+- Personalized home AI agent from resident action/object/face recognition
 
-- Improved action-prediction accuracy 0.5902 → 0.7819
+- VideoLLM prompt engineering lifted action accuracy 65% → 81%
 
-- Cut the real-time pipeline from 70.46s to 30.4s
+- 4-bit on Jetson NX, ~2.9s for a 5s clip (real-time)
 
 엘리베이터 내부 상황 분석 시스템
 
@@ -315,111 +391,248 @@ Underground Parking Fire Detection
 
 - ICLR 2025 workshop paper published, patent granted
 
-### 차세대 홈 AI Agent 시스템 개발 (2025.06 ~)
+### 아이파크몰 인사이트 에이전트 PoC (2026.06 ~ 진행 중)
 
-Next-Gen Home AI Agent System (2025.06 ~)
+IParkMall Insight Agent PoC (2026.06 ~ Present)
 
 핵심 역할
 Key role
 
-기여도 35% — 데이터셋 구축, 행동 인식 방법론 제안, 실시간 통합 파이프라인 개발
-35% contribution — dataset construction, action-recognition methodology, real-time integrated pipeline
+인사이트 에이전트 개발 — 데이터·지식 오케스트레이션, Agentic Workflow 설계, 평가·Guardrail 체계 구축
+Insight-agent development — data/knowledge orchestration, agentic workflow design, evaluation & guardrail framework
 
-개요집안 내 월패드와 연동하여 가전 기능을 제어하기 위한 차세대 홈 AI 에이전트 핵심 기술 요소 개발
-OverviewCore technologies for a next-generation home AI agent that controls appliances through the in-home wall pad
+적용 대상
+Target
+아이파크몰 마케팅 실무 — 방문객 데이터 기반 인사이트 분석 업무
+IParkMall marketing operations — insight analysis over visitor data
+
+연동 대상
+Integration
+내부 방문객 DB · 외부 API(날씨·상권·이벤트) · 운영 문서(매장 정보·공지·이벤트·MD 개편 이력) · 인사이트 대시보드
+Internal visitor DB · external APIs (weather, commercial area, events) · operations documents (store info, notices, events, MD-renewal history) · insight dashboard
+
+핵심 기능
+Core features
+자연어 질의 기반 데이터 조회·비교·원인 분석·인사이트 도출을 수행하는 마케팅 AX 에이전트
+A marketing AX agent that performs data lookup, comparison, root-cause analysis, and insight generation from natural-language queries
+
+목표
+Goal
+정형 대시보드 조회에 머물던 데이터 활용을 자연어 질의 기반 분석 업무로 전환하고, 그 신뢰성을 담보하는 평가·Guardrail 체계 구축
+Shift data use from static dashboard lookups to natural-language analytical work, and build the evaluation/guardrail framework that makes it trustworthy
 
 1
-데이터셋 수집
-Dataset Collection
-
-기존 문제점
-Problem
-
-- 기존 공개 데이터는 CCTV 뷰의 실내 거주자 행동 데이터가 부족하고, 가정마다 상이한 실내 구조 변화에 대한 대응이 어려운 한계 존재
-
-- Public datasets lack CCTV-view indoor resident-action data and adapt poorly to per-home variations in indoor layout
+데이터 · 지식 오케스트레이션
+Data & Knowledge Orchestration
 
 담당 업무
 Responsibilities
 
-- 실제 주거 환경(부엌, 거실, 방 등)에서 액션별 영상을 직접 수집
+- 질의·응답 기준 정의 — 질의 유형별로 필요한 데이터 범위, 분석 기준, 응답 Context 구성 규칙을 설계
 
-- 65개 이상의 행동 클래스에 대해 총 600개 이상의 테스트 영상을 라벨링하여 자체 데이터셋 구축
+- Context · 조회 오케스트레이션 — 질의 목적에 따라 필요한 정형 데이터와 운영 지식을 선택·결합해, 데이터 조회부터 이상 원인 분석까지 자동화
 
-- Collected per-action videos directly in real residential environments (kitchen, living room, bedrooms)
+- Agent Knowledge Layer 설계 — 내부 방문객 DB·외부 API와 매장 정보·공지·이벤트·MD 개편 이력 등 운영 데이터를 DB/RAG 기반으로 통합
 
-- Built an in-house dataset by labeling 600+ test videos covering 65+ action classes
+- Query/response criteria — designed, per query type, the required data scope, analysis criteria, and response-context composition rules
+
+- Context & retrieval orchestration — selects and combines the structured data and operational knowledge a query needs, automating everything from data lookup to root-cause analysis of anomalies
+
+- Agent Knowledge Layer — unified the internal visitor DB and external APIs with operational data (store info, notices, events, MD-renewal history) over DB and RAG
 
 2
-VideoLLM + LLM 행동 분류
-VideoLLM + LLM Action Classification
-
-기존 문제점
-Problem
-
-- VideoLLM 모델로 직접 행동 분류 수행 시 단일 모델 기반 분류 성능이 0.5902로 한계 존재
-
-- Direct action classification with a single VideoLLM topped out at 0.5902 accuracy
+Agentic Workflow 기반 분석 업무 자동화
+Analytics Automation via Agentic Workflow
 
 담당 업무
 Responsibilities
 
-- VideoLLM으로 행동 요약을 생성하고, 캡션 결과를 LLM에 입력해 프롬프트 엔지니어링 기반으로 액션을 예측하는 방법론 제안
+- Intent Routing — 임베딩 기반으로 질의를 분류해 경량 질의는 저비용 경로로 응답하고, 데이터 분석 질의만 에이전트로 라우팅해 Agentic Workflow의 시간 지연 절감
 
-- 예측된 행동을 기반으로 월패드와 연동하여 가전기기를 알고리즘적으로 제어 가능한 구조 구현
+- Tool Calling Agent — 복합 질의에서 DB·API·RAG Tool을 순차 호출하고 결과를 결합해 분석·인사이트를 생성하는 다단계 에이전트로 구조화
 
-- VLM 기반 Agentic AI 가능성을 검토하며, LLM을 거치지 않고 직접 가전 제어로 연결 가능한 멀티모달 에이전트용 데이터셋 수집 진행 중
+- 평가 · Guardrail 체계 구축 — 정책 위반 차단·데이터 범위 밖 질의 거절·환각 방지를 위한 Guardrail과, 13개 카테고리 260문항에 대한 자동 채점 + LLM Judge 이중 평가 적용
 
-- Proposed a methodology where the VideoLLM summarizes the action and an LLM classifies it from the caption via prompt engineering
+- Intent routing — classifies queries with embeddings so lightweight ones answer on a low-cost path and only analytical queries route to the agent, cutting agentic-workflow latency
 
-- Implemented a structure that algorithmically controls appliances through the wall pad based on the predicted action
+- Tool-calling agent — structured a multi-step agent that calls DB, API, and RAG tools in sequence on complex queries and combines the results into analysis and insights
 
-- Exploring VLM-based agentic AI — collecting a dataset that maps video directly to appliance control without an intermediate LLM
+- Evaluation & guardrails — guardrails that block policy violations, refuse out-of-scope queries, and prevent hallucination, plus dual automatic-scoring + LLM-judge evaluation over 260 questions across 13 categories
 
 업무 성과
 Achievements
 
-- 프롬프트 엔지니어링으로 행동 예측 성능 0.5902 → 0.7819 향상
+- 자연어 기반 마케팅 데이터 분석 인사이트를 제공하는 멀티 에이전트 개발
 
-- 다양한 VideoLLM(Qwen2.5-VL/VideoLLaMA3)과 LLM(Gemma3/Qwen3/LLaMA3.1/DeepSeek) 조합에 대한 비교 실험 수행
+- 자동 채점 + LLM Judge 이중 평가 체계 구축
 
-- 행동인식을 기반으로 한 IoT 가전기기 제어방법 및 시스템 특허 확보 KR 10-2971047
+- 자동 채점 정확도 8.7%p 향상
 
-- Improved action-prediction accuracy from 0.5902 to 0.7819 through prompt engineering
+- 단순 질의 응답시간 17초 → 0.4초 단축
 
-- Benchmarked combinations of VideoLLMs (Qwen2.5-VL/VideoLLaMA3) and LLMs (Gemma3/Qwen3/LLaMA3.1/DeepSeek)
+- Built a multi-agent system delivering marketing data-analysis insights from natural language
 
-- Secured a patent on action-recognition-based IoT appliance control KR 10-2971047
+- Established a dual evaluation framework: automatic scoring + LLM judge
+
+- Improved auto-scoring accuracy by 8.7%p
+
+- Cut simple-query response time from 17s to 0.4s
+
+기술 스택
+Tech stack
+
+Multi-Agent Tool Calling RAG Intent Routing Guardrail LLM-as-Judge Context Engineering LangGraph Python
+
+### 차세대 홈 AI Agent 시스템 (2025.06 ~ 진행 중)
+
+Next-Gen Home AI Agent System (2025.06 ~ Present)
+
+핵심 역할
+Key role
+
+기여도 35% — 프로젝트 매니징, 데이터셋 구축, 행동 인식 모델링, 통합 파이프라인 개발, 엣지 배포
+35% contribution — project management, dataset construction, action-recognition modeling, integrated pipeline development, edge deployment
+
+적용 환경
+Environment
+실제 주거 공간 (거실·방·부엌) · 모델하우스
+Real living spaces (living room/bedroom/kitchen) · model house
+
+연동 대상
+Integration
+카메라·IoT 가전·월패드 (자체 플랫폼)
+Cameras, IoT appliances, wall pad (in-house platform)
+
+핵심 기능
+Core features
+VideoLLM 기반 행동·물체·얼굴 인식 + LLM 에이전트 개인화·가전 제어
+VideoLLM-based action/object/face recognition + LLM-agent personalization & appliance control
+
+목표
+Goal
+실제 주거 환경에서 안정 동작하는 Vision AI 시스템 · 모델하우스 시범 운영
+A Vision AI system that runs reliably in real homes · model-house pilot
+
+협업
+Collaboration
+인프라파트(DB·월패드), NLP파트(LLM 에이전트), 온디바이스 담당
+Infra (DB/wall pad), NLP (LLM agent), on-device teams
+
+1
+데이터셋 구축
+Dataset Construction
+
+담당 업무
+Responsibilities
+
+- 집안 행동 오픈소스 데이터 부족 문제를 해결하기 위해 실제 주거 공간에서 거주자 행동을 직접 촬영, 600개 이상 영상을 65개 이상 액션으로 정의·라벨링
+
+- 클래스 중첩·라벨링 모호성을 반복 검토하며 15개 핵심 클래스로 재정의 → 최종 공식 데이터셋(648개, 2560×1440) 릴리즈
+
+- To address the scarcity of open-source in-home action data, filmed resident actions directly in real living spaces and defined/labeled 600+ videos into 65+ actions
+
+- Iteratively reviewed class overlap and labeling ambiguity, consolidating to 15 core classes → released the final official dataset (648 clips, 2560×1440)
+
+[image: Multi-camera capture in a real residential environment]
+
+2
+모델·알고리즘 제안
+Model & Algorithm
+
+담당 업무
+Responsibilities
+
+- 학습 데이터가 부족한 상황에서 VideoLLM(Qwen-VL, VideoLLaMA3)으로 영상을 액션 분류, 액션 클래스를 동적으로 교체할 수 있도록 프롬프트 엔지니어링
+
+- 평가 기준에 맞춘 단일 라벨 출력 제약과 프롬프트 구조 개선으로 행동 분류 정확도 65%→81% 향상
+
+- 로딩·양자화 방식 비교를 통해 HF Transformers + 4bit + NF4 조합을 성능·속도 최적값으로 확립
+
+- With limited training data, classified video actions using VideoLLMs (Qwen-VL, VideoLLaMA3), with prompt engineering to swap action classes dynamically
+
+- Refined VideoLLM output constraints and evaluation-aligned prompting, improving single-label action classification accuracy from 65% to 81%
+
+- Established HF Transformers + 4-bit + NF4 as the performance/speed optimum through loading and quantization comparisons
 
 3
-실시간 통합 파이프라인 개발
-Real-Time Integrated Pipeline
+시스템 아키텍처 통합
+System Architecture Integration
 
 담당 업무
 Responsibilities
 
-- 실제 주거 환경에서 CCTV 영상을 실시간 스트리밍으로 수신하며 ① 얼굴 인식, ② 객체 추적, ③ 행동 인식, ④ 객체 인식 등 다수 모델을 병렬 처리하는 통합 파이프라인 설계 및 구현
+- Camera/RTSP → 전처리 → VideoLLM 추론 → DB → AI Agent로 이어지는 비동기 실시간 파이프라인 구성
 
-- vLLM 라이브러리 서빙을 검토했으나 비디오 특성상 통신 시간이 로컬 처리 대비 2~3배 증가함을 확인, 로컬 GPU 1개에서 동작하는 통합 파이프라인 제시
+- 다중 카메라·다중 모델 환경의 GPU 메모리 과부하·지연 문제를 멀티프로세싱·멀티스레딩·배치 처리로 해결
 
-- 특정 사용자 액션 발생 시 Kafka 이벤트를 발행하여 개인화 맞춤 DB 및 월패드 시스템과 연동
+- Kafka 기반으로 "의미 있는 상태 변화"만 전달 (개인화 로그는 저빈도·장기 저장, 행동 이벤트는 고빈도·실시간 처리)
 
-- Designed and implemented an integrated pipeline that ingests live CCTV streams from real residences and runs face recognition, object tracking, action recognition, and object detection in parallel
+- Built an asynchronous real-time pipeline: Camera/RTSP → preprocessing → VideoLLM inference → DB → AI Agent
 
-- Evaluated vLLM-based serving, found video transfer made it 2–3× slower than local processing, and proposed a single-GPU local integrated pipeline instead
+- Resolved GPU memory overload and latency in multi-camera/multi-model settings via multiprocessing, multithreading, and batching
 
-- Published Kafka events on specific user actions, integrating with the personalization DB and the wall-pad system
+- Published only "meaningful state changes" over Kafka (personalization logs: low-frequency long-term storage; action events: high-frequency real-time)
+
+4
+엣지 배포
+Edge Deployment
+
+담당 업무
+Responsibilities
+
+- 온디바이스 담당자와 함께 Jetson NX에 적용 가능한 모델을 실험하고, 그중 가장 효과적인 4bit NF4 양자화 모델을 선정·탑재
+
+- RK3576 카메라와 실시간 연동까지 이어지도록 프로젝트 매니징 수행
+
+- Experimented with the on-device engineer on models deployable to Jetson NX, then selected and loaded the most effective 4-bit NF4 quantized model
+
+- Project-managed the work so it could integrate with an RK3576 camera in real time
 
 업무 성과
 Achievements
 
-- 병렬 처리 최적화로 처리 시간 70.46s → 30.4s 단축, 실시간 스트리밍 가능 수준 확보
+- Jetson NX에서 5초 클립 평균 2.9초 처리로 실주거 환경 실시간 행동인식 서비스 적용
 
-- Cut end-to-end processing from 70.46s to 30.4s through parallelization, reaching real-time streaming capability
+- Deployed as a real-time action-recognition service in real homes, processing 5-second clips in 2.9 seconds on average on Jetson NX
 
-### 엘리베이터 내부 상황 분석 시스템 (2025.02 ~)
+5
+데이터 수집·라벨링 자동화 툴 개발
+Data Collection & Labeling Automation Tool
 
-In-Elevator Situational Analysis System (2025.02 ~)
+담당 업무
+Responsibilities
+
+- 촬영 → 1차 자동 라벨링 → 클래스별 검증 → 학습 → 배포로 이어지는 5단계 자동화 파이프라인 개발
+
+- VideoLLM(Qwen3-VL) 1차 라벨 생성 → Agent 품질 검수(라벨 적합성·유사 클래스 혼동·클립 편집 적정성) → Human Review 대상 선별 구조로 반복 라벨링·검수 업무를 자동화하고 데이터 확보 비용 절감
+
+- Built a 5-stage automation pipeline: filming → initial auto-labeling → per-class verification → training → deployment
+
+- VideoLLM (Qwen3-VL) first-pass labels → agent quality review (label validity, similar-class confusion, clip-trim adequacy) → selection of items for human review, automating repetitive labeling/review and cutting data-acquisition cost
+
+[image: 5-stage data automation pipeline]
+
+[image: Data collection and labeling automation tool]
+
+성과
+Achievements
+
+- 행동 인식 기반 IoT 가전 제어 등 관련 기술 특허 확보 KR 10-2971047
+
+- 모델하우스 시범 운영용 4-카메라 Vision AI 시스템 구현 및 데이터 자동 라벨링 툴 개발
+
+- Secured related-technology patents, including action-recognition-based IoT appliance control KR 10-2971047
+
+- Implemented a 4-camera Vision AI system for the model-house pilot and built a data auto-labeling tool
+
+기술 스택
+Tech stack
+
+VideoLLM LLM Prompt Engineering Fine-tuning 4bit / NF4 Jetson NX Kafka Python Project Management
+
+### 엘리베이터 내부 상황 분석 시스템 PoC (2025.01 – 2025.02)
+
+In-Elevator Situational Analysis System PoC (2025.01 – 2025.02)
 
 핵심 역할
 Key role
@@ -427,8 +640,27 @@ Key role
 기여도 30% — 반려견 탑승 인식 모델 및 알고리즘 개발
 30% contribution — pet-boarding detection model & algorithm
 
-개요승강기 혼잡도·대기 시간 감소, 이상 행동 탐지와 반려견 목줄 끼임 사고 예방을 위한 AI 기반 엘리베이터 운영 시스템 개발
-OverviewAn AI-based elevator operation system that reduces congestion and wait time, detects anomalies, and prevents pet-leash entrapment accidents
+적용 환경
+Environment
+엘리베이터 카 내부 상단 모서리 CCTV 시점
+Inside the elevator car, top-corner CCTV viewpoint
+
+핵심 기능
+Core features
+VLM 파인튜닝 기반 반려견 탑승 인식 + 목줄 끼임 사고 예방 알고리즘
+VLM-fine-tuned pet-boarding detection + leash-entrapment prevention algorithm
+
+목표
+Goal
+승강기 혼잡도·대기 시간 감소, 이상 행동 탐지, 반려견 목줄 끼임 사고 예방 AI 운영 시스템
+An AI operation system that reduces congestion/wait time, detects anomalies, and prevents pet-leash entrapment
+
+협업
+Collaboration
+현대엘리베이터
+Hyundai Elevator
+
+[image: In-elevator pet-boarding detection]
 
 1
 반려견 탑승 인식 모델 및 알고리즘 개발
@@ -479,9 +711,9 @@ Achievements
 
 - Follow-up paper from the synthetic-data research Automated synthetic data generation (WACVW 2026, Oral)
 
-### 지하주차장 화재 탐지 모델 개발 (2024.09 – 2025.04)
+### 지하주차장 화재 탐지 모델 개발 (2024.11 – 2025.02)
 
-Underground Parking Fire Detection (2024.09 – 2025.04)
+Underground Parking Fire Detection (2024.11 – 2025.02)
 
 핵심 역할
 Key role
@@ -489,8 +721,32 @@ Key role
 기여도 40% — VLM 통합 알고리즘 개발, VLM 모델 비교 선정
 40% contribution — VLM-integrated algorithm, VLM model benchmarking & selection
 
-개요화재 예방과 신속한 대응을 위한 AI CCTV 화재 탐지 솔루션 개발
-OverviewAn AI CCTV fire-detection solution for prevention and rapid response
+적용 환경
+Environment
+지하주차장 (전기차 충전구역)
+Underground parking (EV charging zone)
+
+연동 대상
+Integration
+자체 플랫폼
+In-house platform
+
+핵심 기능
+Core features
+YOLO 기반 연기/불 탐지 + VLM 기반 상황 인식
+YOLO-based smoke/fire detection + VLM-based situational awareness
+
+목표
+Goal
+화재 예방과 신속한 대응을 위한 AI CCTV 화재 탐지 솔루션 개발
+An AI CCTV fire-detection solution for prevention and rapid response
+
+협업
+Collaboration
+수호이미지랩스(CCTV 전문기업)
+Suho Image Labs (CCTV specialist)
+
+[image: Underground parking fire detection]
 
 1
 VLM 모델 통합 알고리즘 개발
@@ -548,7 +804,7 @@ Achievements
 
 - '인공신경망 기반의 복합모델을 이용한 주차장 화재 탐지 방법 및 시스템' 특허 등록 KR 10-2857163
 
-- 광명 센트럴 아이파크 지하주차장 화재 탐지 AI CCTV 상용 도입 예정
+- 광명 센트럴 아이파크 · 한국타이어 금산공장 화재 탐지 AI CCTV 상용 도입
 
 - Cut first fire-detection time from 6.51s to 3.03s
 
@@ -558,7 +814,7 @@ Achievements
 
 - Patent granted: parking-lot fire detection using an ANN-based composite model KR 10-2857163
 
-- Commercial deployment planned for the underground parking AI CCTV at Gwangmyeong Central IPARK
+- Commercial AI CCTV fire-detection deployments at Gwangmyeong Central IPARK and the Hankook Tire Geumsan plant
 
 ©
 김종은
@@ -803,9 +1059,9 @@ MT-Based Multilingual Data Augmentation
 다국어 멀티모달 모델링
 Multilingual Multimodal Modeling
 
-- Part A — Multilingual Representation Alignment: 사전 학습된 CLIP 이미지 인코더와 XLM-RoBERTa 텍스트 인코더로 feature를 추출하고, projection layer를 거쳐 다국어 contrastive loss로 image-text pair를 latent space에서 정렬·융합
+- 파트 A — 다국어 표현 정렬: 사전 학습된 CLIP 이미지 인코더와 XLM-RoBERTa 텍스트 인코더로 feature를 추출하고, projection layer를 거쳐 다국어 contrastive loss로 image-text pair를 latent space에서 정렬·융합
 
-- Part B — Multilingual Captioning & Generation: 다국어 텍스트와 정렬된 단일 이미지 토큰 벡터를 GPT-2 계열 디코더에 입력, 이미지 기반 캡션 및 Q&A 태스크로 학습
+- 파트 B — 다국어 캡셔닝 및 생성: 다국어 텍스트와 정렬된 단일 이미지 토큰 벡터를 GPT-2 계열 디코더에 입력, 이미지 기반 캡션 및 Q&A 태스크로 학습
 
 - Part A — Multilingual Representation Alignment: extracted features with a pretrained CLIP image encoder and an XLM-RoBERTa text encoder, projected each modality, and fused image-text pairs in latent space with a multilingual contrastive loss
 
@@ -816,16 +1072,16 @@ Results
 
 - 기존 모델 대비 성능 경쟁보다, 단일 image token만으로도 의미 있는 다국어 생성이 가능함을 입증
 
-- LLM judge 평가에서 다양한 언어에 대해 이미지 내용을 반영한 캡션 생성 결과 확인
+- LLM judge 평가에서 다양한 언어의 캡션 평균 3.72/5 달성, 이미지 내용을 반영한 생성 결과 확인
 
 - Demonstrated that meaningful multilingual generation is possible from a single image token, rather than chasing benchmark gains
 
-- LLM-judge evaluation confirmed captions reflect image content across diverse languages
+- LLM-judge evaluation scored captions 3.72/5 on average across diverse languages, confirming they reflect image content
 
 - 방송미디어공학회 2025 게재
 Published at KSBE 2025
 
-### [UNIST-심도컴퍼니] Effective Slogan Generation with Noise Perturbation
+### [UNIST-심도컴퍼니] 노이즈 섭동 기반 효과적인 슬로건 생성
 
 [UNIST-Simdo] Effective Slogan Generation with Noise Perturbation
 
@@ -872,7 +1128,7 @@ Results
 - CIKM 2023 1저자 게재
 First-author paper at CIKM 2023
 
-### [UNIST-Pyler] CVPR'22 LOVEU Track 3 Challenge
+### [UNIST-Pyler] CVPR'22 LOVEU Track 3 챌린지
 
 [UNIST-Pyler] CVPR'22 LOVEU Track 3 Challenge
 
@@ -978,10 +1234,30 @@ Machine Translation Data Team, Intern 2021.07 ~ 2022.01
 
 Machine Translation
 NLP
-Evaluation
+Quality Evaluation
 
 ## 프로젝트
 Projects
+
+프로젝트를 선택하면 아래에 상세 내용이 표시됩니다
+
+Select a project to view its details below
+
+다국어 기계 번역 문장 품질 평가
+
+Multilingual MT Quality Evaluation
+
+- 다국어 문장 인코더로 원문-번역문 의미 정렬
+
+- Cosine Similarity 파인튜닝으로 사람 평가와 상관도 32.1% 향상
+
+- 기계번역 데이터팀 내부 기술 발표
+
+- Source-translation semantic alignment via a multilingual encoder
+
+- Cosine-similarity fine-tuning improved correlation with human scores by 32.1%
+
+- Presented as an internal MT-team tech talk
 
 ### 다국어 기계 번역 문장 품질 평가
 
@@ -990,15 +1266,27 @@ Multilingual Machine-Translation Quality Evaluation
 핵심 역할
 Key role
 
-기여도 100% — 번역 품질 자동 평가 모델링, 전후처리 자동화
-100% contribution — automatic translation-quality evaluation modeling, pre/post-processing automation
+기여도 100% — 번역 품질 평가 모델링
+100% contribution — translation-quality evaluation modeling
 
-개요번역 문장과 원문 간 의미적 일치도를 수치화하여 human evaluation을 대체·보조할 수 있는 자동 평가 방법 연구
-OverviewAn automatic evaluation method that quantifies semantic agreement between source and translation to replace or assist human evaluation
+개요번역 문장과 원문 간 의미적 일치도를 수치화하여 human evaluation을 대체·보조할 수 있는 평가 방법 연구
+OverviewAn evaluation method that quantifies semantic agreement between source and translation to replace or assist human evaluation
+
+[image: Multilingual machine-translation quality evaluation]
 
 1
-번역 품질 자동 평가 모델링
-Automatic Quality-Evaluation Modeling
+번역 품질 평가 모델링
+Quality-Evaluation Modeling
+
+기존 문제점
+Problem
+
+- 번역 품질을 사람이 직접 평가하는 방식은 비용과 시간이 크고, 평가자 간 기준 편차가 존재해 대규모 데이터에 일관되게 적용하기 어려움
+
+- Human evaluation of translation quality is costly and slow, and inter-annotator variance makes it hard to apply consistently at scale
+
+담당 업무
+Responsibilities
 
 - 사전 학습된 다국어 문장 인코더(multilingual sentence encoder)를 활용해 원문-번역문 문장 쌍을 같은 임베딩 공간으로 정렬
 
@@ -1012,12 +1300,16 @@ Automatic Quality-Evaluation Modeling
 
 - Improved the correlation between embedding distance and human evaluation scores, yielding more reliable quality assessment in grammar and meaning preservation
 
-성과
-Results
+업무 성과
+Achievements
 
-- 학부생 인턴 프로젝트로 수행한 결과를 기계번역 데이터팀 내부 기술 발표 자료로 공유
+- Human evaluation과의 상관도 약 32.1% 향상
 
-- Results from this undergraduate-intern project were shared as an internal technical presentation within the MT data team
+- 기계번역 품질 평가 자동화 가능성 검증 및 기계번역 데이터팀 내부 기술 발표 진행
+
+- Improved correlation with human evaluation by ~32.1%
+
+- Validated the feasibility of automated MT-quality evaluation and gave an internal tech talk to the MT data team
 
 ©
 김종은
@@ -1067,21 +1359,51 @@ Sangmyung University
 
 휴먼지능정보공학과 학사 2017.02 ~ 2022.02
 
-B.S. in Human Intelligence Information Engineering 2017.02 ~ 2022.02
+B.S. in Human Intelligence and Information Engineering 2017.02 ~ 2022.02
 
 B.S.
-AI / Software
+
+휴먼지능정보공학과
+Human Intelligence and Information Engineering
 
 ## 학력
 Education
 
 휴먼지능정보공학과 학사과정 2017.02 ~ 2022.02
 
-B.S. program, Dept. of Human Intelligence Information Engineering 2017.02 ~ 2022.02
+B.S. program, Dept. of Human Intelligence and Information Engineering 2017.02 ~ 2022.02
 
 - 학부 과정 중 NC Soft(2021.07 ~ 2022.01) 인턴 수행
 
 - Completed an internship during undergraduate studies at NC Soft (2021.07 ~ 2022.01)
+
+## 수상
+Awards
+
+교내 영어토론대회 2017.11
+
+Campus English Debate Competition 2017.11
+
+- 교내 영어토론대회에 참가하여 3등 입상
+
+- 3rd place at the campus English debate competition
+
+## 프로젝트
+Projects
+
+### 손가락 정맥 인식 (졸업 논문 프로젝트)
+
+Finger-Vein Recognition (Graduation Thesis Project)
+
+- github.com/joannekim0420/fingervein_recognition
+
+### 스크립트 생성 (학부 연구원 연구)
+
+Script Generation (Undergraduate Research)
+
+- github.com/joannekim0420/script_generation_kr
+
+- github.com/joannekim0420/script_generation_eng
 
 ©
 김종은
@@ -1097,6 +1419,9 @@ Home
 - 논문PUBLICATIONS -> https://#publications
 - 뉴스NEWS -> https://#news
 - 연구RESEARCH -> https://#research
+- github.com/joannekim0420/fingervein_recognition -> https://github.com/joannekim0420/fingervein_recognition
+- github.com/joannekim0420/script_generation_kr -> https://github.com/joannekim0420/script_generation_kr
+- github.com/joannekim0420/script_generation_eng -> https://github.com/joannekim0420/script_generation_eng
 - 홈Home -> https://
 
 ======================================================================

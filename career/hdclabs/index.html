@@ -83,7 +83,7 @@
               <div class="wa-nm"><span class="wa-name"><a class="wa-goto" data-goto="fire"><span class="ko-only">지하주차장 화재 탐지 모델 개발</span><span class="en-only">Underground Parking Fire Detection</span></a></span><span class="wa-role"><span class="ko-only">AI 엔지니어</span><span class="en-only">AI Engineer</span></span></div>
             </li>
             <li>
-              <div class="wa-y">2025.02 – 2025.03</div>
+              <div class="wa-y">2025.01 – 2025.02</div>
               <div class="wa-nm"><span class="wa-name"><a class="wa-goto" data-goto="elv"><span class="ko-only">엘리베이터 내부 상황 분석 시스템 PoC</span><span class="en-only">In-Elevator Situational Analysis System PoC</span></a></span><span class="wa-role"><span class="ko-only">AI 엔지니어</span><span class="en-only">AI Engineer</span></span><a class="wa-news" href="https://www.yna.co.kr/view/AKR20250414119000003" target="_blank" rel="noopener"><span class="ko-only">기사 ↗</span><span class="en-only">News ↗</span></a></div>
             </li>
             <li>
@@ -118,14 +118,14 @@
             <span class="en-only">IParkMall Insight Agent PoC</span>
           </div>
           <ul class="ko-only">
-            <li>방문객 DB·외부 API 연동 대화형 인사이트 에이전트</li>
-            <li>LangGraph·tool calling 기반 다단계 추론 고도화</li>
-            <li>자동 채점 정확도 8.7%p 향상</li>
+            <li>방문객 DB·외부 API·운영 지식(RAG)을 통합한 마케팅 AX 에이전트</li>
+            <li>Intent Routing·Tool Calling 기반 다단계 Agentic Workflow</li>
+            <li>자동 채점 정확도 8.7%p 향상, 단순 질의 17초 → 0.4초</li>
           </ul>
           <ul class="en-only">
-            <li>Conversational insight agent over visitor DB + external APIs</li>
-            <li>Multi-step reasoning via LangGraph &amp; tool calling</li>
-            <li>Auto-scoring accuracy improved by 8.7%p</li>
+            <li>Marketing AX agent unifying visitor DB, external APIs, and operational knowledge (RAG)</li>
+            <li>Multi-step agentic workflow via intent routing &amp; tool calling</li>
+            <li>Auto-scoring accuracy +8.7%p; simple queries 17s → 0.4s</li>
           </ul>
         </button>
         <button type="button" class="proj-card" data-panel="agent">
@@ -136,12 +136,12 @@
           <ul class="ko-only">
             <li>거주자 행동·물체·얼굴 인식 기반 개인화 홈 AI 에이전트</li>
             <li>VideoLLM 프롬프트 엔지니어링으로 액션 정확도 65% → 81%</li>
-            <li>Jetson NX 4bit 배포, 5초 영상 평균 4.2초 처리 (실시간)</li>
+            <li>Jetson NX 4bit 배포, 5초 영상 평균 2.9초 처리 (실시간)</li>
           </ul>
           <ul class="en-only">
             <li>Personalized home AI agent from resident action/object/face recognition</li>
             <li>VideoLLM prompt engineering lifted action accuracy 65% → 81%</li>
-            <li>4-bit on Jetson NX, ~4.2s for a 5s clip (real-time)</li>
+            <li>4-bit on Jetson NX, ~2.9s for a 5s clip (real-time)</li>
           </ul>
         </button>
         <button type="button" class="proj-card" data-panel="elv">
@@ -187,58 +187,64 @@
           <div class="contrib-min">
             <span class="pill"><span class="ko-only">핵심 역할</span><span class="en-only">Key role</span></span>
             <div class="c-body">
-              <div class="c-role"><span class="ko-only">PM — 컨텍스트 엔지니어링, 대시보드 분석 자동화 에이전트 개발, 평가 체계 구축</span><span class="en-only">PM — context engineering, dashboard-analytics automation agent, evaluation framework</span></div>
+              <div class="c-role"><span class="ko-only">인사이트 에이전트 개발 — 데이터·지식 오케스트레이션, Agentic Workflow 설계, 평가·Guardrail 체계 구축</span><span class="en-only">Insight-agent development — data/knowledge orchestration, agentic workflow design, evaluation &amp; guardrail framework</span></div>
             </div>
           </div>
           <div class="proj-overview">
-            <div class="ov-row"><span class="ov-k"><span class="ko-only">적용 대상</span><span class="en-only">Target</span></span><span class="ov-v"><span class="ko-only">아이파크몰 방문객 데이터 기반 대화형 인사이트 서비스</span><span class="en-only">Conversational insight service over IParkMall visitor data</span></span></div>
-            <div class="ov-row"><span class="ov-k"><span class="ko-only">연동 대상</span><span class="en-only">Integration</span></span><span class="ov-v"><span class="ko-only">내부 방문객 DB · 외부 API(날씨·상권·이벤트) · 인사이트 대시보드</span><span class="en-only">Internal visitor DB · external APIs (weather, commercial area, events) · insight dashboard</span></span></div>
-            <div class="ov-row"><span class="ov-k"><span class="ko-only">핵심 기능</span><span class="en-only">Core features</span></span><span class="ov-v"><span class="ko-only">자연어 질의를 조회·결합해 답하는 대화형 인사이트 에이전트</span><span class="en-only">A conversational insight agent that resolves and combines sources to answer natural-language queries</span></span></div>
-            <div class="ov-row"><span class="ov-k"><span class="ko-only">목표</span><span class="en-only">Goal</span></span><span class="ov-v"><span class="ko-only">내부 카메라 DB와 외부 API 데이터를 통합해 자연어 질의로 인사이트를 제공하는 에이전트 설계 및 평가 체계 구축</span><span class="en-only">Design an agent that unifies internal camera DB and external API data to deliver insights via natural language, and build its evaluation framework</span></span></div>
+            <div class="ov-row"><span class="ov-k"><span class="ko-only">적용 대상</span><span class="en-only">Target</span></span><span class="ov-v"><span class="ko-only">아이파크몰 마케팅 실무 — 방문객 데이터 기반 인사이트 분석 업무</span><span class="en-only">IParkMall marketing operations — insight analysis over visitor data</span></span></div>
+            <div class="ov-row"><span class="ov-k"><span class="ko-only">연동 대상</span><span class="en-only">Integration</span></span><span class="ov-v"><span class="ko-only">내부 방문객 DB · 외부 API(날씨·상권·이벤트) · 운영 문서(매장 정보·공지·이벤트·MD 개편 이력) · 인사이트 대시보드</span><span class="en-only">Internal visitor DB · external APIs (weather, commercial area, events) · operations documents (store info, notices, events, MD-renewal history) · insight dashboard</span></span></div>
+            <div class="ov-row"><span class="ov-k"><span class="ko-only">핵심 기능</span><span class="en-only">Core features</span></span><span class="ov-v"><span class="ko-only">자연어 질의 기반 데이터 조회·비교·원인 분석·인사이트 도출을 수행하는 마케팅 AX 에이전트</span><span class="en-only">A marketing AX agent that performs data lookup, comparison, root-cause analysis, and insight generation from natural-language queries</span></span></div>
+            <div class="ov-row"><span class="ov-k"><span class="ko-only">목표</span><span class="en-only">Goal</span></span><span class="ov-v"><span class="ko-only">정형 대시보드 조회에 머물던 데이터 활용을 자연어 질의 기반 분석 업무로 전환하고, 그 신뢰성을 담보하는 평가·Guardrail 체계 구축</span><span class="en-only">Shift data use from static dashboard lookups to natural-language analytical work, and build the evaluation/guardrail framework that makes it trustworthy</span></span></div>
           </div>
         </div>
 
         <div class="phase">
-          <div class="phase-title"><span class="pnum">1</span><span class="ko-only">컨텍스트 엔지니어링</span><span class="en-only">Context Engineering</span></div>
+          <div class="phase-title"><span class="pnum">1</span><span class="ko-only">데이터 · 지식 오케스트레이션</span><span class="en-only">Data &amp; Knowledge Orchestration</span></div>
           <div class="project-text">
             <div class="blabel"><span class="ko-only">담당 업무</span><span class="en-only">Responsibilities</span></div>
             <ul class="ko-only">
-              <li><strong>데이터 범위·프롬프트 기준 정의</strong> — 질의 유형별로 LLM 응답에 필요한 데이터 범위와 프롬프트 구성 기준을 정의</li>
-              <li><strong>오케스트레이션 설계</strong> — 질의 의도에 따라 내부 방문객 DB·외부 API 중 필요한 소스를 선택·결합하는 조회 오케스트레이션 설계</li>
+              <li><strong>질의·응답 기준 정의</strong> — 질의 유형별로 필요한 데이터 범위, 분석 기준, 응답 Context 구성 규칙을 설계</li>
+              <li><strong>Context · 조회 오케스트레이션</strong> — 질의 목적에 따라 필요한 정형 데이터와 운영 지식을 선택·결합해, 데이터 조회부터 이상 원인 분석까지 자동화</li>
+              <li><strong>Agent Knowledge Layer 설계</strong> — 내부 방문객 DB·외부 API와 매장 정보·공지·이벤트·MD 개편 이력 등 운영 데이터를 DB/RAG 기반으로 통합</li>
             </ul>
             <ul class="en-only">
-              <li><strong>Data scope &amp; prompt criteria</strong> — defined, per query type, the data scope and prompt structure required for the LLM response</li>
-              <li><strong>Orchestration design</strong> — designed retrieval orchestration that selects and combines the needed sources (internal visitor DB / external APIs) based on query intent</li>
+              <li><strong>Query/response criteria</strong> — designed, per query type, the required data scope, analysis criteria, and response-context composition rules</li>
+              <li><strong>Context &amp; retrieval orchestration</strong> — selects and combines the structured data and operational knowledge a query needs, automating everything from data lookup to root-cause analysis of anomalies</li>
+              <li><strong>Agent Knowledge Layer</strong> — unified the internal visitor DB and external APIs with operational data (store info, notices, events, MD-renewal history) over DB and RAG</li>
             </ul>
           </div>
         </div>
 
         <div class="phase">
-          <div class="phase-title"><span class="pnum">2</span><span class="ko-only">대시보드 분석 자동화 에이전트 개발</span><span class="en-only">Dashboard-Analytics Automation Agent</span></div>
+          <div class="phase-title"><span class="pnum">2</span><span class="ko-only">Agentic Workflow 기반 분석 업무 자동화</span><span class="en-only">Analytics Automation via Agentic Workflow</span></div>
           <div class="project-text">
             <div class="blabel"><span class="ko-only">담당 업무</span><span class="en-only">Responsibilities</span></div>
             <ul class="ko-only">
-              <li><strong>분석 에이전트 설계</strong> — 매장 유동인구 데이터를 LLM 에이전트와 연동해, 자연어 질의로 대시보드 지표를 조회·해석 → 요약 → 인사이트 생성으로 확장하는 에이전트 구조 설계</li>
-              <li><strong>이중 평가 파이프라인 구축</strong> — 13개 카테고리 260문항에 대해 자동 채점과 LLM 평가를 결합한 이중 평가 파이프라인 구축</li>
-              <li><strong>tool calling 기반 고도화 (진행 중)</strong> — 조회형 응답 구조를 tool calling 기반 다단계 에이전트로 전환하고, LangGraph로 다단계 추론 흐름 구성</li>
+              <li><strong>Intent Routing</strong> — 임베딩 기반으로 질의를 분류해 경량 질의는 저비용 경로로 응답하고, 데이터 분석 질의만 에이전트로 라우팅해 Agentic Workflow의 시간 지연 절감</li>
+              <li><strong>Tool Calling Agent</strong> — 복합 질의에서 DB·API·RAG Tool을 순차 호출하고 결과를 결합해 분석·인사이트를 생성하는 다단계 에이전트로 구조화</li>
+              <li><strong>평가 · Guardrail 체계 구축</strong> — 정책 위반 차단·데이터 범위 밖 질의 거절·환각 방지를 위한 Guardrail과, 13개 카테고리 260문항에 대한 자동 채점 + LLM Judge 이중 평가 적용</li>
             </ul>
             <ul class="en-only">
-              <li><strong>Analytics agent design</strong> — linked store foot-traffic data to an LLM agent, extending from natural-language dashboard-metric lookup and interpretation → summary → insight generation</li>
-              <li><strong>Dual evaluation pipeline</strong> — built a dual pipeline combining automatic scoring and LLM evaluation over 260 questions across 13 categories</li>
-              <li><strong>Tool-calling upgrade (in progress)</strong> — converting the retrieval-style response structure into a tool-calling multi-step agent, with multi-step reasoning composed in LangGraph</li>
+              <li><strong>Intent routing</strong> — classifies queries with embeddings so lightweight ones answer on a low-cost path and only analytical queries route to the agent, cutting agentic-workflow latency</li>
+              <li><strong>Tool-calling agent</strong> — structured a multi-step agent that calls DB, API, and RAG tools in sequence on complex queries and combines the results into analysis and insights</li>
+              <li><strong>Evaluation &amp; guardrails</strong> — guardrails that block policy violations, refuse out-of-scope queries, and prevent hallucination, plus dual automatic-scoring + LLM-judge evaluation over 260 questions across 13 categories</li>
             </ul>
             <div class="blabel"><span class="ko-only">업무 성과</span><span class="en-only">Achievements</span></div>
             <ul class="ko-only">
-              <li>데이터 분석 인사이트 제공 에이전트 개발</li>
+              <li>자연어 기반 마케팅 데이터 분석 인사이트를 제공하는 멀티 에이전트 개발</li>
+              <li>자동 채점 + LLM Judge 이중 평가 체계 구축</li>
               <li>자동 채점 정확도 8.7%p 향상</li>
+              <li>단순 질의 응답시간 17초 → 0.4초 단축</li>
             </ul>
             <ul class="en-only">
-              <li>Delivered a data-analytics insight agent</li>
+              <li>Built a multi-agent system delivering marketing data-analysis insights from natural language</li>
+              <li>Established a dual evaluation framework: automatic scoring + LLM judge</li>
               <li>Improved auto-scoring accuracy by 8.7%p</li>
+              <li>Cut simple-query response time from 17s to 0.4s</li>
             </ul>
             <div class="blabel"><span class="ko-only">기술 스택</span><span class="en-only">Tech stack</span></div>
             <div class="tech-stack">
-              <span>AI Agent</span><span>LLM Service Design</span><span>Context Engineering</span><span>LangGraph</span><span>Tool Calling</span><span>Python</span>
+              <span>Multi-Agent</span><span>Tool Calling</span><span>RAG</span><span>Intent Routing</span><span>Guardrail</span><span>LLM-as-Judge</span><span>Context Engineering</span><span>LangGraph</span><span>Python</span>
             </div>
           </div>
         </div>
@@ -331,10 +337,10 @@
             </ul>
             <div class="blabel"><span class="ko-only">업무 성과</span><span class="en-only">Achievements</span></div>
             <ul class="ko-only">
-              <li>Jetson NX에서 5초 클립 평균 4.2초 처리로 준실시간 적용 가능성 확인</li>
+              <li>Jetson NX에서 5초 클립 평균 2.9초 처리로 실주거 환경 실시간 행동인식 서비스 적용</li>
             </ul>
             <ul class="en-only">
-              <li>Confirmed near-real-time feasibility on Jetson NX, processing 5-second clips in 4.2 seconds on average</li>
+              <li>Deployed as a real-time action-recognition service in real homes, processing 5-second clips in 2.9 seconds on average on Jetson NX</li>
             </ul>
           </div>
         </div>
@@ -345,11 +351,11 @@
             <div class="blabel"><span class="ko-only">담당 업무</span><span class="en-only">Responsibilities</span></div>
             <ul class="ko-only">
               <li>촬영 → 1차 자동 라벨링 → 클래스별 검증 → 학습 → 배포로 이어지는 5단계 자동화 파이프라인 개발</li>
-              <li>Qwen3-VL 초기 라벨링 후 검증 단계에서 통과·사람 검수로 분기하는 구조로 데이터 확보·라벨링 비용 절감</li>
+              <li>VideoLLM(Qwen3-VL) 1차 라벨 생성 → Agent 품질 검수(라벨 적합성·유사 클래스 혼동·클립 편집 적정성) → Human Review 대상 선별 구조로 반복 라벨링·검수 업무를 자동화하고 데이터 확보 비용 절감</li>
             </ul>
             <ul class="en-only">
               <li>Built a 5-stage automation pipeline: filming → initial auto-labeling → per-class verification → training → deployment</li>
-              <li>After Qwen3-VL initial labeling, branched into pass/human-review at verification, cutting data-acquisition and labeling cost</li>
+              <li>VideoLLM (Qwen3-VL) first-pass labels → agent quality review (label validity, similar-class confusion, clip-trim adequacy) → selection of items for human review, automating repetitive labeling/review and cutting data-acquisition cost</li>
             </ul>
             <div class="fig-row">
               <figure class="project-figure">
@@ -384,8 +390,8 @@
       <div class="project mint proj-panel" data-panel="elv" id="proj-elv">
         <div class="proj-head">
           <h3>
-            <span class="ko-only">엘리베이터 내부 상황 분석 시스템 PoC (2025.02 – 2025.03)</span>
-            <span class="en-only">In-Elevator Situational Analysis System PoC (2025.02 – 2025.03)</span>
+            <span class="ko-only">엘리베이터 내부 상황 분석 시스템 PoC (2025.01 – 2025.02)</span>
+            <span class="en-only">In-Elevator Situational Analysis System PoC (2025.01 – 2025.02)</span>
           </h3>
           <div class="contrib-min">
             <span class="pill"><span class="ko-only">핵심 역할</span><span class="en-only">Key role</span></span>
@@ -512,14 +518,14 @@
               <li>Recall 0.835 → 0.904 향상</li>
               <li>ICLR 2025 워크샵 ICBINB 논문 게재<span class="sub"><a href="../../papers/iclrw2025/">An Integrated YOLO and VLM System for Fire Detection in Enclosed Environments (ICLRW 2025)</a></span></li>
               <li>'인공신경망 기반의 복합모델을 이용한 주차장 화재 탐지 방법 및 시스템' 특허 등록<span class="sub">KR 10-2857163</span></li>
-              <li>광명 센트럴 아이파크 지하주차장 화재 탐지 AI CCTV 상용 도입</li>
+              <li>광명 센트럴 아이파크 · 한국타이어 금산공장 화재 탐지 AI CCTV 상용 도입</li>
             </ul>
             <ul class="en-only">
               <li>Cut first fire-detection time from 6.51s to 3.03s</li>
               <li>Improved recall from 0.835 to 0.904</li>
               <li>Published at the ICLR 2025 ICBINB workshop<span class="sub"><a href="../../papers/iclrw2025/">An Integrated YOLO and VLM System for Fire Detection in Enclosed Environments (ICLRW 2025)</a></span></li>
               <li>Patent granted: parking-lot fire detection using an ANN-based composite model<span class="sub">KR 10-2857163</span></li>
-              <li>Commercial deployment in the underground parking AI CCTV at Gwangmyeong Central IPARK</li>
+              <li>Commercial AI CCTV fire-detection deployments at Gwangmyeong Central IPARK and the Hankook Tire Geumsan plant</li>
             </ul>
           </div>
         </div>
