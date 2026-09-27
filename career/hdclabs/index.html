@@ -13,10 +13,12 @@
   .career-detail #proj-fire .proj-head,
   .career-detail #proj-agent .proj-head,
   .career-detail #proj-ipark .proj-head,
+  .career-detail #proj-cost .proj-head,
   .career-detail #proj-elv .proj-head { flex-direction: column; }
   .career-detail #proj-fire .proj-head .contrib-min,
   .career-detail #proj-agent .proj-head .contrib-min,
   .career-detail #proj-ipark .proj-head .contrib-min,
+  .career-detail #proj-cost .proj-head .contrib-min,
   .career-detail #proj-elv .proj-head .contrib-min { max-width: none; }
   .career-detail .proj-overview { display: grid; gap: 7px; margin-top: 2px; }
   .career-detail .ov-row { display: flex; gap: 12px; font-size: 13.5px; line-height: 1.5; }
@@ -70,6 +72,7 @@
             <span class="role-badge">VLM / LLM</span>
             <span class="role-badge">Video Understanding</span>
             <span class="role-badge">Multimodal AI</span>
+            <span class="role-badge">AI Agent</span>
             <span class="role-badge">AX Engineering</span>
             <span class="role-badge">PM / PL</span>
           </div>
@@ -85,16 +88,20 @@
               <div class="wa-nm"><span class="wa-name"><a class="wa-goto" data-goto="fire"><span class="ko-only">지하주차장 화재 탐지 모델 개발</span><span class="en-only">Underground Parking Fire Detection</span></a></span><span class="wa-role"><span class="ko-only">AI 엔지니어</span><span class="en-only">AI Engineer</span></span></div>
             </li>
             <li>
-              <div class="wa-y">2025.01 – 2025.02</div>
+              <div class="wa-y">2025.02 – 2025.03</div>
               <div class="wa-nm"><span class="wa-name"><a class="wa-goto" data-goto="elv"><span class="ko-only">엘리베이터 내부 상황 분석 시스템 PoC</span><span class="en-only">In-Elevator Situational Analysis System PoC</span></a></span><span class="wa-role"><span class="ko-only">AI 엔지니어</span><span class="en-only">AI Engineer</span></span><a class="wa-news" href="https://www.yna.co.kr/view/AKR20250414119000003" target="_blank" rel="noopener"><span class="ko-only">기사 ↗</span><span class="en-only">News ↗</span></a></div>
             </li>
             <li>
               <div class="wa-y">2025.06 ~</div>
-              <div class="wa-nm"><span class="wa-name"><a class="wa-goto" data-goto="agent"><span class="ko-only">차세대 홈 AI Agent 시스템</span><span class="en-only">Next-Gen Home AI Agent System</span></a></span><span class="wa-role"><span class="ko-only">AI 엔지니어</span><span class="en-only">AI Engineer</span></span></div>
+              <div class="wa-nm"><span class="wa-name"><a class="wa-goto" data-goto="agent"><span class="ko-only">차세대 홈 AI Agent 시스템</span><span class="en-only">Next-Gen Home AI Agent System</span></a></span><span class="wa-role"><span class="ko-only">PL · PM</span><span class="en-only">PL · PM</span></span></div>
             </li>
             <li>
-              <div class="wa-y">2026.06 ~</div>
-              <div class="wa-nm"><span class="wa-name"><a class="wa-goto" data-goto="ipark"><span class="ko-only">아이파크몰 인사이트 에이전트 PoC</span><span class="en-only">IParkMall Insight Agent PoC</span></a></span><span class="wa-role"><span class="ko-only">AI 엔지니어 · PM</span><span class="en-only">AI Engineer · PM</span></span></div>
+              <div class="wa-y">2026.06 – 2026.07</div>
+              <div class="wa-nm"><span class="wa-name"><a class="wa-goto" data-goto="ipark"><span class="ko-only">아이파크몰 인사이트 에이전트 PoC</span><span class="en-only">IParkMall Insight Agent PoC</span></a></span><span class="wa-role"><span class="ko-only">인사이트 에이전트 개발</span><span class="en-only">Insight-agent development</span></span></div>
+            </li>
+            <li>
+              <div class="wa-y">2026.08 ~</div>
+              <div class="wa-nm"><span class="wa-name"><a class="wa-goto" data-goto="cost"><span class="ko-only">공사현장 원가분석 에이전트 PoC</span><span class="en-only">Construction-Site Cost Analysis Agent PoC</span></a></span><span class="wa-role"><span class="ko-only">PM · AX 에이전트 개발</span><span class="en-only">PM · AX agent development</span></span></div>
             </li>
           </ul>
         </div>
@@ -114,7 +121,23 @@
         <span class="en-only">Select a project to view its details below</span>
       </p>
       <div class="proj-select-grid">
-        <button type="button" class="proj-card active" data-panel="ipark">
+        <button type="button" class="proj-card active" data-panel="cost">
+          <div class="name">
+            <span class="ko-only">공사현장 원가분석 에이전트 PoC</span>
+            <span class="en-only">Construction-Site Cost Analysis Agent PoC</span>
+          </div>
+          <ul class="ko-only">
+            <li>엑셀·ERP에 흩어진 현장 원가 데이터를 자연어 질의로 분석하는 AX 에이전트</li>
+            <li>이상 징후 확인부터 리스크 보고서 작성까지 연결</li>
+            <li>현업 원가관리 프로세스 5단계 정의 및 PoC 범위 확정</li>
+          </ul>
+          <ul class="en-only">
+            <li>AX agent that analyzes site-cost data scattered across Excel and ERP via natural language</li>
+            <li>Connects anomaly checks through to risk-report drafting</li>
+            <li>Defined a 5-stage cost-management process and fixed the PoC scope</li>
+          </ul>
+        </button>
+        <button type="button" class="proj-card" data-panel="ipark">
           <div class="name">
             <span class="ko-only">아이파크몰 인사이트 에이전트 PoC</span>
             <span class="en-only">IParkMall Insight Agent PoC</span>
@@ -137,12 +160,12 @@
           </div>
           <ul class="ko-only">
             <li>거주자 행동·물체·얼굴 인식 기반 개인화 홈 AI 에이전트</li>
-            <li>VideoLLM 프롬프트 엔지니어링으로 액션 정확도 65% → 81%</li>
+            <li>VideoLLM 프롬프트 엔지니어링으로 행동 분류 정확도 18%p 향상</li>
             <li>Jetson NX 4bit 배포, 5초 영상 평균 2.9초 처리 (실시간)</li>
           </ul>
           <ul class="en-only">
             <li>Personalized home AI agent from resident action/object/face recognition</li>
-            <li>VideoLLM prompt engineering lifted action accuracy 65% → 81%</li>
+            <li>VideoLLM prompt engineering lifted action accuracy by 18%p</li>
             <li>4-bit on Jetson NX, ~2.9s for a 5s clip (real-time)</li>
           </ul>
         </button>
@@ -180,11 +203,79 @@
         </button>
       </div>
 
-      <div class="project proj-panel active" data-panel="ipark" id="proj-ipark">
+      <div class="project proj-panel active" data-panel="cost" id="proj-cost">
         <div class="proj-head">
           <h3>
-            <span class="ko-only">아이파크몰 인사이트 에이전트 PoC (2026.06 ~ 진행 중)</span>
-            <span class="en-only">IParkMall Insight Agent PoC (2026.06 ~ Present)</span>
+            <span class="ko-only">공사현장 원가분석 에이전트 PoC (2026.08 ~ 진행 중)</span>
+            <span class="en-only">Construction-Site Cost Analysis Agent PoC (2026.08 ~ Present)</span>
+          </h3>
+          <div class="contrib-min">
+            <span class="pill"><span class="ko-only">핵심 역할</span><span class="en-only">Key role</span></span>
+            <div class="c-body">
+              <div class="c-role"><span class="ko-only">PM · AX 에이전트 개발 — 현업 프로세스 정의, 데이터 가용성 검증, 에이전트 구조 설계·구현</span><span class="en-only">PM · AX agent development — business-process definition, data-availability validation, agent architecture design &amp; implementation</span></div>
+            </div>
+          </div>
+          <div class="proj-overview">
+            <div class="ov-row"><span class="ov-k"><span class="ko-only">적용 대상</span><span class="en-only">Target</span></span><span class="ov-v"><span class="ko-only">공사현장 원가관리 실무 — 현장별 원가 자료 대조·이상 징후 점검 업무</span><span class="en-only">Construction-site cost management — per-site cost reconciliation and anomaly checks</span></span></div>
+            <div class="ov-row"><span class="ov-k"><span class="ko-only">연동 대상</span><span class="en-only">Integration</span></span><span class="ov-v"><span class="ko-only">엑셀 · ERP 현장 원가 데이터 · 본사 원가관리 표준 지표 · 대시보드 · 리스크 보고서</span><span class="en-only">Site-cost data in Excel and ERP · HQ standard cost-management metrics · dashboard · risk reports</span></span></div>
+            <div class="ov-row"><span class="ov-k"><span class="ko-only">핵심 기능</span><span class="en-only">Core features</span></span><span class="ov-v"><span class="ko-only">현장 원가 데이터 기반 이상 징후 탐지 · 리스크 보고서 자동 작성</span><span class="en-only">Anomaly detection over site-cost data · automated risk-report drafting</span></span></div>
+            <div class="ov-row"><span class="ov-k"><span class="ko-only">목표</span><span class="en-only">Goal</span></span><span class="ov-v"><span class="ko-only">담당자가 현장별 원가 자료를 엑셀로 대조하던 과정을 에이전트 질의로 처리하는 원가관리 AX 전환</span><span class="en-only">Move cost management to AX — replacing manual per-site Excel reconciliation with agent queries</span></span></div>
+          </div>
+        </div>
+
+        <div class="phase">
+          <div class="phase-title"><span class="pnum">1</span><span class="ko-only">현업 프로세스 정의 · 데이터 가용성 검증</span><span class="en-only">Business Process Definition &amp; Data-Availability Validation</span></div>
+          <div class="project-text">
+            <div class="blabel"><span class="ko-only">담당 업무</span><span class="en-only">Responsibilities</span></div>
+            <ul class="ko-only">
+              <li><strong>프로세스 시나리오 정의</strong> — 데이터 입력 → AI 분석 → 이상 징후 탐지 → 손실 예측 → 경영진 보고의 5단계 정의</li>
+              <li><strong>필요 데이터 도출</strong> — 단계별 필요 데이터를 실무팀과 정의하고, ERP 가용 항목과 대조해 확보 불가 항목 식별</li>
+              <li><strong>PoC 범위 확정</strong> — 가용 데이터 기준으로 구현 범위와 우선순위를 조정해 PoC 목표 수립</li>
+            </ul>
+            <ul class="en-only">
+              <li><strong>Process scenario</strong> — defined five stages: data input → AI analysis → anomaly detection → loss forecasting → executive reporting</li>
+              <li><strong>Data requirements</strong> — defined the data each stage needs with the business team and checked it against available ERP fields to flag what cannot be sourced</li>
+              <li><strong>PoC scope</strong> — adjusted implementation scope and priorities to the available data and set the PoC goals</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="phase">
+          <div class="phase-title"><span class="pnum">2</span><span class="ko-only">에이전트 구조 설계 · 구현</span><span class="en-only">Agent Architecture Design &amp; Implementation</span></div>
+          <div class="project-text">
+            <div class="blabel"><span class="ko-only">담당 업무</span><span class="en-only">Responsibilities</span></div>
+            <ul class="ko-only">
+              <li><strong>표준 지표 Tool Calling</strong> — 본사 원가관리 표준 지표를 에이전트 전용 Tool로 구현해 지표 해석 차이 차단</li>
+              <li><strong>산출 로직 단일화</strong> — 대시보드·에이전트 답변·보고서가 동일한 산출 로직을 호출하도록 설계해 수치 불일치 방지</li>
+              <li><strong>폐쇄망 서빙</strong> — 사내 GPU 서빙으로 원가 데이터 외부 반출을 차단하고, 툴 계층 분리로 타 도메인 확장 기반 확보</li>
+            </ul>
+            <ul class="en-only">
+              <li><strong>Standard-metric tool calling</strong> — implemented HQ standard cost-management metrics as agent-only tools, eliminating differences in how metrics are interpreted</li>
+              <li><strong>Single calculation logic</strong> — the dashboard, agent answers, and reports all call the same calculation logic, preventing numeric mismatches</li>
+              <li><strong>Air-gapped serving</strong> — in-house GPU serving keeps cost data from leaving the company; a separate tool layer lays the groundwork for other domains</li>
+            </ul>
+            <div class="blabel"><span class="ko-only">업무 성과</span><span class="en-only">Achievements</span></div>
+            <ul class="ko-only">
+              <li>현업 원가관리 프로세스 5단계 정의 및 PoC 범위 확정</li>
+              <li>담당자가 현장별 원가 자료를 엑셀로 대조하던 과정을 AX 전환으로 에이전트 질의로 처리하도록 설계</li>
+            </ul>
+            <ul class="en-only">
+              <li>Defined the 5-stage cost-management process and fixed the PoC scope</li>
+              <li>Designed the AX shift that turns manual per-site Excel reconciliation into agent queries</li>
+            </ul>
+            <div class="blabel"><span class="ko-only">기술 스택</span><span class="en-only">Tech stack</span></div>
+            <div class="tech-stack">
+              <span>LLM Service</span><span>Tool Calling</span><span>On-Prem GPU Serving</span><span>ERP Integration</span><span>Project Management</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="project proj-panel" data-panel="ipark" id="proj-ipark">
+        <div class="proj-head">
+          <h3>
+            <span class="ko-only">아이파크몰 인사이트 에이전트 PoC (2026.06 – 2026.07)</span>
+            <span class="en-only">IParkMall Insight Agent PoC (2026.06 – 2026.07)</span>
           </h3>
           <div class="contrib-min">
             <span class="pill"><span class="ko-only">핵심 역할</span><span class="en-only">Key role</span></span>
@@ -207,12 +298,12 @@
             <ul class="ko-only">
               <li><strong>질의·응답 기준 정의</strong> — 질의 유형별로 필요한 데이터 범위, 분석 기준, 응답 Context 구성 규칙을 설계</li>
               <li><strong>Context · 조회 오케스트레이션</strong> — 질의 목적에 따라 필요한 정형 데이터와 운영 지식을 선택·결합해, 데이터 조회부터 이상 원인 분석까지 자동화</li>
-              <li><strong>Agent Knowledge Layer 설계</strong> — 내부 방문객 DB·외부 API와 매장 정보·공지·이벤트·MD 개편 이력 등 운영 데이터를 DB/RAG 기반으로 통합</li>
+              <li><strong>Knowledge Source 통합</strong> — 내부 방문객 DB·외부 API와 매장 정보·공지·이벤트·MD 개편 이력 등 운영 데이터를 DB/RAG 기반으로 통합</li>
             </ul>
             <ul class="en-only">
               <li><strong>Query/response criteria</strong> — designed, per query type, the required data scope, analysis criteria, and response-context composition rules</li>
               <li><strong>Context &amp; retrieval orchestration</strong> — selects and combines the structured data and operational knowledge a query needs, automating everything from data lookup to root-cause analysis of anomalies</li>
-              <li><strong>Agent Knowledge Layer</strong> — unified the internal visitor DB and external APIs with operational data (store info, notices, events, MD-renewal history) over DB and RAG</li>
+              <li><strong>Knowledge-source integration</strong> — unified the internal visitor DB and external APIs with operational data (store info, notices, events, MD-renewal history) over DB and RAG</li>
             </ul>
           </div>
         </div>
@@ -261,7 +352,7 @@
           <div class="contrib-min">
             <span class="pill"><span class="ko-only">핵심 역할</span><span class="en-only">Key role</span></span>
             <div class="c-body">
-              <div class="c-role"><span class="ko-only">기여도 35% — 프로젝트 매니징, 데이터셋 구축, 행동 인식 모델링, 통합 파이프라인 개발, 엣지 배포</span><span class="en-only">35% contribution — project management, dataset construction, action-recognition modeling, integrated pipeline development, edge deployment</span></div>
+              <div class="c-role"><span class="ko-only">PL / PM · 기여도 35% — 시스템 통합, 행동인식 모델 개발, 엣지 배포 (데이터셋·라벨링 툴 포함)</span><span class="en-only">PL / PM · 35% contribution — system integration, action-recognition model development, edge deployment (incl. dataset &amp; labeling tool)</span></div>
             </div>
           </div>
           <div class="proj-overview">
@@ -274,91 +365,24 @@
         </div>
 
         <div class="phase">
-          <div class="phase-title"><span class="pnum">1</span><span class="ko-only">데이터셋 구축</span><span class="en-only">Dataset Construction</span></div>
+          <div class="phase-title"><span class="pnum">1</span><span class="ko-only">행동인식 데이터셋 구축 및 자동화 라벨링 툴 개발</span><span class="en-only">Action-Recognition Dataset &amp; Auto-Labeling Tool</span></div>
           <div class="project-text">
             <div class="blabel"><span class="ko-only">담당 업무</span><span class="en-only">Responsibilities</span></div>
             <ul class="ko-only">
-              <li>집안 행동 오픈소스 데이터 부족 문제를 해결하기 위해 실제 주거 공간에서 거주자 행동을 직접 촬영, 600개 이상 영상을 65개 이상 액션으로 정의·라벨링</li>
-              <li>클래스 중첩·라벨링 모호성을 반복 검토하며 15개 핵심 클래스로 재정의 → 최종 공식 데이터셋(648개, 2560×1440) 릴리즈</li>
+              <li><strong>행동인식 문제 정의 및 데이터 기준 수립</strong> — 다중 카메라 고해상도 영상 기반으로 집 안 사용자 행동 클래스를 정의하고, 클래스 중첩·행동 경계 모호성·유사 행동 혼동 사례를 분석해 모델 학습용 데이터 수집 기준 정리 (600개 이상 영상·65개 이상 액션 → 15개 핵심 클래스)</li>
+              <li><strong>에이전트 기반 데이터셋 검수 프로세스 설계</strong> — VideoLLM(Qwen3-VL) 1차 라벨 생성 → Agent 품질 검수(라벨 적합성·유사 클래스 혼동·클립 편집 적정성) → Human Review 대상 선별</li>
+              <li><strong>학습/평가 데이터셋 구축</strong> — 정제된 클래스와 검수된 annotation을 기반으로 모델 학습 및 평가용 행동인식 데이터셋 구축 (648개, 2560×1440)</li>
+              <li>촬영 → 라벨링 → 검증 → 학습 → 배포로 이어지는 End-to-End 5단계 자동화 라벨링 툴 개발</li>
             </ul>
             <ul class="en-only">
-              <li>To address the scarcity of open-source in-home action data, filmed resident actions directly in real living spaces and defined/labeled 600+ videos into 65+ actions</li>
-              <li>Iteratively reviewed class overlap and labeling ambiguity, consolidating to 15 core classes → released the final official dataset (648 clips, 2560×1440)</li>
+              <li><strong>Problem definition &amp; data criteria</strong> — defined in-home user action classes from multi-camera high-resolution video, and analyzed class overlap, ambiguous action boundaries, and similar-action confusions to set data-collection criteria for training (600+ videos, 65+ actions → 15 core classes)</li>
+              <li><strong>Agent-based dataset review</strong> — VideoLLM (Qwen3-VL) first-pass labels → agent quality review (label validity, similar-class confusion, clip-trim adequacy) → selection of items for human review</li>
+              <li><strong>Training/evaluation dataset</strong> — built the action-recognition dataset for training and evaluation from the refined classes and reviewed annotations (648 clips, 2560×1440)</li>
+              <li>Built an end-to-end 5-stage auto-labeling tool: filming → labeling → verification → training → deployment</li>
             </ul>
             <figure class="project-figure fig-half">
               <img src="../../assets/img/ext/hdc_aihome2.png" alt="Multi-camera capture in a real residential environment">
             </figure>
-          </div>
-        </div>
-
-        <div class="phase">
-          <div class="phase-title"><span class="pnum">2</span><span class="ko-only">모델·알고리즘 제안</span><span class="en-only">Model &amp; Algorithm</span></div>
-          <div class="project-text">
-            <div class="blabel"><span class="ko-only">담당 업무</span><span class="en-only">Responsibilities</span></div>
-            <ul class="ko-only">
-              <li>학습 데이터가 부족한 상황에서 VideoLLM(Qwen-VL, VideoLLaMA3)으로 영상을 액션 분류, 액션 클래스를 동적으로 교체할 수 있도록 프롬프트 엔지니어링</li>
-              <li>평가 기준에 맞춘 단일 라벨 출력 제약과 프롬프트 구조 개선으로 행동 분류 정확도 65%→81% 향상</li>
-              <li>로딩·양자화 방식 비교를 통해 HF Transformers + 4bit + NF4 조합을 성능·속도 최적값으로 확립</li>
-            </ul>
-            <ul class="en-only">
-              <li>With limited training data, classified video actions using VideoLLMs (Qwen-VL, VideoLLaMA3), with prompt engineering to swap action classes dynamically</li>
-              <li>Refined VideoLLM output constraints and evaluation-aligned prompting, improving single-label action classification accuracy from 65% to 81%</li>
-              <li>Established HF Transformers + 4-bit + NF4 as the performance/speed optimum through loading and quantization comparisons</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="phase">
-          <div class="phase-title"><span class="pnum">3</span><span class="ko-only">시스템 아키텍처 통합</span><span class="en-only">System Architecture Integration</span></div>
-          <div class="project-text">
-            <div class="blabel"><span class="ko-only">담당 업무</span><span class="en-only">Responsibilities</span></div>
-            <ul class="ko-only">
-              <li>Camera/RTSP → 전처리 → VideoLLM 추론 → DB → AI Agent로 이어지는 비동기 실시간 파이프라인 구성</li>
-              <li>다중 카메라·다중 모델 환경의 GPU 메모리 과부하·지연 문제를 멀티프로세싱·멀티스레딩·배치 처리로 해결</li>
-              <li>Kafka 기반으로 "의미 있는 상태 변화"만 전달 (개인화 로그는 저빈도·장기 저장, 행동 이벤트는 고빈도·실시간 처리)</li>
-            </ul>
-            <ul class="en-only">
-              <li>Built an asynchronous real-time pipeline: Camera/RTSP → preprocessing → VideoLLM inference → DB → AI Agent</li>
-              <li>Resolved GPU memory overload and latency in multi-camera/multi-model settings via multiprocessing, multithreading, and batching</li>
-              <li>Published only "meaningful state changes" over Kafka (personalization logs: low-frequency long-term storage; action events: high-frequency real-time)</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="phase">
-          <div class="phase-title"><span class="pnum">4</span><span class="ko-only">엣지 배포</span><span class="en-only">Edge Deployment</span></div>
-          <div class="project-text">
-            <div class="blabel"><span class="ko-only">담당 업무</span><span class="en-only">Responsibilities</span></div>
-            <ul class="ko-only">
-              <li>온디바이스 담당자와 함께 Jetson NX에 적용 가능한 모델을 실험하고, 그중 가장 효과적인 4bit NF4 양자화 모델을 선정·탑재</li>
-              <li>RK3576 카메라와 실시간 연동까지 이어지도록 프로젝트 매니징 수행</li>
-            </ul>
-            <ul class="en-only">
-              <li>Experimented with the on-device engineer on models deployable to Jetson NX, then selected and loaded the most effective 4-bit NF4 quantized model</li>
-              <li>Project-managed the work so it could integrate with an RK3576 camera in real time</li>
-            </ul>
-            <div class="blabel"><span class="ko-only">업무 성과</span><span class="en-only">Achievements</span></div>
-            <ul class="ko-only">
-              <li>Jetson NX에서 5초 클립 평균 2.9초 처리로 실주거 환경 실시간 행동인식 서비스 적용</li>
-            </ul>
-            <ul class="en-only">
-              <li>Deployed as a real-time action-recognition service in real homes, processing 5-second clips in 2.9 seconds on average on Jetson NX</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="phase">
-          <div class="phase-title"><span class="pnum">5</span><span class="ko-only">데이터 수집·라벨링 자동화 툴 개발</span><span class="en-only">Data Collection &amp; Labeling Automation Tool</span></div>
-          <div class="project-text">
-            <div class="blabel"><span class="ko-only">담당 업무</span><span class="en-only">Responsibilities</span></div>
-            <ul class="ko-only">
-              <li>촬영 → 1차 자동 라벨링 → 클래스별 검증 → 학습 → 배포로 이어지는 5단계 자동화 파이프라인 개발</li>
-              <li>VideoLLM(Qwen3-VL) 1차 라벨 생성 → Agent 품질 검수(라벨 적합성·유사 클래스 혼동·클립 편집 적정성) → Human Review 대상 선별 구조로 반복 라벨링·검수 업무를 자동화하고 데이터 확보 비용 절감</li>
-            </ul>
-            <ul class="en-only">
-              <li>Built a 5-stage automation pipeline: filming → initial auto-labeling → per-class verification → training → deployment</li>
-              <li>VideoLLM (Qwen3-VL) first-pass labels → agent quality review (label validity, similar-class confusion, clip-trim adequacy) → selection of items for human review, automating repetitive labeling/review and cutting data-acquisition cost</li>
-            </ul>
             <div class="fig-row">
               <figure class="project-figure">
                 <img src="../../assets/img/ext/hdc_aihome0_pipeline.png" alt="5-stage data automation pipeline">
@@ -371,19 +395,78 @@
         </div>
 
         <div class="phase">
+          <div class="phase-title"><span class="pnum">2</span><span class="ko-only">비전 AI 통합 시스템 아키텍처 설계</span><span class="en-only">Vision AI System Architecture</span></div>
+          <div class="project-text">
+            <div class="blabel"><span class="ko-only">담당 업무</span><span class="en-only">Responsibilities</span></div>
+            <ul class="ko-only">
+              <li><strong>통합 아키텍처 설계</strong> — 다중 카메라 입력과 행동·객체·얼굴 인식 모델 추론 구조 통합 (Camera/RTSP → 전처리 → VideoLLM 추론 → DB → AI Agent 비동기 실시간 파이프라인)</li>
+              <li><strong>모듈화 병렬 적용</strong> — 얼굴·객체·행동 기능별 모듈화로 복수 모델 추론 병목 완화 및 메모리 사용 효율 개선</li>
+              <li><strong>DB 및 AI Agent 연동</strong> — 모듈별 추론 결과를 통합해 Agent 활용 및 개인화 이벤트 정보로 DB 연동 (Kafka 기반으로 "의미 있는 상태 변화"만 전달)</li>
+            </ul>
+            <ul class="en-only">
+              <li><strong>Integrated architecture</strong> — unified multi-camera input with action, object, and face recognition inference (asynchronous real-time pipeline: Camera/RTSP → preprocessing → VideoLLM inference → DB → AI Agent)</li>
+              <li><strong>Modular parallelism</strong> — split face, object, and action into separate modules to relieve multi-model inference bottlenecks and improve memory efficiency</li>
+              <li><strong>DB &amp; AI agent integration</strong> — merged per-module inference results into the DB as personalized event data for the agent (only "meaningful state changes" published over Kafka)</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="phase">
+          <div class="phase-title"><span class="pnum">3</span><span class="ko-only">행동인식 모델 · 알고리즘 개발</span><span class="en-only">Action-Recognition Model &amp; Algorithm</span></div>
+          <div class="project-text">
+            <div class="blabel"><span class="ko-only">담당 업무</span><span class="en-only">Responsibilities</span></div>
+            <ul class="ko-only">
+              <li><strong>프롬프트 엔지니어링</strong> — 행동 클래스 정의와 단일 선택형 출력 구조를 반영한 프롬프트로 개선해 추론 안정성 향상</li>
+              <li><strong>오류 분석 기반 성능 개선</strong> — 유사 행동 혼동 사례를 분석해 행동 클래스 정의와 평가 기준을 반복 개선</li>
+              <li><strong>모델 성능 검증</strong> — 다양한 VideoLLM 후보 모델(Qwen-VL, VideoLLaMA3 등)을 동일한 행동인식 평가셋에서 비교 검증</li>
+            </ul>
+            <ul class="en-only">
+              <li><strong>Prompt engineering</strong> — reworked prompts around the action-class definitions and a single-choice output format, improving inference stability</li>
+              <li><strong>Error-driven improvement</strong> — analyzed similar-action confusions and iteratively refined class definitions and evaluation criteria</li>
+              <li><strong>Model validation</strong> — compared candidate VideoLLMs (Qwen-VL, VideoLLaMA3, …) on the same action-recognition evaluation set</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="phase">
+          <div class="phase-title"><span class="pnum">4</span><span class="ko-only">엣지 배포 검증 리딩</span><span class="en-only">Leading Edge-Deployment Validation</span></div>
+          <div class="project-text">
+            <div class="blabel"><span class="ko-only">담당 업무</span><span class="en-only">Responsibilities</span></div>
+            <ul class="ko-only">
+              <li><strong>엣지 배포 검증 기준 수립</strong> — Jetson NX 환경에서 모델별 처리 속도·정확도·실행 가능성을 비교 기준으로 정의하고 테스트 범위 조율</li>
+              <li><strong>NX 구동 테스트 및 이슈 조율</strong> — NX 담당자와 모델 실행 과정의 환경 설정·구동 실패·처리 지연 이슈를 점검하고, 모델별 테스트 범위와 실행 조건 조율</li>
+              <li><strong>실시간 서비스 적용</strong> — 5초 영상 평균 2.9초 처리 결과와 모델별 엣지 성능표를 기반으로, 실제 주거 환경에서 실시간 행동인식 서비스로 적용</li>
+            </ul>
+            <ul class="en-only">
+              <li><strong>Edge validation criteria</strong> — defined per-model throughput, accuracy, and feasibility on Jetson NX as the comparison criteria and coordinated test scope</li>
+              <li><strong>NX testing &amp; issue coordination</strong> — worked with the NX engineer through environment setup, launch failures, and latency issues, coordinating per-model test scope and run conditions</li>
+              <li><strong>Real-time service</strong> — based on 2.9s average processing per 5s clip and the per-model edge benchmark, deployed as a real-time action-recognition service in real homes</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="phase">
           <div class="phase-title"><span class="ko-only">성과</span><span class="en-only">Achievements</span></div>
           <div class="project-text">
             <ul class="ko-only">
-              <li>행동 인식 기반 IoT 가전 제어 등 관련 기술 특허 확보<span class="sub">KR 10-2971047</span></li>
-              <li>모델하우스 시범 운영용 4-카메라 Vision AI 시스템 구현 및 데이터 자동 라벨링 툴 개발</li>
+              <li>행동 분류 정확도 18%p 향상</li>
+              <li>행동인식 모델 Jetson NX 4bit/NF4 배포</li>
+              <li>다중 비전 모델 추론 시스템 에이전트 연동</li>
+              <li>촬영 → 라벨링 → 검증 → 학습 → 배포 5단계 자동화 라벨링 툴 개발</li>
+              <li>행동인식 기반 IoT 가전 제어 특허 등록<span class="sub">KR 10-2971047</span></li>
+              <li>실거주 환경 PoC 시연 진행</li>
             </ul>
             <ul class="en-only">
-              <li>Secured related-technology patents, including action-recognition-based IoT appliance control<span class="sub">KR 10-2971047</span></li>
-              <li>Implemented a 4-camera Vision AI system for the model-house pilot and built a data auto-labeling tool</li>
+              <li>Improved action-classification accuracy by 18%p</li>
+              <li>Deployed the action-recognition model to Jetson NX in 4-bit/NF4</li>
+              <li>Connected the multi-vision-model inference system to the agent</li>
+              <li>Built a 5-stage auto-labeling tool: filming → labeling → verification → training → deployment</li>
+              <li>Patent granted: action-recognition-based IoT appliance control<span class="sub">KR 10-2971047</span></li>
+              <li>Demonstrated the PoC in a real residential environment</li>
             </ul>
             <div class="blabel"><span class="ko-only">기술 스택</span><span class="en-only">Tech stack</span></div>
             <div class="tech-stack">
-              <span>VideoLLM</span><span>LLM Prompt Engineering</span><span>Fine-tuning</span><span>4bit / NF4</span><span>Jetson NX</span><span>Kafka</span><span>Python</span><span>Project Management</span>
+              <span>VideoLLM</span><span>Prompt Engineering</span><span>VLM Fine-tuning</span><span>4bit / NF4</span><span>Jetson NX</span><span>Data Construction</span><span>Kafka</span><span>Python</span><span>PL / PM</span>
             </div>
           </div>
         </div>
@@ -392,8 +475,8 @@
       <div class="project mint proj-panel" data-panel="elv" id="proj-elv">
         <div class="proj-head">
           <h3>
-            <span class="ko-only">엘리베이터 내부 상황 분석 시스템 PoC (2025.01 – 2025.02)</span>
-            <span class="en-only">In-Elevator Situational Analysis System PoC (2025.01 – 2025.02)</span>
+            <span class="ko-only">엘리베이터 내부 상황 분석 시스템 PoC (2025.02 – 2025.03)</span>
+            <span class="en-only">In-Elevator Situational Analysis System PoC (2025.02 – 2025.03)</span>
           </h3>
           <div class="contrib-min">
             <span class="pill"><span class="ko-only">핵심 역할</span><span class="en-only">Key role</span></span>
@@ -425,13 +508,15 @@
             <div class="blabel"><span class="ko-only">담당 업무</span><span class="en-only">Responsibilities</span></div>
             <ul class="ko-only">
               <li><strong>탑승 데이터 수집 및 구축</strong> — 실제 엘리베이터 환경에서 촬영된 반려견 탑승 영상을 수집·정제·라벨링하고, 엘리베이터 CCTV 시점 기반 생성형 반려견 합성 데이터를 추가해 학습 데이터셋 확장</li>
-              <li><strong>VLM 기반 모델 파인튜닝</strong> — 수집한 데이터를 기반으로 VLM을 object detection 태스크에 맞게 커스터마이징하고, 엘리베이터 환경 특성을 반영해 모델 학습</li>
-              <li><strong>탑승 시점 판단 알고리즘 개발</strong> — 문 열림/닫힘 시점을 기준으로 사람과 반려견의 동시 탑승 여부를 판단하는 알고리즘을 구현, 반려견 목줄 끼임 사고를 예방하도록 설계</li>
+              <li><strong>VLM 모델 적용</strong> — 상단 CCTV의 비정형 시야각으로 반려견이 작게 보이거나 가려지는 문제를 반영한 수집 데이터를 기반으로 VLM을 반려견 탐지 태스크에 맞게 커스터마이징하고, 엘리베이터 환경 특성을 반영해 모델 학습</li>
+              <li><strong>유사 객체 혼동 개선</strong> — 반려견과 인형·가방 등 유사 객체 간 혼동 사례를 분석하고, 평가 데이터 구성 및 모델 개선을 통해 유사 객체 구분</li>
+              <li><strong>탑승 시점 판단 알고리즘 개발</strong> — 문 열림/닫힘 시점을 기준으로 사람과 반려견의 동시 탑승 여부를 판단하는 알고리즘을 구현해 목줄 끼임 사고 예방 가능성 검증</li>
             </ul>
             <ul class="en-only">
               <li><strong>Boarding data construction</strong> — collected, cleaned, and labeled real in-elevator pet videos, and extended the training set with generative synthetic pet data rendered from the elevator-CCTV viewpoint</li>
-              <li><strong>VLM fine-tuning</strong> — customized a VLM for the object-detection task and trained it to reflect elevator-environment characteristics</li>
-              <li><strong>Boarding-moment algorithm</strong> — implemented door open/close-based logic that judges simultaneous boarding of a person and a pet, designed to prevent leash-entrapment accidents</li>
+              <li><strong>VLM adaptation</strong> — customized a VLM for pet detection on data reflecting the top-corner CCTV view, where dogs appear small or occluded, and trained it for elevator-environment characteristics</li>
+              <li><strong>Similar-object confusion</strong> — analyzed confusions between dogs and look-alike objects (plush toys, bags) and separated them through evaluation-set design and model improvements</li>
+              <li><strong>Boarding-moment algorithm</strong> — implemented door open/close-based logic that judges simultaneous boarding of a person and a pet, validating its potential to prevent leash-entrapment accidents</li>
             </ul>
             <div class="blabel"><span class="ko-only">업무 성과</span><span class="en-only">Achievements</span></div>
             <ul class="ko-only">
