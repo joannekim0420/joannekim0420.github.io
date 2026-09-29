@@ -96,7 +96,7 @@
               <div class="wa-nm"><span class="wa-name"><a class="wa-goto" data-goto="agent"><span class="ko-only">차세대 홈 AI Agent 시스템</span><span class="en-only">Next-Gen Home AI Agent System</span></a></span><span class="wa-role"><span class="ko-only">PL · PM</span><span class="en-only">PL · PM</span></span></div>
             </li>
             <li>
-              <div class="wa-y">2026.06 – 2026.07</div>
+              <div class="wa-y">2026.05 – 2026.07</div>
               <div class="wa-nm"><span class="wa-name"><a class="wa-goto" data-goto="ipark"><span class="ko-only">아이파크몰 인사이트 에이전트 PoC</span><span class="en-only">IParkMall Insight Agent PoC</span></a></span><span class="wa-role"><span class="ko-only">인사이트 에이전트 개발</span><span class="en-only">Insight-agent development</span></span></div>
             </li>
             <li>
@@ -127,14 +127,14 @@
             <span class="en-only">Construction-Site Cost Analysis Agent PoC</span>
           </div>
           <ul class="ko-only">
-            <li>엑셀·ERP에 흩어진 현장 원가 데이터를 자연어 질의로 분석하는 AX 에이전트</li>
-            <li>이상 징후 확인부터 리스크 보고서 작성까지 연결</li>
-            <li>현업 원가관리 프로세스 5단계 정의 및 PoC 범위 확정</li>
+            <li>사내 ERP 원가 데이터를 LLM Tool Calling으로 조회·분석하는 원가관리 AX 에이전트</li>
+            <li>이상 징후 탐지부터 원인 분석·리스크 보고서 생성까지 연결</li>
+            <li>Domain Tool · Business Logic Guardrail · MCP 기반 공통 Tool 서비스화</li>
           </ul>
           <ul class="en-only">
-            <li>AX agent that analyzes site-cost data scattered across Excel and ERP via natural language</li>
-            <li>Connects anomaly checks through to risk-report drafting</li>
-            <li>Defined a 5-stage cost-management process and fixed the PoC scope</li>
+            <li>Cost-management AX agent that queries and analyzes in-house ERP cost data via LLM tool calling</li>
+            <li>Connects anomaly detection through root-cause analysis to risk-report generation</li>
+            <li>Domain tools, business-logic guardrail, and shared tools as MCP services</li>
           </ul>
         </button>
         <button type="button" class="proj-card" data-panel="ipark">
@@ -217,42 +217,42 @@
           </div>
           <div class="proj-overview">
             <div class="ov-row"><span class="ov-k"><span class="ko-only">적용 대상</span><span class="en-only">Target</span></span><span class="ov-v"><span class="ko-only">공사현장 원가관리 실무 — 현장별 원가 자료 대조·이상 징후 점검 업무</span><span class="en-only">Construction-site cost management — per-site cost reconciliation and anomaly checks</span></span></div>
-            <div class="ov-row"><span class="ov-k"><span class="ko-only">연동 대상</span><span class="en-only">Integration</span></span><span class="ov-v"><span class="ko-only">엑셀 · ERP 현장 원가 데이터 · 본사 원가관리 표준 지표 · 대시보드 · 리스크 보고서</span><span class="en-only">Site-cost data in Excel and ERP · HQ standard cost-management metrics · dashboard · risk reports</span></span></div>
-            <div class="ov-row"><span class="ov-k"><span class="ko-only">핵심 기능</span><span class="en-only">Core features</span></span><span class="ov-v"><span class="ko-only">현장 원가 데이터 기반 이상 징후 탐지 · 리스크 보고서 자동 작성</span><span class="en-only">Anomaly detection over site-cost data · automated risk-report drafting</span></span></div>
+            <div class="ov-row"><span class="ov-k"><span class="ko-only">연동 대상</span><span class="en-only">Integration</span></span><span class="ov-v"><span class="ko-only">사내 ERP(현장 · 실행예산 · 실적원가 · 공종별 원가) · 본사 원가관리 기준·산식 · 리스크 보고서</span><span class="en-only">In-house ERP (sites, execution budgets, actual costs, cost by work type) · HQ cost-management rules &amp; formulas · risk reports</span></span></div>
+            <div class="ov-row"><span class="ov-k"><span class="ko-only">핵심 기능</span><span class="en-only">Core features</span></span><span class="ov-v"><span class="ko-only">사내 ERP 원가 데이터를 LLM Tool Calling으로 조회·분석하고, 이상 징후 탐지부터 원인 분석·리스크 보고서 생성까지 수행하는 원가관리 AX Agent</span><span class="en-only">A cost-management AX agent that queries and analyzes in-house ERP cost data via LLM tool calling — from anomaly detection through root-cause analysis to risk-report generation</span></span></div>
             <div class="ov-row"><span class="ov-k"><span class="ko-only">목표</span><span class="en-only">Goal</span></span><span class="ov-v"><span class="ko-only">담당자가 현장별 원가 자료를 엑셀로 대조하던 과정을 에이전트 질의로 처리하는 원가관리 AX 전환</span><span class="en-only">Move cost management to AX — replacing manual per-site Excel reconciliation with agent queries</span></span></div>
           </div>
         </div>
 
         <div class="phase">
-          <div class="phase-title"><span class="pnum">1</span><span class="ko-only">현업 프로세스 정의 · 데이터 가용성 검증</span><span class="en-only">Business Process Definition &amp; Data-Availability Validation</span></div>
+          <div class="phase-title"><span class="pnum">1</span><span class="ko-only">현업 프로세스 정의 · ERP 데이터 연계</span><span class="en-only">Business Process Definition &amp; ERP Data Integration</span></div>
           <div class="project-text">
             <div class="blabel"><span class="ko-only">담당 업무</span><span class="en-only">Responsibilities</span></div>
             <ul class="ko-only">
-              <li><strong>프로세스 시나리오 정의</strong> — 데이터 입력 → AI 분석 → 이상 징후 탐지 → 손실 예측 → 경영진 보고의 5단계 정의</li>
-              <li><strong>필요 데이터 도출</strong> — 단계별 필요 데이터를 실무팀과 정의하고, ERP 가용 항목과 대조해 확보 불가 항목 식별</li>
-              <li><strong>PoC 범위 확정</strong> — 가용 데이터 기준으로 구현 범위와 우선순위를 조정해 PoC 목표 수립</li>
+              <li><strong>ERP 기반 원가관리 Workflow 설계</strong> — 데이터 입력 → AI 분석 → 이상 징후 탐지 → 손실 예측 → 경영진 보고의 5단계 정의 및 단계별 agentic workflow 구조화</li>
+              <li><strong>사내 ERP 데이터 연동</strong> — 현장·실행예산·실적원가·공종별 원가 데이터를 ERP와 연계하고, Agent가 자연어 질의에 따라 필요한 데이터를 조회할 수 있는 Data Tool 구현</li>
+              <li><strong>데이터 가용성 기반 PM</strong> — 현업과 단계별 필요 데이터를 정의하고 ERP 가용 항목과 대조해 분석 가능 지표·Agent 수행 범위 및 우선순위 확정</li>
             </ul>
             <ul class="en-only">
-              <li><strong>Process scenario</strong> — defined five stages: data input → AI analysis → anomaly detection → loss forecasting → executive reporting</li>
-              <li><strong>Data requirements</strong> — defined the data each stage needs with the business team and checked it against available ERP fields to flag what cannot be sourced</li>
-              <li><strong>PoC scope</strong> — adjusted implementation scope and priorities to the available data and set the PoC goals</li>
+              <li><strong>ERP-based cost-management workflow</strong> — defined five stages (data input → AI analysis → anomaly detection → loss forecasting → executive reporting) and structured an agentic workflow for each stage</li>
+              <li><strong>In-house ERP integration</strong> — linked site, execution-budget, actual-cost, and cost-by-work-type data from the ERP, and implemented Data Tools that let the agent fetch the data a natural-language query needs</li>
+              <li><strong>Data-availability-driven PM</strong> — defined the data each stage needs with the business team and checked it against available ERP fields to fix the analyzable metrics, the agent's scope, and priorities</li>
             </ul>
           </div>
         </div>
 
         <div class="phase">
-          <div class="phase-title"><span class="pnum">2</span><span class="ko-only">에이전트 구조 설계 · 구현</span><span class="en-only">Agent Architecture Design &amp; Implementation</span></div>
+          <div class="phase-title"><span class="pnum">2</span><span class="ko-only">LLM Agent Orchestration</span><span class="en-only">LLM Agent Orchestration</span></div>
           <div class="project-text">
             <div class="blabel"><span class="ko-only">담당 업무</span><span class="en-only">Responsibilities</span></div>
             <ul class="ko-only">
-              <li><strong>표준 지표 Tool Calling</strong> — 본사 원가관리 표준 지표를 에이전트 전용 Tool로 구현해 지표 해석 차이 차단</li>
-              <li><strong>산출 로직 단일화</strong> — 대시보드·에이전트 답변·보고서가 동일한 산출 로직을 호출하도록 설계해 수치 불일치 방지</li>
-              <li><strong>폐쇄망 서빙</strong> — 사내 GPU 서빙으로 원가 데이터 외부 반출을 차단하고, 툴 계층 분리로 타 도메인 확장 기반 확보</li>
+              <li><strong>Domain Tool 설계</strong> — 본사 원가관리 기준·산식을 Agent가 호출 가능한 Tool로 구조화해 도메인 업무 로직을 실행 가능한 기능으로 구현</li>
+              <li><strong>Business Logic Guardrail</strong> — 원가 산출을 LLM에 맡기지 않고 검증된 표준 Tool 사용을 강제해 업무 기준과 수치 일관성 확보</li>
+              <li><strong>사내 Agent 인프라 · MCP 서비스화</strong> — 사내 폐쇄망 LLM 서빙 및 MCP 기반 공통 Tool 분리·Docker 배포로 보안성과 Agent 간 재사용성 확보</li>
             </ul>
             <ul class="en-only">
-              <li><strong>Standard-metric tool calling</strong> — implemented HQ standard cost-management metrics as agent-only tools, eliminating differences in how metrics are interpreted</li>
-              <li><strong>Single calculation logic</strong> — the dashboard, agent answers, and reports all call the same calculation logic, preventing numeric mismatches</li>
-              <li><strong>Air-gapped serving</strong> — in-house GPU serving keeps cost data from leaving the company; a separate tool layer lays the groundwork for other domains</li>
+              <li><strong>Domain tools</strong> — structured HQ cost-management rules and formulas as agent-callable tools, turning domain business logic into executable functions</li>
+              <li><strong>Business-logic guardrail</strong> — cost calculations are never left to the LLM; the agent is forced to use validated standard tools, keeping business rules and figures consistent</li>
+              <li><strong>In-house agent infra &amp; MCP services</strong> — air-gapped in-house LLM serving, with shared tools split out as MCP services and deployed via Docker for security and reuse across agents</li>
             </ul>
             <div class="blabel"><span class="ko-only">업무 성과</span><span class="en-only">Achievements</span></div>
             <ul class="ko-only">
@@ -265,7 +265,7 @@
             </ul>
             <div class="blabel"><span class="ko-only">기술 스택</span><span class="en-only">Tech stack</span></div>
             <div class="tech-stack">
-              <span>LLM Service</span><span>Tool Calling</span><span>On-Prem GPU Serving</span><span>ERP Integration</span><span>Project Management</span>
+              <span>AI Agent</span><span>Tool Calling</span><span>MCP</span><span>ERP Integration</span><span>On-Prem LLM Serving</span><span>Docker</span><span>PM</span>
             </div>
           </div>
         </div>
@@ -274,8 +274,8 @@
       <div class="project proj-panel" data-panel="ipark" id="proj-ipark">
         <div class="proj-head">
           <h3>
-            <span class="ko-only">아이파크몰 인사이트 에이전트 PoC (2026.06 – 2026.07)</span>
-            <span class="en-only">IParkMall Insight Agent PoC (2026.06 – 2026.07)</span>
+            <span class="ko-only">아이파크몰 인사이트 에이전트 PoC (2026.05 – 2026.07)</span>
+            <span class="en-only">IParkMall Insight Agent PoC (2026.05 – 2026.07)</span>
           </h3>
           <div class="contrib-min">
             <span class="pill"><span class="ko-only">핵심 역할</span><span class="en-only">Key role</span></span>
@@ -285,7 +285,7 @@
           </div>
           <div class="proj-overview">
             <div class="ov-row"><span class="ov-k"><span class="ko-only">적용 대상</span><span class="en-only">Target</span></span><span class="ov-v"><span class="ko-only">아이파크몰 마케팅 실무 — 방문객 데이터 기반 인사이트 분석 업무</span><span class="en-only">IParkMall marketing operations — insight analysis over visitor data</span></span></div>
-            <div class="ov-row"><span class="ov-k"><span class="ko-only">연동 대상</span><span class="en-only">Integration</span></span><span class="ov-v"><span class="ko-only">내부 방문객 DB · 외부 API(날씨·상권·이벤트) · 운영 문서(매장 정보·공지·이벤트·MD 개편 이력) · 인사이트 대시보드</span><span class="en-only">Internal visitor DB · external APIs (weather, commercial area, events) · operations documents (store info, notices, events, MD-renewal history) · insight dashboard</span></span></div>
+            <div class="ov-row"><span class="ov-k"><span class="ko-only">연동 대상</span><span class="en-only">Integration</span></span><span class="ov-v"><span class="ko-only">내부 방문객 DB · 외부 API · 웹 크롤링한 매장·공지·이벤트 정보(RAG Knowledge Base) · 인사이트 대시보드</span><span class="en-only">Internal visitor DB · external APIs · web-crawled store, notice, and event information (RAG knowledge base) · insight dashboard</span></span></div>
             <div class="ov-row"><span class="ov-k"><span class="ko-only">핵심 기능</span><span class="en-only">Core features</span></span><span class="ov-v"><span class="ko-only">자연어 질의 기반 데이터 조회·비교·원인 분석·인사이트 도출을 수행하는 마케팅 AX 에이전트</span><span class="en-only">A marketing AX agent that performs data lookup, comparison, root-cause analysis, and insight generation from natural-language queries</span></span></div>
             <div class="ov-row"><span class="ov-k"><span class="ko-only">목표</span><span class="en-only">Goal</span></span><span class="ov-v"><span class="ko-only">정형 대시보드 조회에 머물던 데이터 활용을 자연어 질의 기반 분석 업무로 전환하고, 그 신뢰성을 담보하는 평가·Guardrail 체계 구축</span><span class="en-only">Shift data use from static dashboard lookups to natural-language analytical work, and build the evaluation/guardrail framework that makes it trustworthy</span></span></div>
           </div>
@@ -296,14 +296,14 @@
           <div class="project-text">
             <div class="blabel"><span class="ko-only">담당 업무</span><span class="en-only">Responsibilities</span></div>
             <ul class="ko-only">
-              <li><strong>질의·응답 기준 정의</strong> — 질의 유형별로 필요한 데이터 범위, 분석 기준, 응답 Context 구성 규칙을 설계</li>
-              <li><strong>Context · 조회 오케스트레이션</strong> — 질의 목적에 따라 필요한 정형 데이터와 운영 지식을 선택·결합해, 데이터 조회부터 이상 원인 분석까지 자동화</li>
-              <li><strong>Knowledge Source 통합</strong> — 내부 방문객 DB·외부 API와 매장 정보·공지·이벤트·MD 개편 이력 등 운영 데이터를 DB/RAG 기반으로 통합</li>
+              <li><strong>질의 중심 Context 설계</strong> — 질의 유형별 필요한 데이터 범위, 분석 기준 및 응답 Context 구성 규칙을 설계해 불필요한 LLM 입력 최소화</li>
+              <li><strong>정형·비정형 Knowledge 통합</strong> — 방문객 DB·외부 API의 정형 데이터와 웹 크롤링한 매장·공지·이벤트 정보를 RAG Knowledge Base로 구성해 분산된 정보 접근 구조 통합</li>
+              <li><strong>Data Orchestration</strong> — 질의에 따라 정형 DB·API·vector DB 중 필요한 Knowledge Source를 선택·조합해 데이터 비교·원인 분석 구조화</li>
             </ul>
             <ul class="en-only">
-              <li><strong>Query/response criteria</strong> — designed, per query type, the required data scope, analysis criteria, and response-context composition rules</li>
-              <li><strong>Context &amp; retrieval orchestration</strong> — selects and combines the structured data and operational knowledge a query needs, automating everything from data lookup to root-cause analysis of anomalies</li>
-              <li><strong>Knowledge-source integration</strong> — unified the internal visitor DB and external APIs with operational data (store info, notices, events, MD-renewal history) over DB and RAG</li>
+              <li><strong>Query-centric context design</strong> — designed, per query type, the required data scope, analysis criteria, and response-context rules, minimizing unnecessary LLM input</li>
+              <li><strong>Structured &amp; unstructured knowledge</strong> — combined structured data from the visitor DB and external APIs with web-crawled store, notice, and event information in a RAG knowledge base, unifying access to scattered information</li>
+              <li><strong>Data orchestration</strong> — selects and combines the knowledge sources a query needs (structured DB, APIs, vector DB) to structure data comparison and root-cause analysis</li>
             </ul>
           </div>
         </div>
@@ -314,12 +314,12 @@
             <div class="blabel"><span class="ko-only">담당 업무</span><span class="en-only">Responsibilities</span></div>
             <ul class="ko-only">
               <li><strong>Intent Routing</strong> — 임베딩 기반으로 질의를 분류해 경량 질의는 저비용 경로로 응답하고, 데이터 분석 질의만 에이전트로 라우팅해 Agentic Workflow의 시간 지연 절감</li>
-              <li><strong>Tool Calling Agent</strong> — 복합 질의에서 DB·API·RAG Tool을 순차 호출하고 결과를 결합해 분석·인사이트를 생성하는 다단계 에이전트로 구조화</li>
+              <li><strong>Multi-Step Analysis Agent</strong> — 복합 분석 업무를 단계별 Task로 구조화해, 조회 결과가 다음 분석으로 이어지는 Agent Workflow 설계</li>
               <li><strong>평가 · Guardrail 체계 구축</strong> — 정책 위반 차단·데이터 범위 밖 질의 거절·환각 방지를 위한 Guardrail과, 13개 카테고리 260문항에 대한 자동 채점 + LLM Judge 이중 평가 적용</li>
             </ul>
             <ul class="en-only">
               <li><strong>Intent routing</strong> — classifies queries with embeddings so lightweight ones answer on a low-cost path and only analytical queries route to the agent, cutting agentic-workflow latency</li>
-              <li><strong>Tool-calling agent</strong> — structured a multi-step agent that calls DB, API, and RAG tools in sequence on complex queries and combines the results into analysis and insights</li>
+              <li><strong>Multi-step analysis agent</strong> — broke complex analysis work into step-wise tasks, designing an agent workflow where each lookup result feeds the next analysis</li>
               <li><strong>Evaluation &amp; guardrails</strong> — guardrails that block policy violations, refuse out-of-scope queries, and prevent hallucination, plus dual automatic-scoring + LLM-judge evaluation over 260 questions across 13 categories</li>
             </ul>
             <div class="blabel"><span class="ko-only">업무 성과</span><span class="en-only">Achievements</span></div>
@@ -337,7 +337,7 @@
             </ul>
             <div class="blabel"><span class="ko-only">기술 스택</span><span class="en-only">Tech stack</span></div>
             <div class="tech-stack">
-              <span>Multi-Agent</span><span>Tool Calling</span><span>RAG</span><span>Intent Routing</span><span>Guardrail</span><span>LLM-as-Judge</span><span>Context Engineering</span><span>LangGraph</span><span>Python</span>
+              <span>Multi-Agent</span><span>Tool Calling</span><span>MCP</span><span>RAG</span><span>Intent Routing</span><span>Guardrail</span><span>LLM-as-Judge</span><span>Context Engineering</span><span>LangGraph</span><span>Python</span>
             </div>
           </div>
         </div>
