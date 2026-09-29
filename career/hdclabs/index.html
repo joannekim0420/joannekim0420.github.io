@@ -32,6 +32,11 @@
   .career-detail #proj-agent .fig-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; max-width: 840px; margin: 14px 0 2px; }
   .career-detail #proj-agent .fig-row .project-figure { width: 100%; max-width: none; margin: 0; }
   @media (max-width: 640px) { .career-detail #proj-agent .fig-row { grid-template-columns: 1fr; } }
+  /* Agent PoCs: service screenshots */
+  .career-detail #proj-cost .proj-head .project-figure { width: 100%; max-width: 840px; margin-top: 6px; }
+  .career-detail #proj-ipark .fig-row { display: grid; grid-template-columns: 3fr 1fr; gap: 14px; align-items: start; width: 100%; max-width: 840px; margin-top: 6px; }
+  .career-detail #proj-ipark .fig-row .project-figure { width: 100%; max-width: none; margin: 0; }
+  @media (max-width: 640px) { .career-detail #proj-ipark .fig-row { grid-template-columns: 1fr; } .career-detail #proj-ipark .fig-row .project-figure + .project-figure { max-width: 280px; margin: 0 auto; } }
   .career-detail .tech-stack { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
   .career-detail .tech-stack span { font-size: 11.5px; font-weight: 600; color: var(--accent-strong); background: var(--accent-soft); border: 1px solid var(--border); border-radius: 999px; padding: 3px 10px; }
 </style>
@@ -221,6 +226,9 @@
             <div class="ov-row"><span class="ov-k"><span class="ko-only">핵심 기능</span><span class="en-only">Core features</span></span><span class="ov-v"><span class="ko-only">사내 ERP 원가 데이터를 LLM Tool Calling으로 조회·분석하고, 이상 징후 탐지부터 원인 분석·리스크 보고서 생성까지 수행하는 원가관리 AX Agent</span><span class="en-only">A cost-management AX agent that queries and analyzes in-house ERP cost data via LLM tool calling — from anomaly detection through root-cause analysis to risk-report generation</span></span></div>
             <div class="ov-row"><span class="ov-k"><span class="ko-only">목표</span><span class="en-only">Goal</span></span><span class="ov-v"><span class="ko-only">담당자가 현장별 원가 자료를 엑셀로 대조하던 과정을 에이전트 질의로 처리하는 원가관리 AX 전환</span><span class="en-only">Move cost management to AX — replacing manual per-site Excel reconciliation with agent queries</span></span></div>
           </div>
+          <figure class="project-figure">
+            <img src="../../assets/img/ext/hdc_cost_agent.png" alt="Construction Cost Agent — cost analysis dashboard with the report-writing agent panel" loading="lazy">
+          </figure>
         </div>
 
         <div class="phase">
@@ -288,6 +296,14 @@
             <div class="ov-row"><span class="ov-k"><span class="ko-only">연동 대상</span><span class="en-only">Integration</span></span><span class="ov-v"><span class="ko-only">내부 방문객 DB · 외부 API · 웹 크롤링한 매장·공지·이벤트 정보(RAG Knowledge Base) · 인사이트 대시보드</span><span class="en-only">Internal visitor DB · external APIs · web-crawled store, notice, and event information (RAG knowledge base) · insight dashboard</span></span></div>
             <div class="ov-row"><span class="ov-k"><span class="ko-only">핵심 기능</span><span class="en-only">Core features</span></span><span class="ov-v"><span class="ko-only">자연어 질의 기반 데이터 조회·비교·원인 분석·인사이트 도출을 수행하는 마케팅 AX 에이전트</span><span class="en-only">A marketing AX agent that performs data lookup, comparison, root-cause analysis, and insight generation from natural-language queries</span></span></div>
             <div class="ov-row"><span class="ov-k"><span class="ko-only">목표</span><span class="en-only">Goal</span></span><span class="ov-v"><span class="ko-only">정형 대시보드 조회에 머물던 데이터 활용을 자연어 질의 기반 분석 업무로 전환하고, 그 신뢰성을 담보하는 평가·Guardrail 체계 구축</span><span class="en-only">Shift data use from static dashboard lookups to natural-language analytical work, and build the evaluation/guardrail framework that makes it trustworthy</span></span></div>
+          </div>
+          <div class="fig-row">
+            <figure class="project-figure">
+              <img src="../../assets/img/ext/hdc_ipark_dashboard.png" alt="IParkMall data dashboard — commercial-area macro data with the visitor chatbot" loading="lazy">
+            </figure>
+            <figure class="project-figure">
+              <img src="../../assets/img/ext/hdc_ipark_chatbot.png" alt="IParkMall visitor chatbot answering a week-over-week comparison query" loading="lazy">
+            </figure>
           </div>
         </div>
 
